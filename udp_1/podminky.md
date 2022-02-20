@@ -3,9 +3,9 @@ Cvičení
 ## 1 - Jednoduché podmínky ○○○♦♦
 
 - Založte si program `prihlaseni.py`. V tomto nechte uživatele zadat svoje uživatelské jméno a poté heslo. Pokud se
-  heslo shoduje s heslem simsalabim vypište na výstup *Smíš vstoupit* Program spusťte na konzoli a vyzkoušejte, že dělá
-  co má.
-- Upravte tento program tak, aby vypsal Vstup nepovolen pokud uživatel zadá špatné heslo.
+  heslo shoduje s heslem `"simsalabim"` vypište na výstup *Smíš vstoupit*. Program spusťte na konzoli a vyzkoušejte, že
+  dělá co má.
+- Upravte tento program tak, aby vypsal *Vstup nepovolen* pokud uživatel zadá špatné heslo.
 
 - Upravte dále program tak, že pokud uživatel zadá správné heslo, program se ho ještě zeptá na věk a pustí jej dál pouze
   pokud je starší 18ti let. Pokud uživatel zadá heslo špatně, už se ho na věk neptejte a ukončete program voláním funkce
@@ -15,6 +15,7 @@ Cvičení
 
 ```python
 # prihlaseni.py
+
 uzivatel = input('Zadej uživatelské jméno: ')
 heslo = input('Zadej heslo: ')
 
@@ -36,11 +37,11 @@ A nyní opět pokračujeme v našem rezervačním systému.
 - Program `vstupenky_01.py`, který jste napsali v předchozí fázi, si uložte jako `vstupenky_02.py`, abychom ho mohli
   dále rozšířit o výpočet ceny vstupenky.
 - Jakmile máte v programu načtený věk uživatele, vytvořte si proměnnou `plna_cena`, do které uložte hodnotu 12.
-- Vytvořte podmínku, která do proměnné cena uloží cenu spočítanou podle věku uživatele dle následujících pravidel
-    - 0 euro pro návštěvníky mladší 6 let
-    - 65% ze základní ceny pro návštěvníky 6 až 26 let (žák, student)
-    - 100% ze základní ceny pro návštěvníky 27 až 64 let (dospělý)
-    - 50% ze základní ceny pro ostatní (senior).
+- Vytvořte podmínku, která do proměnné `cena` uloží cenu spočítanou podle věku uživatele dle následujících pravidel
+  - 0 euro pro návštěvníky mladší 6 let
+  - 65% ze základní ceny pro návštěvníky 6 až 26 let (žák, student)
+  - 100% ze základní ceny pro návštěvníky 27 až 64 let (dospělý)
+  - 50% ze základní ceny pro ostatní (senior).
 - Nezapomeňte na zaokrouhlování, ať nám cena vyjde v celých centech.
 - Nakonec spočtenou cenu vypište s nějakou hezkou zprávou na výstup.
 
@@ -48,6 +49,7 @@ A nyní opět pokračujeme v našem rezervačním systému.
 
 ```python
 # vstupenka_02.py
+
 print('Divadlo Pěst na oko')
 print('Vítejte v online rezervaci vstupenek')
 print('Pro vstup do systému je potřeba registrace')
@@ -62,7 +64,7 @@ elif vek <= 64:
     cena = plna_cena
 else:
     cena = plna_cena * 0.5
-print(f'Cena vstupenky je {cena:.2}.')
+print(f'Cena vstupenky je {round(cena, 2)}.')
 ```
 
 # Bonusy
@@ -110,15 +112,15 @@ if cislo == 0:
     print('Číslo je 0.')
     exit()
 
-sude = cislo % 2 == 0
-sude_liche = 'sudé' if sude else 'liché'
+je_sude = cislo % 2 == 0
+sude_liche_text = 'sudé' if je_sude else 'liché'
 
 if 1 <= cislo <= 10 or 19 <= cislo <= 28:
-    barva = 'černé' if sude else 'červené'
+    barva = 'černé' if je_sude else 'červené'
 else:
-    barva = 'červené' if sude else 'černé'  
+    barva = 'červené' if je_sude else 'černé'  
 
-print(f'Číslo je {sude_liche} a {barva}.')
+print(f'Číslo je {sude_liche_text} a {barva}.')
 ```
 
 ## 5 - Přestupný rok ○○♦♦♦

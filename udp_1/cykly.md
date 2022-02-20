@@ -2,7 +2,7 @@
 
 ## 1 - Seznam hodnocení ○○○○♦
 
-Mějme seznam hodnocení divadelní hry Plyšáci na útěku , který vypadá takto:
+Mějme seznam hodnocení divadelní hry *Plyšáci na útěku*, který vypadá takto:
 `hodnoceni = [7, 9, 6, 7, 9, 8]`  
 Vytvořte program, který projde tento seznam a vypíše každé hodnocení na nový řádek. Upravte program tak, aby vypisoval
 výstup v tomto formátu:
@@ -97,9 +97,11 @@ mesice = [
 
 ```python
 # cykly_02.py
+
 # Pomocí cyklu projděte tento seznam a vypište na výstup názvy jednotlivých měsíců.
 for mesic in mesice:
     print(mesic[0])
+    
 # Pomocí dalšího cyklu vypište na výstup počty dní v jednotlivých měsících.
 for mesic in mesice:
     print(mesic[1])

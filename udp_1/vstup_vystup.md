@@ -4,9 +4,9 @@
 
 Náš vůbec první program nebude dělat nic víc, než vypisovat text na obrazovku.
 
-- Založte si program `vstup-vystup.py`. V tomto programu pomocí funkce `print()` vypište na obrazovku *Divadlo Pěst na
+- Založte si program `vstup_vystup.py`. V tomto programu pomocí funkce `print()` vypište na obrazovku *Divadlo Pěst na
   oko*. Program spusťte na konzoli a vyzkoušejte, že dělá co má.
-- Upravte tento program tak, že do proměnné nazev uložíte název nějakého divadelního představení a do proměnné cas
+- Upravte tento program tak, že do proměnné `nazev` uložíte název nějakého divadelního představení a do proměnné `cas`
   uložte čas konání tohoto představení. Nyní pomocí funkce `print()` nechte program vypsat na obrazovku na jeden řádek
   název představení a čas konání, např. *Zkrocení zlé ženy - 19:30*.
 - Upravte dále program tak, že do proměnné `hodina` uložíte hodinu konání představení (jako celé číslo) a do proměnné
@@ -21,7 +21,8 @@ v `f`stringu.
 ### Řešení
 
 ```python
-# vstup-vystup.py
+# vstup_vystup.py
+
 print('Divadlo Pěst na oko')
 nazev = 'Zkrocení zlé ženy'
 cas = '19:30'
@@ -46,6 +47,7 @@ Teď už budeme chtít, aby náš program dokázal získat vstup od uživatele.
 
 ```python
 # jmeno.py
+
 jmeno = input('Zadej jméno: ')
 prijmeni = input('Zadej příjmení: ')
 print(f'{jmeno} {prijmeni}')
@@ -61,7 +63,7 @@ Divadlo požaduje systém pro online rezervaci vstupenek na pořádaná předsta
 vytvořit registraci pro nové uživatele tohoto systému.
 
 - Založte si program `vstupenky_01.py`. Bude to první verze našeho programu pro nákup vstupenek.
-- Napište program tak, aby nejprve vypsal na obrazovku *Divadlo Pěst na oko na první řádek*, na druhý řádek chceme
+- Napište program tak, aby nejprve vypsal na obrazovku *Divadlo Pěst na oko* na první řádek, na druhý řádek chceme
   vypsat *Vítejte v online rezervaci vstupenek* a na třetí řádek *Pro vstup do systému je potřeba registrace*.
 - Na dalším řádku požádejte uživatele o jeho uživatelské jméno a poté o jeho věk. Ten si uložte to nějaké proměnné jako
   číslo.
@@ -70,11 +72,12 @@ vytvořit registraci pro nové uživatele tohoto systému.
 
 ```python
 # vstupenky_01.py
+
 print('Divadlo Pěst na oko')
 print('Vítejte v online rezervaci vstupenek')
 print('Pro vstup do systému je potřeba registrace')
 uzivatel = input('Zadej uživatelské jméno: ')
-vek = input('Zadej věk: ')
+vek = int(input('Zadej věk: '))
 ```
 
 # Bonusy
@@ -91,6 +94,7 @@ modul `random`, musíte na jeho úplném začátku napsat příkaz `import rando
 
 ```python
 # kostky.py
+
 import random
 
 cislo = random.randint(1, 6) + random.randint(1, 6)
@@ -106,6 +110,7 @@ náhodné číslo v zadaných mezích.
 
 ```python
 # generator.py
+
 import random
 
 dolni_mez = int(input('Zadej dolní mez: '))
