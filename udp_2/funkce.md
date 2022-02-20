@@ -2,23 +2,24 @@
 
 ## 1 - Násobení ○○○♦♦
 
-Napiš funkci mult, která bude mít dva číselné parametry. Funkce oba parametry vynásobí a vrátí výsledek
+Napiš funkci `mult`, která bude mít dva číselné parametry. Funkce oba parametry vynásobí a vrátí výsledek
 
 ### Řešení
 
 ```python
-def nasobeni(a, b):
+def mult(a, b):
     return a * b
 
-vysledek = nasobeni(5, 2)
+vysledek = mult(5, 2)
 print(f'5 * 2 = {vysledek}')
 ```
 
 ## 2 - Hotel ○○○♦♦
 
-Napiš funkci total_price, která vypočte cenu noci v hotelu. Funkce bude mít dva parametry - persons a breakfast.  
+Napiš funkci `total_price`, která vypočte cenu noci v hotelu. Funkce bude mít dva parametry - `num_people` a `breakfast`
+.  
 Cena za noc za osobu je `850 Kč` a cena za snídani za osobu je `125 Kč`.  
-Funkce vrátí výslednou cenu. Parametr breakfast je nepovinný a výchozí hodnota je False.
+Funkce vrátí výslednou cenu. Parametr `breakfast` je nepovinný a výchozí hodnota je `False`.
 
 Funkci vyzkoušej se zadáním dvou i jedné hodnoty, např. `total_price(3)`, `total_price(2, True)`.
 
@@ -36,14 +37,14 @@ def total_price(num_people, breakfast=False):
     return total
 
 print(f'Cena za tři lidi: {total_price(3)}')
-print(f'Cena za tři lidi se snidani: {total_price(3, True)}')
+print(f'Cena za dva lidi se snidani: {total_price(2, True)}')
 ```
 
 # Bonusy
 
-## 3 - Měsíc narození
+## 3 - Měsíc narození ○○♦♦♦
 
-Napiš funkce month_of_birth, která bude mít jeden parametr - rodné číslo.  
+Napiš funkci `month_of_birth`, která bude mít jeden parametr - `social_number` (rodné číslo).  
 Funkce ze zadaného rodného čísla určí měsíc narození, které vrátí jako výstup. Nezapomeň, že pro ženy je k měsíci
 připočtena hodnota 50.
 
@@ -85,6 +86,9 @@ vybrat jednu ze tří řad:
 
 ```python
 import random
+
+row_num = int(input('Na kterou řadu sázíš? (1-3): '))
+bet = int(input('Kolik sázíš?: '))
 
 def roulette(row_num, bet):
     rows = [

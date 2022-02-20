@@ -31,9 +31,9 @@ sales = {
 ```
 
 - Zkopíruj si slovník do svého programu.
-- Přidej do slovníku nově vydanou detektivku "Noc, která mě zabila", která zatím nebyla uvedena na trh, je tedy prodáno
+- Přidej do slovníku nově vydanou detektivku *Noc, která mě zabila*, která zatím nebyla uvedena na trh, je tedy prodáno
   0 kusů.
-- U knihy "Vrah zavolá v deset" zvyš počet prodaných kusů o 100.
+- U knihy *Vrah zavolá v deset* zvyš počet prodaných kusů o 100.
 
 ### Řešení
 
