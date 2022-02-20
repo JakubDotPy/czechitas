@@ -121,6 +121,8 @@ spzetky = {
 - Napiš program, který vypíše všechny majitele, jejichž vozidlo je registrováno v Plzeňském kraji, tj. na druhém místě (
   index 1) řetězce v klíči je písmeno P.
 
+### Řešení
+
 ```python
 spzetky = {
     "4A2 3000": "František Novák",

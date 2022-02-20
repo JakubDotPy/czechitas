@@ -126,8 +126,7 @@ print(f'Číslo je {sude_liche_text} a {barva}.')
 ## 5 - Přestupný rok ○○♦♦♦
 
 Napište program, který po zadání kalendářního roku vypíše, zda jde o rok přestupný, či nikoliv. Letopočet je přestupný,
-pokud je dělitelný čtyřmi. Roky, které jsou dělitelné 100 jsou ovšem přestupné pouze tehdy, jsou-li zároveň dělitelné
-400.
+pokud je dělitelný čtyřmi. Roky, které jsou dělitelné 100 jsou ovšem přestupné pouze tehdy, jsou-li zároveň dělitelné 400.
 
 ### Řešení
 

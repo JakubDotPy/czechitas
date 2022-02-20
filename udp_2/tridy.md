@@ -23,8 +23,9 @@ class Balik:
         self.dorucen = True
 
     def __str__(self):
-        return f'Balik na adresu {self.adresa}, hmotnost {self.hmotnost}'\
-                f' - {"doručen" if self.dorucen else "nedoručen"}'
+        return f'Balik na adresu {self.adresa}, hmotnost {self.hmotnost}' \
+               f' - {"doručen" if self.dorucen else "nedoručen"}'
+
 
 b1 = Balik('Petr - Praha 10', 10)
 print(b1)
@@ -55,9 +56,10 @@ class Kniha:
 
     def sleva(self, procent):
         self.cena *= 1 - (procent / 100)
-    
+
     def __str__(self):
-      return f'{self.nazev}, {self.pocet_stran} stran - {self.cena} Kč'
+        return f'{self.nazev}, {self.pocet_stran} stran - {self.cena} Kč'
+
 
 k = Kniha('Motýlek', 300, 100)
 print(k)
@@ -84,16 +86,19 @@ class Zamestnanec:
 - Uprav metodu `__str__()`. Pokud je zaměstnanec ve zkušební době, přidej k jeho/jejímu výpisu text "Je ve zkušební
   době."
 
+### Řešení
+
 ```python
 class Zamestnanec:
     def __init__(self, jmeno, pozice, zkusebni_doba):
         self.jmeno = jmeno
         self.pozice = pozice
         self.zkusebni_doba = zkusebni_doba
-        
+
     def __str__(self):
-        return f"{self.jmeno} pracuje na pozici {self.pozice}."\ 
-            f"{' Je ve zkušební době.' if self.zkusebni_doba else ''}"
+        return f"{self.jmeno} pracuje na pozici {self.pozice}." \
+               f"{' Je ve zkušební době.' if self.zkusebni_doba else ''}"
+
 
 z1 = Zamestnanec('Karel', 'dělník', zkusebni_doba=False)
 print(z1)

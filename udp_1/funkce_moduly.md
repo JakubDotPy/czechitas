@@ -31,6 +31,8 @@ koruny = round(24 * eura)
 Importujte modul `math` a vyzkoušejte si funkci `math.ceil()`, která slouží k zaokrouhlování směrem nahoru. Proveďte
 zaokrouhlování z předchozího cvičení na celé koruny směrem nahoru.
 
+### Řešení
+
 ```python
 import math
 
