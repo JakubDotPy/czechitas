@@ -35,14 +35,14 @@ class Balik:
     def __init__(self, adresa, hmotnost):
         self.adresa = adresa
         self.hmotnost = hmotnost
-        self.doruceno = False
+        self.dorucen = False
 
-    def deliver(self):
-        self.doruceno = True
+    def dorucit(self):
+        self.dorucen = True
 
     def __str__(self):
         return f'Balik na adresu {self.adresa}, hmotnost {self.hmotnost}'\
-               f' - {"doručen" if self.doruceno else "nedoručen"}'
+               f' - {"doručen" if self.dorucen else "nedoručen"}'
 ```
 
 ## 1 - částečný úvazek ○○♦♦♦
@@ -84,7 +84,7 @@ class CennyBalik(Balik):
 
 
 b1 = CennyBalik('Pepa - Praha 10', 10, 200)
-b1.deliver()
+b1.dorucit()
 print(b1)
 ```
 
@@ -112,7 +112,7 @@ class Ridic:
         self.seznam_baliku = seznam_baliku or []
     
     def prirad_balik(self, balik):
-        if balik.doruceno:
+        if balik.dorucen:
             print('Nelze přiřadit, balík již byl doručen.')
         else:
             self.seznam_baliku.append(balik)
@@ -120,18 +120,18 @@ class Ridic:
     def zbyva_baliku(self):
         """Vrať počet balíků, které ejště nejsou doručnené.
         
-        Výpočet využívá toho, že bool hodnoty True a False v proměnné balik.doruceno
+        Výpočet využívá toho, že bool hodnoty True a False v proměnné balik.dorucen
          se v metodě sum budou chovat jako 1 a 0.
         """
-        return sum(not balik.doruceno for balik in self.seznam_baliku)
+        return sum(not balik.dorucen for balik in self.seznam_baliku)
 
 b1 = CennyBalik('Pepa - Praha 10', 10, 200)
 b2 = CennyBalik('Anna - Praha 1', 12, 50)
 b3 = Balik('Josef - Plzeň', 5)
 b4 = Balik('Tereza - Olomouc', 7)
 
-b1.deliver()
-b3.deliver()
+b1.dorucit()
+b3.dorucit()
 
 r = Ridic('Karel', seznam_baliku=[b1, b2])
 r.prirad_balik(b3)

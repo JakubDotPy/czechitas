@@ -23,7 +23,7 @@ Vydavatel detektivek si eviduje prodané kusy u jednotlivých knih.
 V následujícím slovníku najdeš tři knihy a u každé z nich je počet prodaných kusů.
 
 ```python
-sales = {
+prodano = {
     'Zkus mě chytit'     : 4165,
     'Vrah zavolá v deset': 5681,
     'Zločinný steh'      : 2565,
@@ -38,15 +38,15 @@ sales = {
 ### Řešení
 
 ```python
-sales = {
+prodano = {
     'Zkus mě chytit'     : 4165,
     'Vrah zavolá v deset': 5681,
     'Zločinný steh'      : 2565,
     }
 
-sales['Noc, která mě zabila'] = 0
+prodano['Noc, která mě zabila'] = 0
 
-sales['Vrah zavolá v deset'] += 100
+prodano['Vrah zavolá v deset'] += 100
 ```
 
 ## 3 - Tombola ○○♦♦♦
@@ -68,7 +68,7 @@ tombola = {
 ```
 
 - Napiš program, který se nejprve zeptá uživatele na číslo jeho lístku. Vstup uživatele si převeď na int!
-- Zkontroluj, zda je číslo lístku ve slovníku. Pokud ne, vypiš text "Bohužel nevyhráváš nic." Pokud číslo ve slovníku
+- Zkontroluj, zda je číslo lístku ve slovníku. Pokud ne, vypiš text *Bohužel nevyhráváš nic.* Pokud číslo ve slovníku
   je, vypiš uživateli, co vyhrál.
 - Odeber výhru pro daný lístek ze slovníku, abychom tam evidovali pouze nevydané ceny.
 
@@ -114,18 +114,18 @@ Hostu na seznamu, který zadá správné heslo, vypíše program text: "Smíš v
 ### Řešení
 
 ```python
-passwords = {
+hesla = {
   'Jiří': 'tajne-heslo',
   'Natálie': 'jeste-tajnejsi-heslo',
   'Klára': 'nejtajnejsi-heslo',
   }
 
-host = input('Zadej jmeno: ')
+jmeno_hosta = input('Zadej jmeno: ')
 vstup = 'Nesmíš projít.'
 
-if host in passwords:
+if jmeno_hosta in hesla:
   heslo = input('Zadej heslo: ')
-  if heslo == passwords[host]:
+  if heslo == hesla[jmeno_hosta]:
     vstup = 'Smíš vstoupit.'
 
 print(vstup)

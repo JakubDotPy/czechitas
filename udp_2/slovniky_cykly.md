@@ -5,7 +5,7 @@
 Uvažujme vysvědčení, které máme zapsané jako slovník.
 
 ```python
-school_report = {
+vysvedceni = {
     "Český jazyk"     : 1,
     "Anglický jazyk"  : 1,
     "Matematika"      : 1,
@@ -25,7 +25,7 @@ school_report = {
 ### Řešení
 
 ```python
-school_report = {
+vysvedceni = {
     "Český jazyk"     : 1,
     "Anglický jazyk"  : 1,
     "Matematika"      : 1,
@@ -38,11 +38,11 @@ school_report = {
     "Chemie"          : 4,
     }
 
-prumerna_znamka = sum(school_report.values()) / len(school_report)
+prumerna_znamka = sum(vysvedceni.values()) / len(vysvedceni)
 print(f'Průměrná známka je: {prumerna_znamka}')
 
 print('Předměty s jedničkou:')
-for predmet, znamka in school_report.items():
+for predmet, znamka in vysvedceni.items():
     if znamka == 1:
         print('\t' + predmet)
 ```
@@ -53,16 +53,16 @@ Gustav je vášnivým čtenářem detektivek z našeho nakladatelství a navíc 
 Níže ve slovníku vidíme, jaké informace si eviduje - název knihy, počet stran a hodnocení od 0 do 10.
 
 ```python
-books = [
-    {"title": "Vražda s příliš mnoha notami", "pages": 450, "rating": 5},
-    {"title": "Vražda podle knihy", "pages": 524, "rating": 9},
-    {"title": "Past", "pages": 390, "rating": 4},
-    {"title": "Popel popelu", "pages": 411, "rating": 10},
-    {"title": "Noc, která mě zabila", "pages": 159, "rating": 7},
-    {"title": "Vražda, kouř a stíny", "pages": 258, "rating": 6},
-    {"title": "Zločinný steh", "pages": 542, "rating": 8},
-    {"title": "Zkus mě chytit", "pages": 247, "rating": 7},
-    {"title": "Vrah zavolá v deset", "pages": 396, "rating": 6},
+knihy = [
+    {'nazev': 'Vražda s příliš mnoha notami', 'pocet_stran': 450, 'hodnoceni': 5},
+    {'nazev': 'Vražda podle knihy', 'pocet_stran': 524, 'hodnoceni': 9},
+    {'nazev': 'Past', 'pocet_stran': 390, 'hodnoceni': 4},
+    {'nazev': 'Popel popelu', 'pocet_stran': 411, 'hodnoceni': 10},
+    {'nazev': 'Noc, která mě zabila', 'pocet_stran': 159, 'hodnoceni': 7},
+    {'nazev': 'Vražda, kouř a stíny', 'pocet_stran': 258, 'hodnoceni': 6},
+    {'nazev': 'Zločinný steh', 'pocet_stran': 542, 'hodnoceni': 8},
+    {'nazev': 'Zkus mě chytit', 'pocet_stran': 247, 'hodnoceni': 7},
+    {'nazev': 'Vrah zavolá v deset', 'pocet_stran': 396, 'hodnoceni': 6},
     ]
 ```
 
@@ -72,30 +72,30 @@ books = [
 ### Řešení
 
 ```python
-books = [
-    {"title": "Vražda s příliš mnoha notami", "pages": 450, "rating": 5},
-    {"title": "Vražda podle knihy", "pages": 524, "rating": 9},
-    {"title": "Past", "pages": 390, "rating": 4},
-    {"title": "Popel popelu", "pages": 411, "rating": 10},
-    {"title": "Noc, která mě zabila", "pages": 159, "rating": 7},
-    {"title": "Vražda, kouř a stíny", "pages": 258, "rating": 6},
-    {"title": "Zločinný steh", "pages": 542, "rating": 8},
-    {"title": "Zkus mě chytit", "pages": 247, "rating": 7},
-    {"title": "Vrah zavolá v deset", "pages": 396, "rating": 6},
+knihy = [
+    {'nazev': 'Vražda s příliš mnoha notami', 'pocet_stran': 450, 'hodnoceni': 5},
+    {'nazev': 'Vražda podle knihy', 'pocet_stran': 524, 'hodnoceni': 9},
+    {'nazev': 'Past', 'pocet_stran': 390, 'hodnoceni': 4},
+    {'nazev': 'Popel popelu', 'pocet_stran': 411, 'hodnoceni': 10},
+    {'nazev': 'Noc, která mě zabila', 'pocet_stran': 159, 'hodnoceni': 7},
+    {'nazev': 'Vražda, kouř a stíny', 'pocet_stran': 258, 'hodnoceni': 6},
+    {'nazev': 'Zločinný steh', 'pocet_stran': 542, 'hodnoceni': 8},
+    {'nazev': 'Zkus mě chytit', 'pocet_stran': 247, 'hodnoceni': 7},
+    {'nazev': 'Vrah zavolá v deset', 'pocet_stran': 396, 'hodnoceni': 6},
     ]
 
 pocet_stran = 0
-for book in books:
-    pocet_stran += book['pages']
+for kniha in knihy:
+    pocet_stran += kniha['pocet_stran']
 
 # NOTE: nebo lépe
-# pocet_stran = sum(book['pages'] for book in books)
+# pocet_stran = sum(kniha['pocet_stran'] for kniha in knihy)
 
 print(f'Přečetl {pocet_stran} stran.')
 
 pocet_nad_osm = 0
-for book in books:
-    if book['rating'] >= 8:
+for kniha in knihy:
+    if kniha['hodnoceni'] >= 8:
         pocet_nad_osm += 1
 print(f'Počet knih s hodnocením >= 8: {pocet_nad_osm}')
 ```
@@ -108,7 +108,7 @@ V následujícím slovníků je evidence automobilů. Klíčem jsou státní poz
 vozu.
 
 ```python
-plates = {
+spzetky = {
     "4A2 3000": "František Novák",
     "6P5 4747": "Jana Pilná",
     "3B7 3652": "Jaroslav Sečkár",
@@ -122,7 +122,7 @@ plates = {
   index 1) řetězce v klíči je písmeno P.
 
 ```python
-plates = {
+spzetky = {
     "4A2 3000": "František Novák",
     "6P5 4747": "Jana Pilná",
     "3B7 3652": "Jaroslav Sečkár",
@@ -131,7 +131,7 @@ plates = {
     "2A5 2241": "Jan Král"
     }
 print('Lidé z Plzeňského kraje:')
-for plate, name in plates.items():
-    if plate[1] == 'P':
-        print(f'- {name}')
+for spz, jmeno in spzetky.items():
+    if spz[1] == 'P':
+        print(f'- {jmeno}')
 ```
