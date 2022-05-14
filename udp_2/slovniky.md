@@ -115,18 +115,18 @@ Hostu na seznamu, který zadá správné heslo, vypíše program text: "Smíš v
 
 ```python
 hesla = {
-  'Jiří': 'tajne-heslo',
-  'Natálie': 'jeste-tajnejsi-heslo',
-  'Klára': 'nejtajnejsi-heslo',
-  }
+    'Jiří': 'tajne-heslo',
+    'Natálie': 'jeste-tajnejsi-heslo',
+    'Klára': 'nejtajnejsi-heslo',
+    }
 
 jmeno_hosta = input('Zadej jmeno: ')
 vstup = 'Nesmíš projít.'
 
 if jmeno_hosta in hesla:
-  heslo = input('Zadej heslo: ')
-  if heslo == hesla[jmeno_hosta]:
-    vstup = 'Smíš vstoupit.'
+    heslo = input('Zadej heslo: ')
+    if heslo == hesla[jmeno_hosta]:
+        vstup = 'Smíš vstoupit.'
 
 print(vstup)
 ```
