@@ -25,7 +25,7 @@ for prvek in hodnoceni:
 ## 2 - Procházení seznamu ○♦♦♦♦
 
 Založte si program `hesla.py` a na jeho začátek vložte následující kód obsahující seznam hesel pro přihlášení do
-nějakého systému
+nějakého systému.
 
 ```python
 hesla = [

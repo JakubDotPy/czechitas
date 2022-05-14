@@ -53,10 +53,10 @@ hry = ['Hra A', 'Hra B', 'Hra C', 'Hra D', 'Hra E', 'Hra F']
 druha_hra = hry[1]
 
 hodnoceni = [
-  ['Casopis A', 5],
-  ['Casopis B', 8],
-  ['Casopis C', 7],
-  ]
+    ['Casopis A', 5],
+    ['Casopis B', 8],
+    ['Casopis C', 7],
+    ]
 hodnoceni.append(['Divadelni obeznik', 7])
 ```
 
@@ -85,5 +85,5 @@ overeni_sedmeho = znak_7 == heslo[6]
 if overeni_druheho and overeni_pateho and overeni_sedmeho:  # pokud jsou vsechny tri overeni True
     print('Ověření bylo úspěšné!')
 else:
-    exit()
+    print('Ověření neúspěšné!')
 ```

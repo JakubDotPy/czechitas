@@ -36,7 +36,7 @@ zaokrouhlování z předchozího cvičení na celé koruny směrem nahoru.
 ```python
 import math
 
-koruny = math.ceil(24 * cena)
+koruny = math.ceil(24 * koruny)
 ```
 
 ## 4 - Náhodná čísla ○○○♦♦

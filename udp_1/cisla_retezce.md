@@ -66,7 +66,7 @@ strana koberce? Vejde se nám srolovaný do dodávky s nákladovým prostorem dl
 ### Řešení
 
 ```python
-30 ** 0.5
+30 ** 0.5  # odmocnina 30^(1/2)
 ```
 
 Nevejde
@@ -86,5 +86,5 @@ Nevejde
 ```
 
 ```python
-'1' + '000 ' * (120 // 3)
+'1' + ' 000' * (120 // 3)
 ```

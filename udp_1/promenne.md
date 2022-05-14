@@ -1,5 +1,9 @@
 # Cvičení
 
+*tyto příklady je lepší si zkoušet přímo v Python konzoli `>>> `*  
+*oficiálně ještě neznáme funkci `print()`*
+*k zobrazení výsledku pak stačí napsat název proměnné*
+
 ## 1 - Hrátky s proměnnými ○○○○♦
 
 Dbejte na to, aby proměnné měly vhodný název dobře naznačující, co je v které z nich uloženo.
