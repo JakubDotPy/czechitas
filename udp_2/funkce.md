@@ -2,7 +2,7 @@
 
 ## 1 - Násobení ○○○♦♦
 
-Napiš funkci `vynasob`, která bude mít dva číselné parametry. Funkce oba parametry vynásobí a vrátí výsledek
+Napiš funkci `vynasob`, která bude mít dva číselné parametry. Funkce oba parametry vynásobí a vrátí výsledek.
 
 ### Řešení
 
@@ -17,8 +17,7 @@ print(f'5 * 2 = {vysledek}')
 ## 2 - Hotel ○○○♦♦
 
 Napiš funkci `celkova_cena`, která vypočte cenu noci v hotelu. Funkce bude mít dva parametry - `pocet_lidi`
-a `byla_snidane`
-.  
+a `byla_snidane`.  
 Cena za noc za osobu je `850 Kč` a cena za snídani za osobu je `125 Kč`.  
 Funkce vrátí výslednou cenu. Parametr `byla_snidane` je nepovinný a výchozí hodnota je `False`.
 
@@ -98,9 +97,9 @@ def ruleta(cislo_rady, sazka):
         range(2, 37, 3),  # 2, 5, 8, ...
         range(3, 37, 3),  # 3, 6, 9, ...
         ]
-    hodzeno = random.randint(0, 36)
-    print(f'{hodzeno = }')
-    return 2 * sazka if hodzeno in rady[cislo_rady - 1] else 0  # "- 1" kvůli indexování od nuly
+    hozeno = random.randint(0, 36)
+    print(f'{hozeno = }')
+    return 2 * sazka if hozeno in rady[cislo_rady - 1] else 0  # "- 1" kvůli indexování od nuly
 ```
 
 

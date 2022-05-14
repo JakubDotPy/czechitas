@@ -54,7 +54,7 @@ velikost úvazku oproti plnému. Přidej informaci o úvazku k výpisu informac�
 ### Řešení
 
 ```python
-class Brigádník(Zamestnanec):
+class Brigadnik(Zamestnanec):
     def __init__(self, jmeno, pozice, uvazek):
         super().__init__(jmeno, pozice)
         self.uvazek = uvazek
@@ -134,7 +134,7 @@ b1.dorucit()
 b3.dorucit()
 
 r = Ridic('Karel', seznam_baliku=[b1, b2])
-r.prirad_balik(b3)
+r.prirad_balik(b3)  # nepůjde. již byl doručen
 r.prirad_balik(b4)
 
 print(f'Zbývá doručit {r.zbyva_baliku()} balíků.')

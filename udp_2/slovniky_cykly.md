@@ -118,8 +118,8 @@ spzetky = {
     }
 ```
 
-- Napiš program, který vypíše všechny majitele, jejichž vozidlo je registrováno v Plzeňském kraji, tj. na druhém místě (
-  index 1) řetězce v klíči je písmeno P.
+- Napiš program, který vypíše všechny majitele, jejichž vozidlo je registrováno v Plzeňském kraji.  
+  tj. na druhém místě (index 1) řetězce v klíči je písmeno P.
 
 ### Řešení
 
