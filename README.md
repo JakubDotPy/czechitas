@@ -24,7 +24,7 @@ Rozšířeno mnou.
 Materiály k jednodennímu workshopu Úvod do programování v Pythonu 2.
 
 1. Co všechno už umíme - opakování (nemá cvičení)
-2. [Slovníky](udp_2/slovniky)
+2. [Slovníky](udp_2/slovniky.md)
 3. [Slovníky a cykly](udp_2/slovniky_cykly.md)
 4. [Funkce](udp_2/funkce.md)
 5. [Třídy a objekty](udp_2/tridy.md)
@@ -35,3 +35,5 @@ Materiály k jednodennímu workshopu Úvod do programování v Pythonu 2.
 10. Balíčky z internetu (bonusová kapitola)
 11. Další zdroje
 
+> Řešení úkolů je přizpůsobeno začátečníkům, případně jejich znalostem z dané a předchozí lekce.
+> Ne vždy dané řešení představuje nejoptimálnější způsob, nebo to "jak by se to dělalo ve skutečnosti".
