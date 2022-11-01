@@ -2,14 +2,12 @@
 
 ## 1 - Jednoduché podmínky ○○○♦♦
 
-- Založte si program `prihlaseni.py`. V tomto nechte uživatele zadat svoje uživatelské jméno a poté heslo. Pokud se
-  heslo shoduje s heslem `"simsalabim"` vypište na výstup *Smíš vstoupit*. Program spusťte na konzoli a vyzkoušejte, že
-  dělá co má.
-- Upravte tento program tak, aby vypsal *Vstup nepovolen* pokud uživatel zadá špatné heslo.
+- Založte si program `prihlaseni.py`. V tomto nechte uživatele zadat svoje uživatelské jméno a poté heslo.
+  Pokud se heslo neshoduje s heslem `'simsalabim'`, vypište na výstup `Vstup nepovolen` a zavolejte funkci exit(),
+  aby uživatel neznalý hesla nemohl s programem dál pracovat.
 
-- Upravte dále program tak, že pokud uživatel zadá správné heslo, program se ho ještě zeptá na věk a pustí jej dál pouze
-  pokud je starší 18ti let. Pokud uživatel zadá heslo špatně, už se ho na věk neptejte a ukončete program voláním funkce
-  `exit()`.
+- Na konec programu vlož příkaz, který se uživatele zeptá na věk. Pokud je uživatel *starší 18 let*, vypište na výstup
+  `Smíš vstoupit` Pokud je mladší, vypiš `Vstup povolen od 18 let`.
 
 ### Řešení
 
@@ -101,7 +99,7 @@ nuly je buď sudé nebo liché a zároveň červené nebo černé. Pro čísla 1
 červená a sudá jsou černá. Pro zbytek platí obrácené pravidlo, tedy lichá jsou černá a sudá červená. Nula není ani lichá
 ani sudá, ani černá ani červená.
 
-![Ruleta](https://kodim.cz/czechitas/uvod-do-progr/prvni-krucky/podminky/excs/ruleta/assets/roulette.png)
+![Ruleta](https://kodim.cz/cms/assets/kurzy/uvod-do-progr-1/prvni-krucky/podminky/excs/excs%3Eruleta/roulette.png)
 
 Napište program, kterému uživatel zadá číslo a program odpoví jestli jde o číslo sudé nebo liché, černé nebo červené,
 nebo je to nula.
