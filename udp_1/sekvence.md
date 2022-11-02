@@ -4,8 +4,6 @@
 
 - Uložte si v Python konzoli do proměnné jmeno svoje celé jméno a nechte vypsat jeho třetí, pátý a sedmý znak.
   Vyzkoušejte, co se stane, když budete chtít znak na pozici, která překračuje délku řetězce.
-- Upravte program `registrace.py` tak, že bude kromě uživatelského jména chtít také e-mailovou adresu. Ověřte, že adresa
-  je v platném formátu, tedy že obsahuje zavináč, tečku a má alespoň pět znaků.
 
 ### Řešení
 
@@ -14,17 +12,6 @@ uzivatel = input("Zadej uživatelské jméno: ")
 uzivatel[2]
 uzivatel[4]
 uzivatel[6]
-```
-
-```python
-# resgistrace.py
-
-uzivatel = input('Zadej uživatelské jméno: ')
-
-email = input("Zadej emailovou adresu: ")
-if '@' not in email or '.' not in email or len(email) < 5:
-    print('Emailova adresa není v platném formátu. Musí obsahovat zavináč, tečku a mít alespoň 5 znaků.')
-    exit()
 ```
 
 ## 2 - Seznamy ○♦♦♦♦
