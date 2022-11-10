@@ -6,7 +6,7 @@ Uvažuj, že navrhuješ software pro zásilkovou společnost.
 
 - Vytvoř třídu `Balik`, která bude mít tři atributy - `adresa`, `hmotnost` a `doruceno`. První dva atributy nastav
   pomocí parametrů funkce `__init__`. Parametr `doruceno` nastav na začátku jako `False`.
-- Připoj ke třídě funkci `dorucit`, která změní hodnotu parametru `doruceno` na `True`.
+- Připoj ke třídě funkci `doruc`, která změní hodnotu parametru `doruceno` na `True`.
 - Přidej metodu `__str__()`, která vypíše `adresu`, `hmotnost` a informaci o tom, zda byl balík již doručen.
 - Zkus si vytvořit nějaké objekty ze třídy Balik a ověř, že vše funguje.
 
@@ -17,21 +17,21 @@ class Balik:
     def __init__(self, adresa, hmotnost):
         self.adresa = adresa
         self.hmotnost = hmotnost
-        self.dorucen = False
+        self.doruceno = False
 
-    def dorucit(self):
-        self.dorucen = True
+    def doruc(self):
+        self.doruceno = True
 
     def __str__(self):
         return f'Balik na adresu {self.adresa}, hmotnost {self.hmotnost}' \
-               f' - {"doručen" if self.dorucen else "nedoručen"}'
+               f' - {"doručen" if self.doruceno else "nedoručen"}'
 
 
 b1 = Balik('Petr - Praha 10', 10)
 print(b1)
 
 b2 = Balik('Andrea - Plzeň', 20)
-b2.dorucit()
+b2.doruc()
 print(b2)
 ```
 
@@ -83,8 +83,8 @@ class Zamestnanec:
 
 - Rozšiř metodu `__init__` třídy `Zamestnanec` o parametr `zkusebni_doba`, který bude typu `bool`. Tuto hodnotu ulož
   jako atribut třídy `Zamestnanec`.
-- Uprav metodu `__str__()`. Pokud je zaměstnanec ve zkušební době, přidej k jeho/jejímu výpisu text "Je ve zkušební
-  době."
+- Uprav metodu `__str__()`. Pokud je zaměstnanec ve zkušební době, přidej k jeho/jejímu výpisu text `"Je ve zkušební
+  době."`
 
 ### Řešení
 
