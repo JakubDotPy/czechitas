@@ -35,5 +35,12 @@ Materiály k jednodennímu workshopu Úvod do programování v Pythonu 2.
 10. Balíčky z internetu (bonusová kapitola)
 11. Další zdroje
 
+## Python pro data 1
+
+1. Instalace (nemá cvičení)
+2. Datová analýza (nemá cvičení)
+3. [Načtení dat](data_1/nacteni_dat.md)
+4. [Základní dotazy](data_1/zakladni_dotazy.md)
+
 > Řešení úkolů je přizpůsobeno začátečníkům, případně jejich znalostem z dané a předchozí lekce.
 > Ne vždy dané řešení představuje nejoptimálnější způsob, nebo to "jak by se to dělalo ve skutečnosti".
