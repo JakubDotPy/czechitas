@@ -41,6 +41,8 @@ Materiály k jednodennímu workshopu Úvod do programování v Pythonu 2.
 2. Datová analýza (nemá cvičení)
 3. [Načtení dat](data_1/nacteni_dat.md)
 4. [Základní dotazy](data_1/zakladni_dotazy.md)
+5. [Agregace a spojování](data_1/agregace_spojovani.md)
+6. [Vizualizace](data_1/vizualizace.md)
 
 > Řešení úkolů je přizpůsobeno začátečníkům, případně jejich znalostem z dané a předchozí lekce.
 > Ne vždy dané řešení představuje nejoptimálnější způsob, nebo to "jak by se to dělalo ve skutečnosti".
