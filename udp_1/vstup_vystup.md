@@ -1,5 +1,7 @@
 # Cvičení
 
+*tato sekce obsahuje formátování řetězců pomocí `f-string`, které najdete vysvětlené v sekci čtení na doma*
+
 ## 1 - Jednoduchý výstup ○○○♦♦
 
 Náš vůbec první program nebude dělat nic víc, než vypisovat text na obrazovku.
