@@ -278,22 +278,24 @@ výši pokut za všechna vážení.
 
 ```python
 def spocitej_pokutu(pocet_naprav, hmotnost):
-  # oficialne jestli nezname slovnik,
-  # musime rozdelit pomoci podminek
-  if pocet_naprav == 2:
-    max_hmotnost = 18
+    # oficialne jestli nezname slovnik,
+    # musime rozdelit pomoci podminek
+    if pocet_naprav == 2:
+        max_hmotnost = 18
 
-  if pocet_naprav == 3:
-    max_hmotnost = 25
+    if pocet_naprav == 3:
+        max_hmotnost = 25
 
-  if pocet_naprav == 4:
-    max_hmotnost = 32
+    if pocet_naprav == 4:
+        max_hmotnost = 32
 
-  if pocet_naprav == 5:
+    if pocet_naprav == 5:
         max_hmotnost = 48
 
-  rozdil_hmotnosti = hmotnost - max_hmotnost
-    return 1000 * rozdil_hmotnosti
+    # musime omezit nulou aby nebyly zaporne pokuty
+    prekrocena_hmotnost = min([hmotnost - max_hmotnost, 0])
+
+    return 1000 * prekrocena_hmotnost
 
 
 for data in vazeni:
