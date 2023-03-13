@@ -37,7 +37,7 @@ druha_hra = hry[1]
 
 hodnoceni = [
     ['Casopis A', 5],
-    ['Casopis B', 8],
+  ['Casopis B', 8],
   ['Casopis C', 7],
 ]
 ```
