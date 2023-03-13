@@ -41,6 +41,31 @@ print(f'Cena za tři lidi: {total_price(3)}')
 print(f'Cena za dva lidi se snidani: {total_price(2, True)}')
 ```
 
+## 3 - Rámeček ○○♦♦♦
+
+Napiš funkci, která jako parametr převezme řetězec a vytiskne jej obalen hvězdičkami.
+
+```text
+Zadej slovo: ahoj
+********
+* ahoj *
+********
+```
+
+### Řešení
+
+```python
+def ramecek(slovo):
+    delka = len(slovo)
+    sirka_ramecku = delka + 4  # chceme trochu mista kolem slova
+    print('*' * sirka_ramecku)
+    print(f'* {slovo} *')
+    print('*' * sirka_ramecku)
+
+s = input('Zadej slovo: ')
+ramecek(s)
+```
+
 # Bonusy
 
 ## 3 - Měsíc narození ○○♦♦♦
@@ -68,7 +93,72 @@ print(f'9207054439 -> {month_of_birth(9207054439)}')
 print(f'9555125899 -> {month_of_birth(9555125899)}')
 ```
 
-## 4 - Ruleta ♦♦♦♦♦
+## 5 - Zarovnání výpisu ○♦♦♦♦
+
+Vypište seznam čísel každé na nový řádek zarovnané vpravo na délku nejdelšího čísla.
+
+```python
+numbers = [7728, 88, 958621, 5941, 959847272, 3944, 80, 521, 57035, 3967894]
+```
+
+Návod: Zjistěte kolik znaků zabírá nejdelší číslo ze seznamu
+Napište funkci, která dostane řetězec a délku, na kterou má text vyplnit zleva mezerami
+
+Bonus: funkce bude mít volitelný parametr, jakým znakem má text vyplňovat
+
+Výstup:
+
+```text
+     7728
+       88
+   958621
+     5941
+959847272
+     3944
+       80
+      521
+    57035
+  3967894
+```
+
+Výstup bonusu:
+
+```text
+.....7728
+.......88
+...958621
+.....5941
+959847272
+.....3944
+.......80
+......521
+....57035
+..3967894
+```
+
+### Řešení
+
+```python
+def zarovnej(retezec, delka, znak=' '):
+    zleva = delka - len(retezec)
+    print(znak * zleva + retezec)
+
+nejdelsi = 0
+for n in numbers:
+    aktualni_delka = len(str(n))
+    if aktualni_delka > nejdelsi:
+        nejdelsi = aktualni_delka
+
+# ted uz jen pomoci funkce vypiseme
+for n in numbers:
+    zarovnej(str(n), nejdelsi)
+
+# a jako bonus
+for n in numbers:
+    zarovnej(str(n), nejdelsi, '.')
+```
+
+## 6 - Ruleta ♦♦♦♦♦
 
 Napiš funkci, která bude jednoduchou simulací rulety. Budeme uvažovat pouze možnost sázení na řady. Uživatel si může
 vybrat jednu ze tří řad:
@@ -92,14 +182,121 @@ cislo_rady = int(input('Na kterou řadu sázíš? (1-3): '))
 sazka = int(input('Kolik sázíš?: '))
 
 def roulette(cislo_rady, sazka):
+
+    # pouzijeme funkci range na vytvoreni seznamu cisel
     rady = [
         range(1, 37, 3),  # 1, 4, 7, ...
         range(2, 37, 3),  # 2, 5, 8, ...
         range(3, 37, 3),  # 3, 6, 9, ...
-        ]
+    ]
     hozeno = random.randint(0, 36)
-    print(f'{hozeno = }')
+    print(f'hozeno: {hozeno}')
     return 2 * sazka if hozeno in rady[cislo_rady - 1] else 0  # "- 1" kvůli indexování od nuly
 ```
 
+## 7 - Zpřeházená písmena ○♦♦♦♦
 
+Slovo je stále možné pohodlně přečíst, když jsou pomíchaná písmena. Stačí, když první a poslední písmeno je na své
+pozici zachováno. Napiš funkci, která bude mít jako vstupní parametr slovo a vrátí slovo, kde zpřehází všechny znaky
+kromě prvního a posledního.
+
+Nápověda: `random.shuffle()`
+
+Super bonus: Napiš program, který takovou funkci využije na delší text více slov.
+
+### Řešení
+
+```python
+import random
+
+def zamichej_slovo(slovo):
+    pismena_jako_list = list(slovo)
+    stred = pismena_jako_list[1:-1]
+    random.shuffle(stred)
+    return slovo[0] + ''.join(stred) + slovo[-1]
+
+print(zamichej_slovo('lokomotiva'))
+
+text = '''Slovo je stále možné pohodlně přečíst, když jsou pomíchaná písmena.
+Stačí, když první a poslední písmeno je na své pozici zachováno. Napiš funkci,
+která bude mít jako vstupní parametr slovo a vrátí slovo, kde zpřehází všechny
+znaky kromě prvního a posledního.
+'''
+
+zamichana_slova = []
+for slovo in text.split():
+    zamichana_slova.append(zamichej_slovo(slovo))
+
+vysledny_text = ' '.join(zamichana_slova)
+print(vysledny_text)
+```
+
+## 8 - Nápravy ○♦♦♦♦
+
+Náprava je část vozidla, která spojuje kola s karosérií vozidla. U nákladních vozidel ho můžeme chápat jako počet "
+dvojic kol". Počet náprav je důležitý napříkad kvůli maximální povolené hmotnosti vozidla.
+
+Uvažuj limity pro maximální hmotnost nákladního vozidla, které jsou v tabulce níže.
+
+| Počet náprav | Maximální dovolená hmotnost v tunách |
+|--------------|--------------------------------------|
+| 2            | 18                                   |
+| 3            | 25                                   |
+| 4            | 32                                   |
+| 5            | 48                                   |
+
+Pokud je limit překročen, platí provozovatel pokutu 1000 Kč za každou tunu, o které je vozidlo těžší. Například pokud má
+vozidlo 4 nápravy a hmotnost 34 tun, platí provozovatel pokutu 2000 Kč.  
+Napiš funkci `spocitej_pokutu()`, která bude mít dva parametry - `pocet_naprav` (počet náprav vozidla) a `hmotnost` (
+hmotnost vozidla v tunách).  
+Funkce na základě těchto parametrů vypočte výpiš pokuty a vráti ji jako celé číslo.
+
+```python
+pokuta = spocitej_pokutu(4, 34)
+print(pokuta) # 2000
+```
+
+Dále uvažuj následující dvourozměrný seznam, kde na prvním místě vnořeného seznamu je počet náprav vozidla a na druhém
+místě je zjištěná hmotnost.
+
+```python
+vazeni = [
+    [4, 33],
+    [2, 19],
+    [3, 29],
+    [3, 27],
+    [5, 53],
+    [5, 51],
+    [2, 20],
+]
+```
+
+Projdi seznam pomocí cyklu a pro každé vážení urči (s využitím funkce spocitel_pokutu()) výši pokuty. Spočítej celkovou
+výši pokut za všechna vážení.
+
+### Řešení
+
+```python
+def spocitej_pokutu(pocet_naprav, hmotnost):
+  # oficialne jestli nezname slovnik,
+  # musime rozdelit pomoci podminek
+  if pocet_naprav == 2:
+    max_hmotnost = 18
+
+  if pocet_naprav == 3:
+    max_hmotnost = 25
+
+  if pocet_naprav == 4:
+    max_hmotnost = 32
+
+  if pocet_naprav == 5:
+        max_hmotnost = 48
+
+  rozdil_hmotnosti = hmotnost - max_hmotnost
+    return 1000 * rozdil_hmotnosti
+
+
+for data in vazeni:
+    pokuta = spocitej_pokutu(data[0], data[1])
+    print(f'dostavas pokutu {pokuta}')
+```
