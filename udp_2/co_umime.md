@@ -79,28 +79,20 @@ identifikaci konkrétní osoby.
 
 ```python
 pocet_muzu = 0
-nejmladsi_rok = 0
-nejstarsi_rok = 1000  # na začátek nastavíme na vysokou hodnotu
+datumy_jako_cislo = []
 
 for rodne_cislo in rodna_cisla:
-    rok = int(rodne_cislo[:2])
-
-    # porovname s nejstarsim
-    if rok < nejstarsi_rok:
-        nejstarsi_rok = rok
-
-    # porovname s nejmladsim
-    if rok > nejmladsi_rok:
-        nejmladsi_rok = rok
-
-    # zjistime pohlavi
-    mesic = int(rodne_cislo[2:4])
-    if mesic < 50:
+    ciselne_datum = int(rodne_cislo[:6])
+    if int(rodne_cislo[2]) >= 5:  # zena
+        ciselne_datum -= 5_000
+    else:
         pocet_muzu += 1
+    datumy_jako_cislo.append(ciselne_datum)
 
-print(f'nejmladší se narodil v roce {nejmladsi_rok}')
-print(f'nejstarší se narodil v roce {nejstarsi_rok}')
-print(f'přišlo {pocet_muzu} mužů')
+print(f'přišlo {pocet_muzu} mužů a {len(rodna_cisla) - pocet_muzu} žen')
+
+print(f'nejmladsi se narodil {max(datumy_jako_cislo)}')
+print(f'nejstarší se narodil {min(datumy_jako_cislo)}')
 ```
 
 ## 3 - Fahrenheit vs. Celsius ○○○♦♦
