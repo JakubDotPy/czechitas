@@ -26,6 +26,7 @@ Materiály k jednodennímu workshopu Úvod do programování v Pythonu 2.
 3. [Vlastní funkce](udp_2/funkce.md)
 4. [Další datové struktury](udp_2/datove_struktury.md)
 5. [Soubory: čtení a zápis](udp_2/soubory_cteni_zapis.md)
+6. [Json](udp_2/json.md)
 
 ## Python pro data 1
 
