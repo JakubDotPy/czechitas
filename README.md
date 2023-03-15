@@ -24,6 +24,7 @@ Materiály k jednodennímu workshopu Úvod do programování v Pythonu 2.
 1. [Co všechno už umíme - opakování](udp_2/co_umime.md)
 2. [Slicing, metody, moduly](udp_2/slicing_metody_moduly.md)
 3. [Vlastní funkce](udp_2/funkce.md)
+4. [Další datové struktury](udp_2/datove_struktury.md)
 
 ## Python pro data 1
 
