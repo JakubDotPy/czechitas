@@ -114,6 +114,8 @@ else:
   print("Rok není přestupný")
 ```
 
+---
+
 # Čtení na doma
 
 ## 1 - Dělitelnost více čísly ○○○♦♦
@@ -219,7 +221,7 @@ else:
 print(f'Číslo je {sude_liche_text} a {barva}.')
 ```
 
-## Soutěž ♦♦♦♦♦
+## 5 - Soutěž ♦♦♦♦♦
 
 Divadlo Pěst na oko pořádá soutěž o lístky na premiéru nového představení Zločin v podmínce. Pro účast v soutěži musí
 zájemce splnit následující dvě podmínky:

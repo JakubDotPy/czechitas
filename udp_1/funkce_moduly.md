@@ -53,6 +53,7 @@ import random
 cislo = random.randint(1, 24)
 ```
 
+---
 
 # Cvičení na doma
 

@@ -12,8 +12,7 @@
 6. [Podmínky](udp_1/podminky.md)
 7. [Sekvenční hodnoty](udp_1/sekvence.md)
 8. [Cykly](udp_1/cykly.md)
-9. Problém spolubydlení (nemá cvičení)
-10. Kam dál? (nemá cvičení)
+9. Kam dál? (nemá cvičení)
 
 ## Úvod do programování 2 - Python
 
