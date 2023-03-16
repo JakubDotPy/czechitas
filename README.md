@@ -17,8 +17,6 @@
 
 ## Úvod do programování 2 - Python
 
-Rozšířeno mnou.
-
 Materiály k jednodennímu workshopu Úvod do programování v Pythonu 2.
 
 1. [Co všechno už umíme - opakování](udp_2/co_umime.md)
@@ -27,6 +25,12 @@ Materiály k jednodennímu workshopu Úvod do programování v Pythonu 2.
 4. [Další datové struktury](udp_2/datove_struktury.md)
 5. [Soubory: čtení a zápis](udp_2/soubory_cteni_zapis.md)
 6. [Json](udp_2/json.md)
+7. Komplexní příklad (řešení popsané v lekci)
+8. Opakování (kombinace všech předchozích cvičení)
+
+### Bonusové kapitoly
+
+1. [Cykly 2](udp_2/cykly_2.md)
 
 ## Python pro data 1
 
