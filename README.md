@@ -32,6 +32,7 @@ Materiály k jednodennímu workshopu Úvod do programování v Pythonu 2.
 
 1. [Cykly 2](udp_2/cykly_2.md)
 2. [Parametry příkazové řádky](udp_2/prikazova_radka.md)
+3. [Obsluha výjimek](udp_2/vyjimky.md)
 
 ## Python pro data 1
 
