@@ -4,8 +4,6 @@
 
 ## Úvod do programování
 
-Sestaveno podle materiálů [Andrei Waltlové](https://github.com/andywaltlova/UDP_1_python).
-
 1. První zakázy - úvod (nemá cvičení)
 2. [Čísla a řetězce](udp_1/cisla_retezce.md)
 3. [Proměnné](udp_1/promenne.md)
@@ -14,26 +12,26 @@ Sestaveno podle materiálů [Andrei Waltlové](https://github.com/andywaltlova/U
 6. [Podmínky](udp_1/podminky.md)
 7. [Sekvenční hodnoty](udp_1/sekvence.md)
 8. [Cykly](udp_1/cykly.md)
-9. Problém spolubydlení (nemá cvičení)
-10. Kam dál? (nemá cvičení)
+9. Kam dál? (nemá cvičení)
 
 ## Úvod do programování 2 - Python
 
-Rozšířeno mnou.
-
 Materiály k jednodennímu workshopu Úvod do programování v Pythonu 2.
 
-1. Co všechno už umíme - opakování (nemá cvičení)
-2. [Slovníky](udp_2/slovniky.md)
-3. [Slovníky a cykly](udp_2/slovniky_cykly.md)
-4. [Funkce](udp_2/funkce.md)
-5. [Třídy a objekty](udp_2/tridy.md)
-6. [Dědičnost](udp_2/dedicnost.md)
-7. Podmínky 2 (bonusová kapitola)
-8. Cykly 2 (bonusová kapitola)
-9. Obsluha výjimek (bonusová kapitola)
-10. Balíčky z internetu (bonusová kapitola)
-11. Další zdroje
+1. [Co všechno už umíme - opakování](udp_2/co_umime.md)
+2. [Slicing, metody, moduly](udp_2/slicing_metody_moduly.md)
+3. [Vlastní funkce](udp_2/funkce.md)
+4. [Další datové struktury](udp_2/datove_struktury.md)
+5. [Soubory: čtení a zápis](udp_2/soubory_cteni_zapis.md)
+6. [Json](udp_2/json.md)
+7. Komplexní příklad (řešení popsané v lekci)
+8. Opakování (kombinace všech předchozích cvičení)
+
+### Bonusové kapitoly
+
+1. [Cykly 2](udp_2/cykly_2.md)
+2. [Parametry příkazové řádky](udp_2/prikazova_radka.md)
+3. [Obsluha výjimek](udp_2/vyjimky.md)
 
 ## Python pro data 1
 
@@ -45,4 +43,4 @@ Materiály k jednodennímu workshopu Úvod do programování v Pythonu 2.
 6. [Vizualizace](data_1/vizualizace.md)
 
 > Řešení úkolů je přizpůsobeno začátečníkům, případně jejich znalostem z dané a předchozí lekce.
-> Ne vždy dané řešení představuje nejoptimálnější způsob, nebo to "jak by se to dělalo ve skutečnosti".
+> Ne vždy dané řešení představuje nejoptimálnější způsob nebo to, "jak by se to dělalo ve skutečnosti".
