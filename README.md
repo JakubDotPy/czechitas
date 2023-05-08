@@ -53,5 +53,19 @@ Materiály k jednodennímu workshopu Úvod do programování v Pythonu 2.
 5. [Agregace a spojování](data_1/agregace_spojovani.md)
 6. [Vizualizace](data_1/vizualizace.md)
 
+
+## Python pro Power Bi
+- TODO
+
+
+## Python pro databáze
+- TODO
+
+## Objektově orientované programování v Pythonu
+
+1. [Třídy a objekty](oop/tridy_objekty.md)
+2. [Dědičnost](oop/dedicnost.md)
+
+
 > Řešení úkolů je přizpůsobeno začátečníkům, případně jejich znalostem z dané a předchozí lekce.
-> Ne vždy dané řešení představuje nejoptimálnější způsob nebo to, "jak by se to dělalo ve skutečnosti".
+> Ne vždy dané řešení představuje nejoptimálnější způsob nebo to, "jak by se to dělalo v praxi".
