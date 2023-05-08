@@ -1,6 +1,6 @@
 # Cvičení
 
-## 1 - Studenti ○○♦♦♦
+## 1 - Studenti ◇◇◆◆◆
 
 Stáhni si datové sety, se kterými budeme pracovat v tomto cvičení: jmena.csv, studenti1.csv, studenti2.csv.
 

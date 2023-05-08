@@ -1,6 +1,6 @@
 # Cvičení: Parametry příkazové řádky
 
-## 1 - Čas v minutách ○○○♦♦
+## 1 - Čas v minutách ◇◇◇◆◆
 
 Napište program `minuty.py`, která dělá obrácenou věc než program `cas.py` z textu výše. Když mu na příkazové řádce
 předáme dva parametry ‒ počet hodin a počet minut ‒ například takto
@@ -29,7 +29,7 @@ minuty = int(sys.argv[2])
 print(hodiny * 60 + minuty)
 ```
 
-## 2 - Úprava řetězce ○○○♦♦
+## 2 - Úprava řetězce ◇◇◇◆◆
 
 Napište program, který dostane jako jeden parametr řetězec s mezerami (aby to fungovalo, musí být ten řetězec obalen v
 uvozovkách). Vypište tento řetězec tak, že mezery nahradíte za podtržítka.
@@ -48,7 +48,7 @@ retezec = sys.argv[1]
 print(retezec.replace(' ', '_'))
 ```
 
-## 3 - Jak proměnit hada na velblouda ○○♦♦♦
+## 3 - Jak proměnit hada na velblouda ◇◇◆◆◆
 
 Napište program, který dostane na příkazovém řádku název proměnné v hadí notaci a vrátí tentýž název zapsaný ve velbloudí notaci.
 
@@ -73,7 +73,7 @@ vysledek = ''.join(prvni_male.split())
 print(vysledek)
 ```
 
-## 4 - Házení kostkou ○♦♦♦♦
+## 4 - Házení kostkou ◇◆◆◆◆
 
 - Napište program, který při každém spuštění hodí šestistěnnou kostkou ‒ tedy vypíše náhodné číslo mezi 1 až 6.
 - Upravte program tak, aby jako parametr dostal počet stěn kostky. Bude tedy umět házet třeba sedmistěnnou nebo devítistěnnou kostkou podle toho, jaké číslo dostane na vstupu.

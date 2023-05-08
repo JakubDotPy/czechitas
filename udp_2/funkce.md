@@ -1,6 +1,6 @@
 # Cvičení
 
-## 1 - Násobení ○○○♦♦
+## 1 - Násobení ◇◇◇◆◆
 
 Napiš funkci `mult`, která bude mít dva číselné parametry. Funkce oba parametry vynásobí a vrátí výsledek.
 
@@ -14,7 +14,7 @@ vysledek = mult(5, 2)
 print(f'5 * 2 = {vysledek}')
 ```
 
-## 2 - Hotel ○○○♦♦
+## 2 - Hotel ◇◇◇◆◆
 
 Napiš funkci `total_price`, která vypočte cenu noci v hotelu. Funkce bude mít dva parametry - `people`
 a `breakfast`.  
@@ -41,7 +41,7 @@ print(f'Cena za tři lidi: {total_price(3)}')
 print(f'Cena za dva lidi se snidani: {total_price(2, True)}')
 ```
 
-## 3 - Rámeček ○○♦♦♦
+## 3 - Rámeček ◇◇◆◆◆
 
 Napiš funkci, která jako parametr převezme řetězec a vytiskne jej obalen hvězdičkami.
 
@@ -66,9 +66,8 @@ s = input('Zadej slovo: ')
 ramecek(s)
 ```
 
-# Bonusy
 
-## 3 - Měsíc narození ○○♦♦♦
+## 4 - Měsíc narození ◇◇◆◆◆
 
 Napiš funkci `month_of_birth`, která bude mít jeden parametr - `rodne_cislo`.  
 Funkce ze zadaného rodného čísla určí měsíc narození, které vrátí jako výstup. Nezapomeň, že pro ženy je k měsíci
@@ -93,7 +92,12 @@ print(f'9207054439 -> {month_of_birth(9207054439)}')
 print(f'9555125899 -> {month_of_birth(9555125899)}')
 ```
 
-## 5 - Zarovnání výpisu ○♦♦♦♦
+---
+
+# Bonusy
+
+
+## 5 - Zarovnání výpisu ◇◆◆◆◆
 
 Vypište seznam čísel každé na nový řádek zarovnané vpravo na délku nejdelšího čísla.
 
@@ -158,7 +162,7 @@ for n in numbers:
     zarovnej(str(n), nejdelsi, '.')
 ```
 
-## 6 - Ruleta ♦♦♦♦♦
+## 6 - Ruleta ◆◆◆◆◆
 
 Napiš funkci, která bude jednoduchou simulací rulety. Budeme uvažovat pouze možnost sázení na řady. Uživatel si může
 vybrat jednu ze tří řad:
@@ -194,7 +198,7 @@ def roulette(cislo_rady, sazka):
     return 2 * sazka if hozeno in rady[cislo_rady - 1] else 0  # "- 1" kvůli indexování od nuly
 ```
 
-## 7 - Zpřeházená písmena ○♦♦♦♦
+## 7 - Zpřeházená písmena ◇◆◆◆◆
 
 Slovo je stále možné pohodlně přečíst, když jsou pomíchaná písmena. Stačí, když první a poslední písmeno je na své
 pozici zachováno. Napiš funkci, která bude mít jako vstupní parametr slovo a vrátí slovo, kde zpřehází všechny znaky
@@ -231,7 +235,7 @@ vysledny_text = ' '.join(zamichana_slova)
 print(vysledny_text)
 ```
 
-## 8 - Nápravy ○♦♦♦♦
+## 8 - Nápravy ◇◆◆◆◆
 
 Náprava je část vozidla, která spojuje kola s karosérií vozidla. U nákladních vozidel ho můžeme chápat jako počet "
 dvojic kol". Počet náprav je důležitý napříkad kvůli maximální povolené hmotnosti vozidla.

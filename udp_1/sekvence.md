@@ -1,6 +1,6 @@
 # Cvičení
 
-## 1 - Řetězce jako sekvence ○○○♦♦
+## 1 - Řetězce jako sekvence ◇◇◇◆◆
 
 - Uložte do proměnné `jmeno` svoje celé jméno a nechte vypsat jeho třetí, pátý a sedmý znak.  
   Vyzkoušejte, co se stane, když budete chtít znak na pozici, která překračuje délku řetězce.
@@ -15,7 +15,7 @@ print(uzivatel[6])
 print(uzivatel[60])
 ```
 
-## 2 - Seznamy ○♦♦♦♦
+## 2 - Seznamy ◇◆◆◆◆
 
 - Vytvořte nějaký seznam celých čísel, například počty diváků na několika po sobě jdoucích představeních.
 - Vytvořte nějaký seznam desetinných čísel, například zaplněnost divadla v několika po sobě jdoucích představeních.
@@ -42,9 +42,11 @@ hodnoceni = [
 ]
 ```
 
+---
+
 # Bonusy
 
-## 3 - Ověřování hesla ○○♦♦♦
+## 3 - Ověřování hesla ◇◇◆◆◆
 
 Ověřování hesla se někdy dělá tak, že se vás systém ptá pouze na některé jeho znaky. Napište program, který má uloženo
 heslo, které musí uživatel zadat. Pak se jej postupně zeptejte například na druhý, pátý a sedmý znak hesla. Propusťte

@@ -1,6 +1,6 @@
 # Cvičení: Čtení ze souborů
 
-## 1 - Výplata přesněji ○○○♦♦
+## 1 - Výplata přesněji ◇◇◇◆◆
 
 Zatím jsme výplatu počítali za předpokladu, že každý měsíc odpracujeme stejný počet hodin, což není příliš realistické.  
 Vytvořte proto textový soubor `vykaz.txt`, který bude obsahovat 12 řádků a na každém řádku počet odpracovaných hodin za každý měsíc za poslední rok.
@@ -29,7 +29,7 @@ for pocet_hodin in vykaz:
 print(f'Vyplata za cely rok je {sum(vyplaty)}, průměrná {statistics.mean(vyplaty)}')
 ```
 
-## 2 - Počet slov ○○♦♦♦
+## 2 - Počet slov ◇◇◆◆◆
 
 Stáhněte si odevzdanou slohovou práci.  
 Zadání bylo sepsat text o nejméně 150ti slovech pojednávající o našem hlavním městě.  
@@ -60,7 +60,7 @@ print(f'celkovy pocet slov je {celkovy_pocet_slov}')
 
 # Bonus
 
-## 3 - Půjčovna ○♦♦♦♦
+## 3 - Půjčovna ◇◆◆◆◆
 
 Půjčovna aut má v každém kraji ČR jedno auto s danou SPZ. Ke konci roku chce zjistit, kolik všechna auta najezdila dohromady kilometrů. V souboru auta.txt je pro každou SPZ zaznamenáno kolik dané auto ujelo kilometrů za daný rok. Hodnoty jsou v tisících kilometrů. Bohužel se v jednotlivých krajích blbě zkoordinovali a někdo používal desetinnou čárku, někdo zase tečku.
 
@@ -84,7 +84,7 @@ print(f'celkovy pocet ujetych kilometru je {ujete_kilometry}')
 
 # Cvičení: Zápis do souborů
 
-## 1 - Dny v měsíci ○○○○♦
+## 1 - Dny v měsíci ◇◇◇◇◆
 
 Napište program, který bude mít přímo v kódu zapsaný počet dní v jednotlivých měsících takto:
 
@@ -106,7 +106,7 @@ with open('kalendar.txt', 'w', encoding='utf-8') as output_file:
         print(dny, file=output_file)
 ```
 
-## 2 - Vytvoření souboru ○○○♦♦
+## 2 - Vytvoření souboru ◇◇◇◆◆
 
 Napište program, který se po spuštění zeptá na název souboru, který má vytvořit (nebo přepsat, pokud už ten soubor existuje), a pak se zeptá na řádek textu, který má do souboru zapsat.
 
@@ -120,7 +120,7 @@ with open(jmeno_souboru, 'w', encoding='utf-8') as f:
     f.write(radek)
 ```
 
-## 3 - Rozepsaná výplata ○○♦♦♦
+## 3 - Rozepsaná výplata ◇◇◆◆◆
 
 Modifikujte program pro počítání výplaty z předchozí sekce tak, aby nevypisoval průměrnou výplatu za rok, nýbrž aby vypsal konkrétní vyplacenou částku pro každý měsíc zvlášť.
 
@@ -143,7 +143,7 @@ with open('vykaz.txt') as vstupni_soubor:
 
 # Doporučené úložky na doma
 
-## 1 - Přeznámkování ○○○♦♦
+## 1 - Přeznámkování ◇◇◇◆◆
 
 Univerzita pro celoživotní vzdělávání se rozhodla změnit svůj známkovací systém z číselných známek 1 až 5 na hodnocení písmeny A až F. Bohužel změna se odehrála jaksi uprostřed semestru, takže je potřeba změnit aktuální výkazy o známkách z čísel na písmena. Nechte se vést následujícím postupem.
 
@@ -173,7 +173,7 @@ with open('nova_tabulka.txt', 'w') as vystup:
     vystup.write(novy_text)
 ```
 
-## 2 - Pasažéři ○♦♦♦♦
+## 2 - Pasažéři ◇◆◆◆◆
 
 Autobus mezi Zdebudevsí a Kozoprdy jezdí čtyřikrát denně každý všední den v týdnu. Za poslední týden jsme naměřili počty pasažérů pro každou jízdu tam i zpět. Data jsou uložená v souboru pasazeri.txt. Jízda vždy obsahuje dvě čísla oddělená čárkou, která udávají počet pasažérů směrem tam a směrem zpět.
 
@@ -215,7 +215,7 @@ print(f'celkem jelo {celkem_tam} lidi tam a {celkem_zpet} lidi zpet')
 
 # Volitelné úložky na doma
 
-## 3 - Karty 1 ○○○○♦
+## 3 - Karty 1 ◇◇◇◇◆
 
 Napište program, který vylosuje náhodnou hrací kartu z klasické whistové sady obsahující 52 karet, rozdělených do čtyř barev (kříže, srdce, piky, káry), s hodnotami 2, 3, 4, 5, 6, 7, 8, 9, 10, J (kluk), Q (dáma), K (král), A (eso).
 
@@ -236,7 +236,7 @@ barvy = ['kříže', 'srdce', 'piky', 'káry']
 print(f'Karta: {random.choice(hodnoty)} {random.choice(barvy)}')
 ```
 
-## 4 - Karty 2 ○○○♦♦
+## 4 - Karty 2 ◇◇◇◆◆
 
 Napište program, který vylosuje seznam 4 náhodných hracích karet podobně jako v předchozím úkolu. Můžeme si představovat, že rozdáváme karty například v pokeru. Zatím pro jednoduchost nebudeme řešit, že se nám může nějaká karta v seznamu opakovat.
 
@@ -270,7 +270,7 @@ for karta in ruka:
 print(f'mame celkem {body}')
 ```
 
-## 5 - Karty3 ○♦♦♦♦
+## 5 - Karty3 ◇◆◆◆◆
 
 Zkusme vyřešit problém losování karet tak, aby se nám nemohlo stát, že nám nějaká karta padne vícekrát, když by správně v balíčku měla být od každé karty pouze jedna.
 

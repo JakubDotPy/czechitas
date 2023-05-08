@@ -1,6 +1,6 @@
 # Cvičení
 
-## 1 - Délka názvu ○○○○♦
+## 1 - Délka názvu ◇◇◇◇◆
 
 Uložte si do proměnné nazev řetězec s názvem *Divadlo Pěst na oko*. Pokud použijeme designové písmo nad hlavní vchod
 budovy, jeden znak (i mezera) bude široký 30 cm. Použijte funkci `len()` abyste zjistili počet znaků v názvu divadla a
@@ -13,7 +13,7 @@ nazev = "Divadlo Pěst na oko"
 delka = len(nazev) * 30
 ```
 
-## 2 - Zaokrouhlování ○○○♦♦
+## 2 - Zaokrouhlování ◇◇◇◆◆
 
 Divadlo chce mít ceny vstupenek jak v eurech tak v celých korunách. Uložte do proměnné `eura` cenu studentské vstupenky(
 65 % z 12 euro). Použijte funkci `round()` a do proměnné `koruny` spočítejte, kolik činí studentské vstupné v korunách
@@ -26,7 +26,7 @@ eura = 12 * 0.65
 koruny = round(24 * eura)
 ```
 
-## 3 - Zaokrouhlování nahoru ○○○○♦
+## 3 - Zaokrouhlování nahoru ◇◇◇◇◆
 
 Importujte modul `math` a vyzkoušejte si funkci `math.ceil()`, která slouží k zaokrouhlování směrem nahoru. Proveďte
 zaokrouhlování z předchozího cvičení na celé koruny směrem nahoru.
@@ -36,10 +36,11 @@ zaokrouhlování z předchozího cvičení na celé koruny směrem nahoru.
 ```python
 import math
 
+eura = 12 * 0.65
 koruny = math.ceil(24 * eura)
 ```
 
-## 4 - Náhodná čísla ○○○♦♦
+## 4 - Náhodná čísla ◇◇◇◆◆
 
 Na informačním panelu v předsálí divadla se zobrazují informace o náhodných představeních. Pro tento panel potřebujeme
 generátor náhodných čísel, který bude generovat čísla představení mezi 1 až 24. Importujte modul `random` a použijte
@@ -58,7 +59,7 @@ cislo = random.randint(1, 24)
 # Cvičení na doma
 
 
-## 1 - Klasické zaokrouhlování[^1] ♦♦♦♦♦
+## 1 - Klasické zaokrouhlování[^1] ◆◆◆◆◆
 
 Překvapivě Python neobsahuje[^2] žádnou funkci, která by dělala klasické zaokrouhlování, tedy takové, na které jsme
 všichni zvyklí ze školy. S něčím takovým se nemůžeme spokojit.

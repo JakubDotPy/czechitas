@@ -1,6 +1,6 @@
 # Cvičení
 
-## 1 - Jednoduché podmínky ○○○♦♦
+## 1 - Jednoduché podmínky ◇◇◇◆◆
 
 - Založte si program `prihlaseni.py`. V tomto nechte uživatele zadat svoje uživatelské jméno a poté heslo.
   Pokud se heslo neshoduje s heslem `'simsalabim'`, vypište na výstup `Vstup nepovolen` a zavolejte funkci exit(),
@@ -28,7 +28,7 @@ else:
     print('Vstup nepovolen!')
 ```
 
-## 2 - Cena vstupenky ○○○♦♦
+## 2 - Cena vstupenky ◇◇◇◆◆
 
 A nyní opět pokračujeme v našem rezervačním systému.
 
@@ -39,8 +39,9 @@ A nyní opět pokračujeme v našem rezervačním systému.
   - 0 euro pro návštěvníky mladší 6 let
   - 65% ze základní ceny pro návštěvníky 6 až 26 let (žák, student)
   - 100% ze základní ceny pro návštěvníky 27 až 64 let (dospělý)
-  - 50% ze základní ceny pro ostatní (senior).
-- Nezapomeňte na zaokrouhlování, ať nám cena vyjde v celých centech.
+  - 50% ze základní ceny pro ostatní (senior).  
+
+Nezapomeňte na zaokrouhlování, ať nám cena vyjde v celých centech.
 - Nakonec spočtenou cenu vypište s nějakou hezkou zprávou na výstup.
 
 ### Řešení
@@ -68,9 +69,11 @@ else:
 print(f'Cena vstupenky je {round(cena, 2)}.')
 ```
 
+---
+
 # Bonusy
 
-## 3 - Registrace ○○○♦♦
+## 3 - Registrace ◇◇◇◆◆
 
 Založte si program `registrace.py`. Program nechá uživatele, aby si zvolil uživatelské jméno a heslo. Heslo jej nechejte
 zadat dvakrát a ověřte, že jej uživatel zadal dvakrát stejně. V opačném případě vypište varování, že hesla nejsou
@@ -92,7 +95,7 @@ if heslo != heslo_2:
   print('Hesla se neshodují.')
 ```
 
-## 4 - Přestupný rok ○○♦♦♦
+## 4 - Přestupný rok ◇◇◆◆◆
 
 Napište program, který po zadání kalendářního roku vypíše, zda jde o rok přestupný, či nikoliv. Letopočet je přestupný,
 pokud je dělitelný čtyřmi. Roky, které jsou dělitelné 100 jsou ovšem přestupné pouze tehdy, jsou-li zároveň dělitelné
@@ -118,7 +121,7 @@ else:
 
 # Čtení na doma
 
-## 1 - Dělitelnost více čísly ○○○♦♦
+## 1 - Dělitelnost více čísly ◇◇◇◆◆
 
 Požádejme uživatele, ať zadá celé číslo. Napiš program který zjistí, zda je číslo dělitelné 3 i 4 současně.
 
@@ -139,7 +142,7 @@ else:
   print('neni delitelne 3 i 4 soucasne')
 ```
 
-## 2 - Gymnázium ○○○♦♦
+## 2 - Gymnázium ◇◇◇◆◆
 
 Matematické gymnázium nabízí aplikaci, která sděluje informaci o povinnosti vykonání přijímací zkoušky.  
 Požádejte uživatele o zadání známky z matematiky a průměru všech známek na posledním vysvědčení.  
@@ -159,7 +162,7 @@ else:
   print('Musíte splnit přijímací zkoušku.')
 ```
 
-## 3 - Gymnázium ○○♦♦♦
+## 3 - Gymnázium ◇◇◆◆◆
 
 Modifikujme si předchozí příklad. Horší známku z matematiky může student kompenzovat tím, že uspěje v matematické
 olympiádě.  
@@ -184,9 +187,11 @@ else:
   print('Musíte splnit přijímací zkoušku.')
 ```
 
+---
+
 # Bonusy
 
-## 4 - Ruleta ○♦♦♦♦
+## 4 - Ruleta ◇◆◆◆◆
 
 Na obrázku vidíte rozložení čísel na klasické Francouzské ruletě. Ruleta obsahuje čísla `0 - 36`. Každé číslo s výjimkou
 nuly je buď sudé nebo liché a zároveň červené nebo černé. Pro čísla 1 až 10 a 19 až 28 platí, že lichá čísla jsou
@@ -221,7 +226,7 @@ else:
 print(f'Číslo je {sude_liche_text} a {barva}.')
 ```
 
-## 5 - Soutěž ♦♦♦♦♦
+## 5 - Soutěž ◆◆◆◆◆
 
 Divadlo Pěst na oko pořádá soutěž o lístky na premiéru nového představení Zločin v podmínce. Pro účast v soutěži musí
 zájemce splnit následující dvě podmínky:

@@ -1,10 +1,10 @@
 # Cvičení
 
-*tyto příklady je lepší si zkoušet přímo v Python konzoli `>>> `*  
+*tyto příklady je lepší si zkoušet přímo v Python konzoli: `>>> `*  
 *oficiálně ještě neznáme funkci `print()`*
 *k zobrazení výsledku pak stačí napsat název proměnné*
 
-## 1 - Hrátky s proměnnými ○○○○♦
+## 1 - Hrátky s proměnnými ◇◇◇◇◆
 
 Dbejte na to, aby proměnné měly vhodný název dobře naznačující, co je v které z nich uloženo.
 
@@ -32,7 +32,7 @@ platy = herci * 22_392
 *Poznámka: symbol `_` v čísle nemá žádný vedlejší efekt a můžete ho tak použít jako oddělovač tisíců pro lepší čitelnost
 delších čísel.*
 
-## 2 - Celočíselné dělení a dělení se zbytkem ○○○○♦
+## 2 - Celočíselné dělení a dělení se zbytkem ◇◇◇◇◆
 
 Zaexperimentujte s operátory celočíselného dělení a dělení se zbytkem.
 
@@ -54,9 +54,11 @@ hodin = delka // 60
 minut = delka % 60
 ```
 
+---
+
 # Bonusy
 
-## 3 - Sedačky v sále ○○○♦♦
+## 3 - Sedačky v sále ◇◇◇◆◆
 
 Hlavní sál divadla má k dispozici 350 sedaček. Lze je poskládat do řad po 32 sedadlech tak, aby všechny řady byly úplné?
 Pokud ne, kolik sedaček musíme přikoupit, aby to šlo? Kolik nám takto vznikne celkem řad?
@@ -72,7 +74,7 @@ celkem_rad = (350 + dokoupit) / 32
 # Úlohy na doma
 
 
-## 1 - Základní aritmetické operace ○○○○♦
+## 1 - Základní aritmetické operace ◇◇◇◇◆
 
 Do proměnné `a` uložte libovolné celé číslo, do proměnné `b` uložte libovolné desetinné číslo. V následujících úlohách každý výsledek uložte do nové proměnné.
 
@@ -93,7 +95,7 @@ zbytek = a % b
 celociselne_deleni = a // b
 ```
 
-## 2 - Antikvariát ○○○♦♦
+## 2 - Antikvariát ◇◇◇◆◆
 
 Antikvariát *Poslední strana* nabízí veškeré své tituly za 50 kč.
 
@@ -111,7 +113,7 @@ sleva = 0.3
 cena_za_kus = (1 - sleva) * cena_za_kus
 ```
 
-## 3 - Plánování svatby ○○○♦♦
+## 3 - Plánování svatby ◇◇◇◆◆
 
 Karolína bude mít za půl roku svatbu a právě obdržela od agentury ceník služeb. Cena za kompletní menu pro dospělou osobu je 990 kč, pro dítě je to 50% ceny dospělého.
 

@@ -1,6 +1,6 @@
 # Cvičení
 
-## 1 - Nabídky práce ○○○♦♦
+## 1 - Nabídky práce ◇◇◇◆◆
 
 Stáhni si
 soubor [DataAnalyst.csv](https://kodim.cz/cms/assets/kurzy/python-data-1/python-pro-data-1/nacteni-dat/excs/excs%3Enabidky/DataAnalyst.csv)

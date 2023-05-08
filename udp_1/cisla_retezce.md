@@ -1,6 +1,8 @@
 # Cvičení
 
-## 1 - Jednoduchá aritmetika ○○○○♦
+*tyto příklady je lepší si zkoušet přímo v Python konzoli: `>>> `*  
+
+## 1 - Jednoduchá aritmetika ◇◇◇◇◆
 
 Použijte Python konzoli jako kalkulačku:
 
@@ -19,7 +21,7 @@ Použijte Python konzoli jako kalkulačku:
 ((12 * 174 / 2) + (12 * 0.65 * 174 / 2)) * 15
 ```
 
-## 2 - Hrátky s řetězci ○○○♦♦
+## 2 - Hrátky s řetězci ◇◇◇◆◆
 
 - Vytvořte řetězec obsahující jméno divadla.
 - Vytvořte řetězec obsahující jméno divadla tak, že sečtete dohromady jednotlivá slova toho jména.
@@ -45,9 +47,11 @@ Použijte Python konzoli jako kalkulačku:
 '1' * 256 + '0' * 256
 ```
 
+---
+
 # Bonusy
 
-## 3 - Shannonovo číslo ○○♦♦♦
+## 3 - Shannonovo číslo ◇◇◆◆◆
 
 - Takzvané Shannonovo číslo má hodnotu 10^120^ a udává kolik nejméně lze odehrát různých šachových partií. Vytvořte
   řetězec, který obsahuje toto číslo zapsané běžným způsobem pomocí cifer. Například 10^3^ je 1000, 10^6^ je 1000000

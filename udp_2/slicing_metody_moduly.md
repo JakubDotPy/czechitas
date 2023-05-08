@@ -1,6 +1,6 @@
 # Cvičení: Seznamy
 
-## 1 - Pohyby na účtu ○○○♦♦
+## 1 - Pohyby na účtu ◇◇◇◆◆
 
 Mějme seznam pohybů na nějakém bankovním účtu:
 
@@ -35,7 +35,7 @@ print(f'nejnizsi je {min(pohyby)}, nejvyssi {max(pohyby)}')
 print(f'zustatek = {sum(pohyby)}')
 ```
 
-## 2 - Průměr ○○○♦♦
+## 2 - Průměr ◇◇◇◆◆
 
 Mějme proměnnou `s`, ve které předpokládáme uložený nějaký seznam.  
 Sestavte v výraz (vzoreček), který spočítá průměrnou hodnotu v takovém seznamu. Otestujte jej na seznamech různých
@@ -49,7 +49,7 @@ prumer = sum(s) / len(s)
 print(f'prumer {s} je {prumer}')
 ```
 
-## 3 - Rozpětí ○○○♦♦
+## 3 - Rozpětí ◇◇◇◆◆
 
 Postupujte obdobně jako v úložce Průměr, ale tentokrát sestavte výraz pro výpočet rozpětí, tedy rozdílu mezi minimální a
 maximální hodnotou.
@@ -62,9 +62,11 @@ rozpeti = max(s) - min(s)
 print(f'rozpeti {s} je {rozpeti}')
 ```
 
+---
+
 # Bonusy
 
-## 4 - Střed seznamu ○♦♦♦♦
+## 4 - Střed seznamu ◇◆◆◆◆
 
 Sestavte výraz, který vrátí číslo nacházející se přesně uprostřed v zadaném seznamu `s`.
 U seznamů liché délky je střed jasně definovaný, ovšem u seznamů sudé délky nám padne mezi dvě čísla. V takovém případě
@@ -80,7 +82,7 @@ stred = s[len(s) // 2]
 print(f'stred {s} je {stred}')
 ```
 
-## 5 - Střed seznamu podruhé ♦♦♦♦♦♦
+## 5 - Střed seznamu podruhé ◆◆◆◆◆◆
 
 Sestavte vzoreček, který vrátí číslo nacházející se přesně uprostřed v zadaném seznamu s.
 Tentokrát však u seznamů sudé délky vyberte jako střed číslo blíž k začátku seznamu.
@@ -104,7 +106,7 @@ print(f'stred {s} je {stred}')
 
 # Cvičení: Řetězce, metody
 
-## 1 - Převod písmen ○○○○♦
+## 1 - Převod písmen ◇◇◇◇◆
 
 Uložte si do proměnné `jmeno` svoje jméno.  
 Pomocí volání vhodných metod jej převeďte nejdříve na malá písmena a poté na velká písmena.
@@ -117,7 +119,7 @@ print(jmeno.lower())
 print(jmeno.upper())
 ```
 
-## 2 - Čísla jako text ○○○♦♦
+## 2 - Čísla jako text ◇◇◇◆◆
 
 Mějme seznam čísel zadaných jako text
 
@@ -135,8 +137,8 @@ Před tím, než se podíváte na následující kroky, sami si rozmyslete postu
 pokračujte podle následujících kroků.
 
 - Uložte si hodnotu na třetí pozici v seznamu do nějaké proměnné.
-- Převeďte tuto hodnotu na číslo a přičtěte k němu 4. Výsledek uložte do proměnné vysledek.
-- Převeďte hodnotu v proměnné vysledek zpět na řetězec a uložte ji na třetí pozici v seznamu hodnoty.
+- Převeďte tuto hodnotu na číslo a přičtěte k němu 4. Výsledek uložte do proměnné `vysledek`.
+- Převeďte hodnotu v proměnné `vysledek` zpět na řetězec a uložte ji na třetí pozici v seznamu `hodnoty`.
 
 ### Řešení
 
@@ -144,11 +146,11 @@ pokračujte podle následujících kroků.
 hodnoty = ['12', '1', '7', '-11']
 
 treti = hodnoty[2]
-prepocteno = int(treti) + 4
-hodnoty[2] = prepocteno
+vysledek = int(treti) + 4
+hodnoty[2] = vysledek
 ```
 
-## 3 - Čísla v textu ○○♦♦♦
+## 3 - Čísla v textu ◇◇◆◆◆
 
 Máme obdobné zadání jako v předchozím cvičení, avšak tentokrát máme čísla zadána nikoliv v seznamu, ale v řetězci
 oddělená mezerou:
@@ -178,9 +180,11 @@ hodnoty_list[-1] = str(prepocteno)
 hodnoty = ' '.join(hodnoty_list)
 ```
 
+---
+
 # Bonusy
 
-## 4 - Chytřejší čísla jako text ○♦♦♦♦
+## 4 - Chytřejší čísla jako text ◇◆◆◆◆
 
 Zkuste vymyslet, jak udělat zápis příkazů ze cvičení `Čísla jako text` co nejúspornější.  
 Dá se dojít až k tomu, že celé řešení bude na jeden řádek.
@@ -197,7 +201,7 @@ print(hodnoty)
 
 # Cvičení: Moduly
 
-## 1 - Zaokrouhlování ○○○○♦
+## 1 - Zaokrouhlování ◇◇◇◇◆
 
 Napište program, který dostane na vstupu desetinné číslo a na výstup napíše toto číslo zaokrouhlené nejdříve nahoru,
 potom dolů a potom běžným Pythonovským zaokrouhlováním.
@@ -214,7 +218,7 @@ print(f'dolu:  {math.floor(num)}')
 print(f'round: {round(num)}')
 ```
 
-## 2 - Přijímačky a moduly ○○○♦♦
+## 2 - Přijímačky a moduly ◇◇◇◆◆
 
 Uvažujme vysvědčení studenta, které máme uložené jako seznam.
 
@@ -266,7 +270,7 @@ print(f'nejlepší je {min(sledovane_znamky)}')
 print(f'nejhorší je {max(sledovane_znamky)}')
 ```
 
-## 3 - Přijímačky a moduly ○○○♦♦
+## 3 - Přijímačky a moduly ◇◇◇◆◆
 
 Ve statistice existuje ukazatel zvaný _modus_, který vrátí nejčastější hodnotu v datech. V modulu `statistics` existuje
 funkce `mode()`, která umí modus spočítat. Funkce `mode()` má navíc vychytávku, umí pracovat i s řetězci.
@@ -299,7 +303,7 @@ print(f'nejčastější volbou bylo: {statistics.mode(votes)}')
 
 # Další příklady na procvičení
 
-## 1 - Průměrné teploty ○○○♦♦
+## 1 - Průměrné teploty ◇◇◇◆◆
 
 Následující tabulka obsahuje průměrné roční teploty v České republice za roky 2001 až 2010 (zdroj: Český
 hydrometeorologický ústav).
@@ -376,7 +380,7 @@ sloupce = [
 print(sorted(sloupce[1]))
 ```
 
-## 2 - Známky z písemek ○○♦♦♦
+## 2 - Známky z písemek ◇◇◆◆◆
 
 Máme data o písemce, která obsahovala 4 otázky. Za každou otázku mohl student (studentka) získat max. 10 bodů.  
 Výsledky studentů jsou v následující tabulce.
@@ -462,7 +466,7 @@ print(prumery)
 # z výsledného seznamu je možné vyčíst jednotlivé průměry
 ```
 
-## 3 - Zasedačka ○○♦♦♦
+## 3 - Zasedačka ◇◇◆◆◆
 
 Níže máš seznam akcí, které se konaly v zasedačce jedné firmy.
 
@@ -513,4 +517,70 @@ for radek_text in akce:
 
 print(f'dostupne jazyky jsou {dostupne_jazyky}')
 print(f'bylo {pocet_pohovoru} pohovoru')
+```
+
+
+## 1 - Stříbrná medaile ◇◆◆◆◆◆
+
+Stříbrná medaile je sice úžasný úspěch, ale kdo by nechtěl vyhrát? Podívejme se, kolik chybělo stříbrnému běžci k vítězství.
+
+- Nejprve si vytvoř dvě proměnné, do kterých ulož čas vítěze a čas závodníka se stříbrnou medailí. Oba časy převeď na minuty a ulož jako číslo.
+- Vypočti rozdíl obou proměnných. Tím zjistíš, kolik minut chybělo stříbrnému závodníku k vítězství.
+
+### Řešení
+
+```python
+vysledky = [
+    ["Brunner Radek", [3, 0, 9]], 
+    ["Urban Jaroslav", [3, 11, 44]], 
+    ["Andrle Jakub", [3, 12, 21]], 
+    ["Fiala Stanislav", [3, 13, 31]]
+]
+
+#                  hodiny                   minuty               vteriny
+vitezny_cas  = vysledky[0][1][0] * 60 + vysledky[0][1][1] + vysledky[0][1][2] / 60
+stribrny_cas = vysledky[1][1][0] * 60 + vysledky[1][1][1] + vysledky[1][1][2] / 60
+
+rozdil = stribrny_cas - vitezny_cas
+```
+
+
+## 2 - Závody podruhé ◆◆◆◆◆
+
+Zadání je podobné jako u předchozího příkladu, ale nyní zkusíme výpočet provést pro všechny závodníky.
+
+- Nejprve (pomocí cyklu a metody `append()`) vytvoř dvourozměrný seznam, kde na nulté pozici vnořeného seznamu je číslo běžce a na první pozici je čas běžce v minutách jako desetinné číslo.
+- Ve druhém kroku (opět pomocí cyklu a metody `append()`) vytvoř další dvourozměrný seznam, kde na nulté pozici vnořeného seznamu je číslo běžce a na první pozici je rozdíl času běžce oproti času vítěze v minutách. Jinak řečeno, bude tam číslo, které udává, o kolik by běžec musel být rychlejší, aby závod vyhrál.
+
+### Řešení
+
+```python
+vysledky = [
+    ["Brunner Radek", [3, 0, 9]], 
+    ["Urban Jaroslav", [3, 11, 44]], 
+    ["Andrle Jakub", [3, 12, 21]], 
+    ["Fiala Stanislav", [3, 13, 31]]
+]
+
+# použijeme funkci enumerate, dostaneme tak zároveň i pozici v seznamu
+# https://docs.python.org/3/library/functions.html#enumerate
+
+casy = []
+
+for pozice, data in enumerate(vysledky, start=1):
+    cas_v_minutach = data[1][0] * 60 + data[1][1] + data[1][2] / 60
+    casy.append([pozice, cas_v_minutach])
+
+print(casy)
+
+
+vitezny_cas  = vysledky[0][1][0] * 60 + vysledky[0][1][1] + vysledky[0][1][2] / 60
+
+rozdily = []
+
+for pozice, data in enumerate(vysledky, start=1):
+    cas_v_minutach = data[1][0] * 60 + data[1][1] + data[1][2] / 60
+    rozdily.append([pozice, cas_v_minutach - vitezny_cas])
+
+print(rozdily)
 ```

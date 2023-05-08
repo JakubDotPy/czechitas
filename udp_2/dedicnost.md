@@ -45,7 +45,7 @@ class Balik:
                f' - {"doručen" if self.dorucen else "nedoručen"}'
 ```
 
-## 1 - částečný úvazek ○○♦♦♦
+## 1 - částečný úvazek ◇◇◆◆◆
 
 Naše firma se rozhodla zaměstnávat i pracovníky na částečné úvazky, pro které bude vytvořena zvláštní třída. Vytvoř
 novou třídu `Brigadnik`, která bude dědit od třídy `Zamestnanec` a bude mít navíc atribut `uvazek`, který reprezentuje
@@ -63,7 +63,7 @@ class Brigadnik(Zamestnanec):
         return super().__str__() + f' velikost uvazku: {self.uvazek}'
 ```
 
-## 2 - Balík ○○♦♦♦
+## 2 - Balík ◇◇◆◆◆
 
 Pokračuj ve své práci pro zásilkovou společnost.  
 Společnost nově doručuje i cenné balíky, které mají zadanou určitou hodnotu. Vytvoř třídu `CennyBalik`, která dědí od

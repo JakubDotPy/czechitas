@@ -1,6 +1,6 @@
 # Příklady na procvičení
 
-## 1 - Přijímačky ○○○♦♦
+## 1 - Přijímačky ◇◇◇◆◆
 
 Vrať se k příkladu vysvědčení studenta.
 
@@ -44,7 +44,7 @@ for predmet_znamka in school_report:
 print(f'Průměr sledovaných předmětů je: {soucet / len(sledovane_predmety)}')
 ```
 
-## 2 - Rodná čísla ○○♦♦♦
+## 2 - Rodná čísla ◇◇◆◆◆
 
 V následujícím seznamu máš seznam rodných čísel pacientů, kteří navštívili v jeden konkrétní den lékařskou ordinaci.
 
@@ -95,7 +95,7 @@ print(f'nejmladsi se narodil {max(datumy_jako_cislo)}')
 print(f'nejstarší se narodil {min(datumy_jako_cislo)}')
 ```
 
-## 3 - Fahrenheit vs. Celsius ○○○♦♦
+## 3 - Fahrenheit vs. Celsius ◇◇◇◆◆
 
 Pokud pečete podle anglických receptů, často se po váš požaduje rozehřát troubu na uvedenou teplotu. Pokud si ovšem
 neuvědomíte, že Američané používají pro měření teploty stupně Fahrenheita namísto Celsia, bude vás na konci pečení čekat

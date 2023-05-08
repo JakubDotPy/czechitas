@@ -1,6 +1,6 @@
 # Množiny
 
-## 1 - Množiny ○○♦♦♦
+## 1 - Množiny ◇◇◆◆◆
 
 Následující text převeďte na množinu unikátních znaků, zjistěte počet unikátních znaků a vypište jejich seřazený seznam.
 
@@ -42,7 +42,7 @@ print(unikatni)
 
 # Slovníky
 
-## 1 - Vysvědčení ○○○○♦
+## 1 - Vysvědčení ◇◇◇◇◆
 
 Vytvoř slovník, který reprezentuje vysvědčení.  
 Klíč slovníku bude název předmětu a hodnota známka z daného předmětu.  
@@ -59,7 +59,7 @@ vysvedceni = {
 }
 ```
 
-## 2 - Detektivky ○○○♦♦
+## 2 - Detektivky ◇◇◇◆◆
 
 Vydavatel detektivek si eviduje prodané kusy u jednotlivých knih.  
 V následujícím slovníku najdeš tři knihy a u každé z nich je počet prodaných kusů.
@@ -86,7 +86,7 @@ prodano['Noc, která mě zabila'] = 0
 prodano['Vrah zavolá v deset'] += 100
 ```
 
-## 3 - Tombola ○○♦♦♦
+## 3 - Tombola ◇◇◆◆◆
 
 V následujícím slovníku jsou uložena čísla lístků tomboly a příslušné výhry.
 
@@ -127,9 +127,11 @@ print(f'Vyhrál jsi: {vyhra}')
 tombola.pop(cislo_uzivatele)
 ```
 
+---
+
 # Bonusy
 
-## 4 - Paranoidní večírek ○♦♦♦♦
+## 4 - Paranoidní večírek ◇◆◆◆◆
 
 Pořadatel našeho večírku se stává stále více paranoidním a nyní rozhodl, že každý z hostů bude mít speciální heslo,
 které je platné jen pro něj. Seznam hostů a jejich hesel je níže.  
@@ -159,7 +161,7 @@ print(vstup)
 
 # Slovníky a cykly
 
-## 1 - Vysvědčení ○○○♦♦
+## 1 - Vysvědčení 2 ◇◇◇◆◆
 
 Uvažujme vysvědčení, které máme zapsané jako slovník.
 
@@ -193,7 +195,7 @@ for predmet, znamka in vysvedceni.items():
         print('\t' + predmet)
 ```
 
-## 2 - Čtenářský deník ○○○♦♦
+## 2 - Čtenářský deník ◇◇◇◆◆
 
 Gustav je vášnivým čtenářem detektivek z našeho nakladatelství a navíc si zapisuje knihy, které přečetl.  
 Níže ve slovníku vidíme, jaké informace si eviduje - název knihy, počet stran a hodnocení od 0 do 10.
@@ -234,9 +236,11 @@ for kniha in knihy:
 print(f'Počet knih s hodnocením >= 8: {pocet_nad_osm}')
 ```
 
+---
+
 # Bonusy
 
-## 3 - Poznávací značky ○○♦♦♦
+## 3 - Poznávací značky ◇◇◆◆◆
 
 V následujícím slovníků je evidence automobilů. Klíčem jsou státní poznávací značky (SPZ) a hodnotou je jméno majitele
 vozu.
@@ -264,7 +268,7 @@ for spz, jmeno in spzetky.items():
         print(f'- {jmeno}')
 ```
 
-## 4 - Recepty ○○♦♦♦
+## 4 - Recepty ◇◇◆◆◆
 
 Pohlédněte na následující reprezentaci receptu:
 
@@ -320,7 +324,7 @@ print(f'recept stojí celkem {celkem} Kč')
 
 # Cvičení na doma
 
-## 1 - Spolubydlící ○♦♦♦♦
+## 1 - Spolubydlící ◇◆◆◆◆
 
 Zkus dotáhnout náš program na finanční vypořádání spolubydlících. Z lekce si můžeš zkopírovat kódy, které vytvoří slovník s útratami jednotlivých spolubydlících a výpočet průměrné útraty na osobu.  
 Dopiš cyklus, který projde slovník `sum_per_person` a pro každého ze spolubydlících vypíše, kolik by měl doplatit (pokud utratil(a) méně než průměr), případně kolik by měl obdržet (pokud utratil(a) více než průměr).
