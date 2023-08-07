@@ -67,6 +67,8 @@ print(f'9207054439 -> {month_of_birth(9207054439)}')
 print(f'9555125899 -> {month_of_birth(9555125899)}')
 ```
 
+---
+
 # Čtení na doma
 
 ## 1 - Hotel ◇◇◇◆◆

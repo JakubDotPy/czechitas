@@ -80,6 +80,8 @@ for cislo in [1, 2, 1, 100, 3, 3, 4]:
 print(ciste)
 ```
 
+---
+
 # Bonusy
 
 ## 6 - Přijímačky ◇◇◇◆◆

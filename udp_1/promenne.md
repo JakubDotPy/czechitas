@@ -66,6 +66,8 @@ cena_dite = cena_dospely * 0.5
 naklady = 60 * cena_dospely + 8 * cena_dite
 ```
 
+---
+
 # Cvičení na doma
 
 ## 1 - Hrátky s proměnnými ◇◇◇◇◆

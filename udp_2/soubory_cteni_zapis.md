@@ -58,7 +58,9 @@ for radek in seznam_radku:
 print(f'celkovy pocet slov je {celkovy_pocet_slov}')
 ```
 
-# Bonus
+---
+
+# Bonusy
 
 ## 3 - Půjčovna ◇◆◆◆◆
 
