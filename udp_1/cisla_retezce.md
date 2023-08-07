@@ -14,11 +14,11 @@ Použijte Python konzoli jako kalkulačku:
 ### Řešení
 
 ```python
-12 * 174 * 15
+print(12 * 174 * 15)
 ```
 
 ```python
-((12 * 174 / 2) + (12 * 0.65 * 174 / 2)) * 15
+print(((12 * 174 / 2) + (12 * 0.65 * 174 / 2)) * 15)
 ```
 
 ## 2 - Hrátky s řetězci ◇◇◇◆◆
@@ -32,19 +32,19 @@ Použijte Python konzoli jako kalkulačku:
 ### Řešení
 
 ```python
-'Divadlo Pěst na oko'
+print('Divadlo Pěst na oko')
 ```
 
 ```python
-'Divadlo ' + 'Pěst ' + 'na ' + 'oko'
+print('Divadlo ' + 'Pěst ' + 'na ' + 'oko')
 ```
 
 ```python
-'Divadlo Pěst na oko ' * 5
+print('Divadlo Pěst na oko ' * 5)
 ```
 
 ```python
-'1' * 256 + '0' * 256
+print('1' * 256 + '0' * 256)
 ```
 
 ---
@@ -53,8 +53,8 @@ Použijte Python konzoli jako kalkulačku:
 
 ## 3 - Shannonovo číslo ◇◇◆◆◆
 
-- Takzvané Shannonovo číslo má hodnotu 10^120^ a udává kolik nejméně lze odehrát různých šachových partií. Vytvořte
-  řetězec, který obsahuje toto číslo zapsané běžným způsobem pomocí cifer. Například 10^3^ je 1000, 10^6^ je 1000000
+- Takzvané Shannonovo číslo má hodnotu 10^120 a udává kolik nejméně lze odehrát různých šachových partií. Vytvořte
+  řetězec, který obsahuje toto číslo zapsané běžným způsobem pomocí cifer. Například 10^3 je 1000, 10^6 je 1000000
   atd.
 - Čísla s mnoha nulami je v Česku zvykem zapisovat tak, že každé tři nuly následuje mezera. Jeden milión se tedy zapíše
   jako 1 000 000. Vytvořte řetězec, který obsahuje Shannonovo číslo z předchozího cvičení zapsané v tomto formátu.
@@ -62,9 +62,9 @@ Použijte Python konzoli jako kalkulačku:
 ### Řešení
 
 ```python
-'1' + '0' * 120
+print('1' + '0' * 120)
 ```
 
 ```python
-'1' + ' 000' * (120 // 3)
+print('1' + ' 000' * (120 // 3))
 ```

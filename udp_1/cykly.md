@@ -41,7 +41,7 @@ hesla = [
     "kristus-te-spasi",
     "beruška",
     "strčprstskrzkrk",
-    ]
+]
 ```
 
 - Pomocí cyklu vypište všechny hesla na obrazovku, každé na jeden řádek.
@@ -81,7 +81,7 @@ mesice = [
     ["říjen", 31],
     ["listopad", 30],
     ["prosinec", 31],
-    ]
+]
 ```
 
 - Pomocí cyklu projděte tento seznam a vypište na výstup názvy jednotlivých měsíců.
@@ -95,7 +95,7 @@ mesice = [
 # Pomocí cyklu projděte tento seznam a vypište na výstup názvy jednotlivých měsíců.
 for mesic in mesice:
     print(mesic[0])
-    
+
 # Pomocí dalšího cyklu vypište na výstup počty dní v jednotlivých měsících.
 for mesic in mesice:
     print(mesic[1])
@@ -125,7 +125,7 @@ hry = [
     ["Stařec a krajta", 187],
     ["Růžová nemoc", 210],
     ["Smrt v přímém přenosu", 265],
-    ]
+]
 ```
 
 - Pomocí cyklu projděte tento seznam a vypište na výstup názvy všech her.
