@@ -1,6 +1,6 @@
 # Cvičení: Další příklady cyklů
 
-## 1 - Tombola ○○○♦♦
+## 1 - Tombola ◇◇◇◆◆
 
 V tombole bylo prodáno celkem 1000 lístků. Naším úkolem je vylosovat náhodně tři výherce. Napište program, který
 vygeneruje a vypíše tři čísla mezi 1 a 1000.  
@@ -17,7 +17,7 @@ for _ in range(3):
     print(random.randint(1, 1000))
 ```
 
-## 2 - Dělitelnost více čísly ○○○♦♦
+## 2 - Dělitelnost více čísly ◇◇◇◆◆
 
 Vypišme si čísla z nějakého rozsahu na základě jejich dělitelnosti dvěma čísly.
 
@@ -40,7 +40,7 @@ for n in range(30):
         print(f'{n} je dělitelné 5 nebo 6')
 ```
 
-## 3 - Seznam hostů na párty ○○○♦♦
+## 3 - Seznam hostů na párty ◇◇◇◆◆
 
 Vraťte se k příkladu se zadáváním seznamu hostu na párty a zkopírujte si kód k sobě do editoru.  
 Upravte program tak, že pokud uživatel v průběhu zadávání jmen napíše "konec", cyklus na zadávání jmen se ukončí.
@@ -58,9 +58,11 @@ for i in range(number_of_guests):
 print(guest_list)
 ```
 
+---
+
 # Bonusy
 
-## 4 - Prvočíslo ○♦♦♦♦
+## 4 - Prvočíslo ◇◆◆◆◆
 
 Požádej uživatele o zadání celého čísla. Následně urči, zda je toto číslo prvočíslo.
 
@@ -89,7 +91,7 @@ print(f'cislo {testovane} {"je" if prvocislo else "není"} prvocislo')
 
 # Cvičení: Cyklus while
 
-## 1 - Hádání čísla ○♦♦♦♦
+## 1 - Hádání čísla ◇◆◆◆◆
 
 Napište interaktivní hru, ve které počítač vygeneruje tajné číslo v rozsahu 1 až 100 (použijte
 funkci `random.randint()`).  
@@ -120,7 +122,7 @@ while True:
 
 # Cvičení: list comprehension
 
-## 1 - Seznamy čísel ○○○○♦
+## 1 - Seznamy čísel ◇◇◇◇◆
 
 Mějme zadaný následující seznam
 
@@ -144,7 +146,7 @@ na_druhou = [n ** 2 for n in cisla]
 jako_str = [str(n) for n in cisla]
 ```
 
-## 2 - Seznamy řetězců ○○○♦♦
+## 2 - Seznamy řetězců ◇◇◇◆◆
 
 Mějme zadaný následující seznam
 
@@ -168,7 +170,7 @@ s_ackem = [jmeno + 'a' for jmeno in jmena]
 emaily = [f'{jmeno.lower()}@email.cz' for jmeno in jmena]
 ```
 
-## 3 - Seznam teplot ○○♦♦♦
+## 3 - Seznam teplot ◇◇◆◆◆
 
 Mějme zadaný následující seznam naměřených teplot. Seznam obsahuje teploty naměřené pro každý den v týdnu ve čtyřech
 časech - ráno, v poledne, večer a v noci.
@@ -201,7 +203,7 @@ nocni = [den[-1] for den in teploty]
 poledne_a_noc = [[den[1], den[-1]] for den in teploty]
 ```
 
-## 4 - Čtení kódu ○○○♦♦
+## 4 - Čtení kódu ◇◇◇◆◆
 
 V této úloze jde o pochopení kódu.  
 Nemá tak dané řešení.
@@ -210,7 +212,7 @@ Nemá tak dané řešení.
 
 # Doporučené úložky na doma
 
-## 5 - Ověřování věku ○○○○♦
+## 5 - Ověřování věku ◇◇◇◇◆
 
 Následující seznam obsahuje věky uživatelů naší malé sociální sítě.
 
@@ -231,7 +233,7 @@ starsi_18 = [vek > 18 for vek in veky]
 stary_presne_18 = [vek == 18 for vek in veky]
 ```
 
-## 6 - Promítání ○○○♦♦
+## 6 - Promítání ◇◇◇◆◆
 
 V letním kině Šmajchl mají program na každý den uložený jako dva seznamy. První seznam obsahuje názvy filmů a druhý
 jejich délky v minutách, např. takto:
@@ -258,7 +260,7 @@ trvani = ['2:16', '1:45', '1:22']
 trvani = [f'{d // 60}:{d % 60}' for d in delky]
 ```
 
-## 7 - Počty obyvatel ○○○♦♦
+## 7 - Počty obyvatel ◇◇◇◆◆
 
 Mějme počty obyvatel v jednotlivých krajích ČR podle následující tabulky.
 
@@ -318,7 +320,7 @@ jmena_a_pocty = [
 ]
 ```
 
-## 8 - Volby ○○♦♦♦
+## 8 - Volby ◇◇◆◆◆
 
 Máme pět kandidátů na post prezidenta ČR. Následující tabulka obsahuje hlasy, které jednotliví kandidáti získali v prvním kole prezidentských voleb.
 
@@ -407,7 +409,7 @@ print(procenta)
 
 # Volitelné úložky na doma
 
-## 9 - Elegantní volby ○♦♦♦♦
+## 9 - Elegantní volby ◇◆◆◆◆
 
 Pokud vás trápí, že řešení varianty e) v úloze o volbách není příliš elegantní, zkuste sestavit Python výraz na jeden řádek, 
 který celý bod e) vyřeší najednou. Bude potřeba do sebe zanořit dvě chroustání seznamů, jedno přes hodnoty v řádcích a druhé přes jednotlivé kraje.

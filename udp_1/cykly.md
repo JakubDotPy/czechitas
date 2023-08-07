@@ -1,6 +1,6 @@
 # Cvičení
 
-## 1 - Seznam hodnocení ○○○○♦
+## 1 - Seznam hodnocení ◇◇◇◇◆
 
 Mějme seznam hodnocení divadelní hry *Plyšáci na útěku*, který vypadá takto:
 `hodnoceni = [7, 9, 6, 7, 9, 8]`  
@@ -22,7 +22,7 @@ for prvek in hodnoceni:
     print(f"{prvek}/10")
 ```
 
-## 2 - Procházení seznamu ○♦♦♦♦
+## 2 - Procházení seznamu ◇◆◆◆◆
 
 Založte si program `hesla.py` a na jeho začátek vložte následující kód obsahující seznam hesel pro přihlášení do
 nějakého systému.
@@ -62,7 +62,7 @@ for heslo in hesla:
         print(heslo)
 ```
 
-## 3 - Složitější seznam ○○○○♦
+## 3 - Složitější seznam ◇◇◇◇◆
 
 Založte si program `cykly_02.py` a použijte v něm následující seznam měsíců v roce. Všimněte si, že je to seznam
 seznamů.
@@ -101,9 +101,11 @@ for mesic in mesice:
     print(mesic[1])
 ```
 
+---
+
 # Bonusy
 
-## 4 - Hry ○○♦♦♦
+## 4 - Hry ◇◇◆◆◆
 
 Následující seznam obsahuje seznam všech divadelních her, které se hrají v divadle Pěst na oko. Každá hra má svůj název
 a trvání v minutách.
@@ -147,7 +149,7 @@ for hra in hry:
     print(f"{hra[0]} trvá {hra[1] // 60} hodin a {hra[1] % 60} minut.")
 ```
 
-## 5 - Průměr ○○○♦♦
+## 5 - Průměr ◇◇◇◆◆
 
 Napište cyklus, který projde zadaný seznam desetinných čísel a spočítá jejich průměr. Seznam čísel si vytvořte na
 začátku programu.
@@ -163,7 +165,7 @@ prumer = soucet / len(cisla)
 print(prumer)
 ```
 
-## 6 - Největší prvek ○○♦♦♦
+## 6 - Největší prvek ◇◇◆◆◆
 
 Napište cyklus, který projde zadaný seznam celých čísel a najde v něm největší hodnotu.
 

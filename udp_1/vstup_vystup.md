@@ -2,7 +2,7 @@
 
 *tato sekce obsahuje formátování řetězců pomocí `f-string`, které najdete vysvětlené v sekci čtení na doma*
 
-## 1 - Jednoduchý výstup ○○○♦♦
+## 1 - Jednoduchý výstup ◇◇◇◆◆
 
 Náš vůbec první program nebude dělat nic víc, než vypisovat text na obrazovku.
 
@@ -35,7 +35,7 @@ minuta = 30
 print(f'{nazev} - {hodina}:{minuta:02}')
 ```
 
-## 2 - Jednoduchý vstup ○○○♦♦
+## 2 - Jednoduchý vstup ◇◇◇◆◆
 
 Teď už budeme chtít, aby náš program dokázal získat vstup od uživatele.
 
@@ -59,7 +59,7 @@ vek = int(vek)
 print(f'{jmeno} {prijmeni}, věk: {vek}')
 ```
 
-## 3 - Zakázka pro divadlo ○○○♦♦
+## 3 - Zakázka pro divadlo ◇◇◇◆◆
 
 Divadlo požaduje systém pro online rezervaci vstupenek na pořádaná představení. Váš první úkol na této zakázce je
 vytvořit registraci pro nové uživatele tohoto systému.
@@ -82,9 +82,11 @@ uzivatel = input('Zadej uživatelské jméno: ')
 vek = int(input('Zadej věk: '))
 ```
 
+---
+
 # Bonusy
 
-## 4 - Házení kostkami ○♦♦♦♦
+## 4 - Házení kostkami ◇◆◆◆◆
 
 Napište program `kostky.py`, který bude simulovat hod dvěma klasickými šestistěnnými kostkami. Jeho výstupu bude součet
 bodů na těchto dvou kostkách.
@@ -105,7 +107,7 @@ cislo = random.randint(1, 6) + random.randint(1, 6)
 print(cislo)
 ```
 
-## 5 - Generátor čísel ○○○♦♦
+## 5 - Generátor čísel ◇◇◇◆◆
 
 Napište program `generator.py`, který si od uživatele vyžádá dvě celá čísla - dolní mez a horní mez - a vypíše na výstup
 náhodné číslo v zadaných mezích.

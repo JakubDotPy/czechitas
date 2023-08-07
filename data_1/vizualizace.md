@@ -1,6 +1,6 @@
 # Cvičení
 
-## 1 - Házení kostkami ○○○♦♦
+## 1 - Házení kostkami ◇◇◇◆◆
 
 Mějme dvě
 hrací [kostky](https://kodim.cz/cms/assets/kurzy/python-data-1/python-pro-data-1/vizualizace/excs/excs%3Ehazeni-kostkami/kostky.csv)
@@ -28,7 +28,7 @@ plt.show()
 # častěji padne 12
 ```
 
-## 2 - Call centrum ○○○♦♦
+## 2 - Call centrum ◇◇◇◆◆
 
 V
 souboru [callcentrum.csv](https://kodim.cz/cms/assets/kurzy/python-data-1/python-pro-data-1/vizualizace/excs/excs%3Ecall-centrum/callcentrum.csv)
@@ -59,7 +59,7 @@ plt.show()
 # umožňuje nám lepší náhled na celkové rozložení
 ```
 
-## 2 - Hurá na hory ○○○♦♦
+## 2 - Hurá na hory ◇◇◇◆◆
 
 Následující data obsahují úhrnné množství sněhu (v cm) napadlé za každý rok pro posledních 50 let pro dva lyžarské
 resorty.  

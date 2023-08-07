@@ -1,6 +1,6 @@
-# Cvičení
+# Cvičení: Třídy
 
-## 1 - Balík ○○♦♦♦
+## 1 - Balík ◇◇◆◆◆
 
 Uvažuj, že navrhuješ software pro zásilkovou společnost.
 
@@ -35,7 +35,7 @@ b2.doruc()
 print(b2)
 ```
 
-## 2 - Kniha ○○○♦♦
+## 2 - Kniha ◇◇◇◆◆
 
 Zkus pro našeho nakladatele vytvořit software s využitím tříd a objektů.  
 Vytvoř tedy třídu `Kniha`, která reprezentuje knihu. Každá kniha bude mít atributy `nazev`, `pocet_stran` a `cena`.

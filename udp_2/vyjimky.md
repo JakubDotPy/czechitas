@@ -1,6 +1,6 @@
 # Cvičení: Výjimky
 
-## 1 - Ošetření dělení nulou ○○○♦♦
+## 1 - Ošetření dělení nulou ◇◇◇◆◆
 
 Předchozí ukázku uprav následujícím způsobem:
 
