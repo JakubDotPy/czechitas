@@ -322,6 +322,8 @@ for ingredience in recept['ingredience']:
 print(f'recept stojí celkem {celkem} Kč')
 ```
 
+---
+
 # Cvičení na doma
 
 ## 1 - Spolubydlící ◇◆◆◆◆

@@ -58,7 +58,9 @@ for radek in seznam_radku:
 print(f'celkovy pocet slov je {celkovy_pocet_slov}')
 ```
 
-# Bonus
+---
+
+# Bonusy
 
 ## 3 - Půjčovna ◇◆◆◆◆
 
@@ -270,7 +272,7 @@ for karta in ruka:
 print(f'mame celkem {body}')
 ```
 
-## 5 - Karty3 ◇◆◆◆◆
+## 5 - Karty 3 ◇◆◆◆◆
 
 Zkusme vyřešit problém losování karet tak, aby se nám nemohlo stát, že nám nějaká karta padne vícekrát, když by správně v balíčku měla být od každé karty pouze jedna.
 

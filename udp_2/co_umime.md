@@ -1,6 +1,90 @@
 # Příklady na procvičení
 
-## 1 - Přijímačky ◇◇◇◆◆
+## 1 - Součet čísel v seznamu ○○○○♦
+
+Napiš kód, který zpracuje seznam čísel a vypíše jejich součet (bez použití funkce `sum()`).
+
+### Řešení
+
+```python
+soucet = 0
+
+for cislo in [1, 2, 3, 4]:
+    soucet += cislo
+
+print(soucet)
+```
+
+## 2 - Největší prvek v seznamu ○○○○♦
+
+Napiš kód, který zpracuje seznam čísel a vypíše největší prvek v tomto seznamu (bez použití funkce `max()`).
+
+### Řešení
+
+```python
+nejvetsi = 0
+
+for cislo in [1, 2, 100, 3, 4]:
+    if cislo > nejvetsi:
+        nejvetsi = cislo
+
+print(nejvetsi)
+```
+
+## 3 - Sudá čísla ○○○♦♦
+
+Napiš kód, který zpracuje seznam čísel a vypíše pouze sudá čísla z tohoto seznamu.
+
+### Řešení
+
+```python
+for cislo in [1, 2, 100, 3, 4]:
+    if cislo % 2 == 0:
+        print(cislo)
+```
+
+## 4 - Rozdělení čísel ○○○♦♦
+
+Napiš kód, který zpracuje seznam čísel a vytvoří nový seznam se sudými čísly a nový seznam s lichými čísly z původního
+seznamu.
+
+### Řešení
+
+```python
+sude = []
+liche = []
+
+for cislo in [1, 2, 100, 3, 4]:
+    if cislo % 2 == 0:
+        sude.append(cislo)
+    else:
+        liche.append(cislo)
+
+print(sude)
+print(liche)
+```
+
+## 5 - Odstranění duplikátŮ ○○○♦♦
+
+Napiš kód, který zpracuje seznam a vytvoří nový seznam bez duplikátů. Výsledné pořadí prvků musí být zachováno.
+
+### Řešení
+
+```python
+ciste = []
+
+for cislo in [1, 2, 1, 100, 3, 3, 4]:
+    if cislo not in ciste:
+        ciste.append(cislo)
+
+print(ciste)
+```
+
+---
+
+# Bonusy
+
+## 6 - Přijímačky ◇◇◇◆◆
 
 Vrať se k příkladu vysvědčení studenta.
 
@@ -44,7 +128,7 @@ for predmet_znamka in school_report:
 print(f'Průměr sledovaných předmětů je: {soucet / len(sledovane_predmety)}')
 ```
 
-## 2 - Rodná čísla ◇◇◆◆◆
+## 7 - Rodná čísla ◇◇◆◆◆
 
 V následujícím seznamu máš seznam rodných čísel pacientů, kteří navštívili v jeden konkrétní den lékařskou ordinaci.
 
@@ -66,14 +150,14 @@ rodna_cisla = [
 - Kolik přišlo mužů a kolik žen?
 - Kdy se narodil nejstarší a kdy nejmladší pacient?
 
-*Poznámka:
-Pokud nevíš, jak funguje rodné číslo, vysvětlení je níže:
+
+Pokud nevíš, jak funguje rodné číslo, vysvětlení je níže:  
 Rodné číslo je identifikační číslo, které slouží k jednoznačné identifikaci osoby. V České republice se rodné číslo
 skládá z 10 číslic a jednoho lomítka, které ho rozděluje na části.
-Prvních 6 číslic udává datum narození v pořadí rok (2 číslice), měsíc (2 číslice) a den (2 číslice). Například pro
+- Prvních 6 číslic udává datum narození v pořadí rok (2 číslice), měsíc (2 číslice) a den (2 číslice). Například pro
 narození 2. února 1990 by prvních 6 číslic mělo být 900202. Zbytek rodného čísla (tj. část za lomítkem) slouží k
 identifikaci konkrétní osoby.
-Ženy mají k číslu měsíce přičteno 50, např. 845128/6219 je číslo patřící ženě.*
+- Ženy mají k číslu měsíce přičteno 50, např. 845128/6219 je číslo patřící ženě.*
 
 ### Řešení
 
@@ -93,24 +177,4 @@ print(f'přišlo {pocet_muzu} mužů a {len(rodna_cisla) - pocet_muzu} žen')
 
 print(f'nejmladsi se narodil {max(datumy_jako_cislo)}')
 print(f'nejstarší se narodil {min(datumy_jako_cislo)}')
-```
-
-## 3 - Fahrenheit vs. Celsius ◇◇◇◆◆
-
-Pokud pečete podle anglických receptů, často se po váš požaduje rozehřát troubu na uvedenou teplotu. Pokud si ovšem
-neuvědomíte, že Američané používají pro měření teploty stupně Fahrenheita namísto Celsia, bude vás na konci pečení čekat
-nemilé překvapení.
-
-Nastudujte si na České Wikipedii jak se převádějí stupně Fahrenheita na stupně Celsia a napište program, který takový
-převod provede. Váš program se zeptá uživatele na teplotu ve stupních Fahrenheita a vypíše její ekvivalent ve stupních
-Celsia.
-
-### Řešení
-
-```python
-fahrenheit = float(input('Zadej teplotu ve stupních Fahrenheita: '))
-
-celsius = (5 * (fahrenheit - 32)) / 9
-
-print(f'Teplota ve stupních Celsia je: {round(celsius, 2)}')
 ```

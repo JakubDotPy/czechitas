@@ -270,7 +270,7 @@ print(f'nejlepší je {min(sledovane_znamky)}')
 print(f'nejhorší je {max(sledovane_znamky)}')
 ```
 
-## 3 - Přijímačky a moduly ◇◇◇◆◆
+## 3 - Vánoční párty ◇◇◇◆◆
 
 Ve statistice existuje ukazatel zvaný _modus_, který vrátí nejčastější hodnotu v datech. V modulu `statistics` existuje
 funkce `mode()`, která umí modus spočítat. Funkce `mode()` má navíc vychytávku, umí pracovat i s řetězci.
@@ -308,18 +308,18 @@ print(f'nejčastější volbou bylo: {statistics.mode(votes)}')
 Následující tabulka obsahuje průměrné roční teploty v České republice za roky 2001 až 2010 (zdroj: Český
 hydrometeorologický ústav).
 
-| rok  | teplota °C |
-|------|------------|
-| 2001 | 	7.8       |
-| 2002 | 	8.7       |
-| 2003 | 	8.2       |
-| 2004 | 	7.8       |
-| 2005 | 	7.7       |
-| 2006 | 	8.2       |
-| 2007 | 	9.1       |
-| 2008 | 	8.9       |
-| 2009 | 	8.4       |
-| 2010 | 	7.2       |
+| rok  | teplota °C  |
+|------|:-----------:|
+| 2001 |     7.8     |
+| 2002 |     8.7     |
+| 2003 |     8.2     |
+| 2004 |     7.8     |
+| 2005 |     7.7     |
+| 2006 |     8.2     |
+| 2007 |     9.1     |
+| 2008 |     8.9     |
+| 2009 |     8.4     |
+| 2010 |     7.2     |
 
 Vytvořte reprezentaci této tabulky pomocí seznamu seznamů. Zde existují dvě možnosti.  
 Nejprve vytvořte seznam, který obsahuje řádky tabulky jako dvouprvkové seznamy a uložte jej do proměnné `radky`.  
@@ -399,12 +399,12 @@ Spočítej známku jednotlivých studentů. Známku urči podle celkového počt
 níže.
 
 | Body        | Známka |
-|-------------|--------|
-| 36 a více   | 1      |
-| 32 a více   | 2      |
-| 26 a více   | 3      |
-| 20 a více   | 4      |
-| méně než 20 | 5      |
+|-------------|-------:|
+| 36 a více   |      1 |
+| 32 a více   |      2 |
+| 26 a více   |      3 |
+| 20 a více   |      4 |
+| méně než 20 |      5 |
 
 Vypočítej průměrné body z jednotlivých otázek. Ze které otázky dostali studenti v průměru nejvíce bodů? A ze které
 naopak nejméně?
@@ -519,46 +519,49 @@ print(f'dostupne jazyky jsou {dostupne_jazyky}')
 print(f'bylo {pocet_pohovoru} pohovoru')
 ```
 
-
 ## 1 - Stříbrná medaile ◇◆◆◆◆◆
 
-Stříbrná medaile je sice úžasný úspěch, ale kdo by nechtěl vyhrát? Podívejme se, kolik chybělo stříbrnému běžci k vítězství.
+Stříbrná medaile je sice úžasný úspěch, ale kdo by nechtěl vyhrát? Podívejme se, kolik chybělo stříbrnému běžci k
+vítězství.
 
-- Nejprve si vytvoř dvě proměnné, do kterých ulož čas vítěze a čas závodníka se stříbrnou medailí. Oba časy převeď na minuty a ulož jako číslo.
+- Nejprve si vytvoř dvě proměnné, do kterých ulož čas vítěze a čas závodníka se stříbrnou medailí. Oba časy převeď na
+  minuty a ulož jako číslo.
 - Vypočti rozdíl obou proměnných. Tím zjistíš, kolik minut chybělo stříbrnému závodníku k vítězství.
 
 ### Řešení
 
 ```python
 vysledky = [
-    ["Brunner Radek", [3, 0, 9]], 
-    ["Urban Jaroslav", [3, 11, 44]], 
-    ["Andrle Jakub", [3, 12, 21]], 
+    ["Brunner Radek", [3, 0, 9]],
+    ["Urban Jaroslav", [3, 11, 44]],
+    ["Andrle Jakub", [3, 12, 21]],
     ["Fiala Stanislav", [3, 13, 31]]
 ]
 
 #                  hodiny                   minuty               vteriny
-vitezny_cas  = vysledky[0][1][0] * 60 + vysledky[0][1][1] + vysledky[0][1][2] / 60
+vitezny_cas = vysledky[0][1][0] * 60 + vysledky[0][1][1] + vysledky[0][1][2] / 60
 stribrny_cas = vysledky[1][1][0] * 60 + vysledky[1][1][1] + vysledky[1][1][2] / 60
 
 rozdil = stribrny_cas - vitezny_cas
 ```
 
-
 ## 2 - Závody podruhé ◆◆◆◆◆
 
 Zadání je podobné jako u předchozího příkladu, ale nyní zkusíme výpočet provést pro všechny závodníky.
 
-- Nejprve (pomocí cyklu a metody `append()`) vytvoř dvourozměrný seznam, kde na nulté pozici vnořeného seznamu je číslo běžce a na první pozici je čas běžce v minutách jako desetinné číslo.
-- Ve druhém kroku (opět pomocí cyklu a metody `append()`) vytvoř další dvourozměrný seznam, kde na nulté pozici vnořeného seznamu je číslo běžce a na první pozici je rozdíl času běžce oproti času vítěze v minutách. Jinak řečeno, bude tam číslo, které udává, o kolik by běžec musel být rychlejší, aby závod vyhrál.
+- Nejprve (pomocí cyklu a metody `append()`) vytvoř dvourozměrný seznam, kde na nulté pozici vnořeného seznamu je číslo
+  běžce a na první pozici je čas běžce v minutách jako desetinné číslo.
+- Ve druhém kroku (opět pomocí cyklu a metody `append()`) vytvoř další dvourozměrný seznam, kde na nulté pozici
+  vnořeného seznamu je číslo běžce a na první pozici je rozdíl času běžce oproti času vítěze v minutách. Jinak řečeno,
+  bude tam číslo, které udává, o kolik by běžec musel být rychlejší, aby závod vyhrál.
 
 ### Řešení
 
 ```python
 vysledky = [
-    ["Brunner Radek", [3, 0, 9]], 
-    ["Urban Jaroslav", [3, 11, 44]], 
-    ["Andrle Jakub", [3, 12, 21]], 
+    ["Brunner Radek", [3, 0, 9]],
+    ["Urban Jaroslav", [3, 11, 44]],
+    ["Andrle Jakub", [3, 12, 21]],
     ["Fiala Stanislav", [3, 13, 31]]
 ]
 
@@ -573,8 +576,7 @@ for pozice, data in enumerate(vysledky, start=1):
 
 print(casy)
 
-
-vitezny_cas  = vysledky[0][1][0] * 60 + vysledky[0][1][1] + vysledky[0][1][2] / 60
+vitezny_cas = vysledky[0][1][0] * 60 + vysledky[0][1][1] + vysledky[0][1][2] / 60
 
 rozdily = []
 
