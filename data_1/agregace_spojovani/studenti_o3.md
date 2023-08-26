@@ -25,7 +25,9 @@ Proveď následující úkoly a zodpověz předložené otázky.
 - Načti datový set s křestními jmény. Proveď join s tabulkou studentů tak, abychom věděli pohlaví jednotlivých studentů.
 - Zjisti, zda na naší fakultě studují IT spíše ženy nebo spíše muži.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 import pandas as pd  # zažitý způsob importu pandas
@@ -57,3 +59,5 @@ studenti = pd.merge(studenti, jmena)
 # spíše ženy, nebo muži
 print(studenti.groupby('pohlaví')['pohlaví'].count())
 ```
+
+</details>

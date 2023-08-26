@@ -14,7 +14,9 @@ Ale zpět k našim úkolům.
 - Zjisti všechny informace o pracovní pozici na desátém řádku.
 - Podívej se, kde budou pracovat zájemci vybraní na dvanáctou až dvacátou pozici.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 import pandas as pd
@@ -34,3 +36,5 @@ print(jobs.iloc[9])
 # kde pracuji vybraní na dvanáctou až dvacátou pozici
 print(jobs.iloc[10:12, 5])
 ```
+
+</details>

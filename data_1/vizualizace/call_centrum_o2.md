@@ -9,7 +9,9 @@ z těchto dvou grafů vyčíst?
 K převodu na vteřiny můžeš použít metodu str.split(). Pomocí ní rozdělíš hodnoty minut a vteřin do samostatných sloupců.
 Pomocí metody astype(int) převedeš hodnoty na čísla. Poté pomocí počítaných sloupců můžeš spočítat celkový počet vteřin.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 import pandas as pd
@@ -28,3 +30,5 @@ callcentrum.seconds.plot(kind='box')
 plt.show()
 # umožňuje nám lepší náhled na celkové rozložení
 ```
+
+</details>

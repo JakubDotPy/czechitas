@@ -29,7 +29,9 @@ narození 2. února 1990 by prvních 6 číslic mělo být 900202. Zbytek rodné
 identifikaci konkrétní osoby.
 - Ženy mají k číslu měsíce přičteno 50, např. 845128/6219 je číslo patřící ženě.*
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 pocet_muzu = 0
@@ -48,3 +50,6 @@ print(f'přišlo {pocet_muzu} mužů a {len(rodna_cisla) - pocet_muzu} žen')
 print(f'nejmladsi se narodil {max(datumy_jako_cislo)}')
 print(f'nejstarší se narodil {min(datumy_jako_cislo)}')
 ```
+
+
+</details>

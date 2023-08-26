@@ -23,7 +23,9 @@ hesla = [
 - Pomocí cyklu vypište všechny hesla na obrazovku, každé na jeden řádek.
 - Upravte váš program tak, aby vypisoval jen bezpečná hesla, tedy taková, jež jsou delší než 8 znaků.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 # hesla.py
@@ -37,3 +39,5 @@ for heslo in hesla:
     if len(heslo) > 8:
         print(heslo)
 ```
+
+</details>

@@ -5,7 +5,9 @@ pokud je dělitelný čtyřmi. Roky, které jsou dělitelné 100 jsou ovšem př
 
 400.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 rok = int(input("Zadej rok: "))
@@ -19,3 +21,5 @@ if delitelne_400 or (delitelne_4 and not delitelne_100):
 else:
   print("Rok není přestupný")
 ```
+
+</details>

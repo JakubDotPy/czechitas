@@ -14,7 +14,9 @@ všichni zvyklí ze školy. S něčím takovým se nemůžeme spokojit.
 [^2]: Python tuto funkci samozřejmě obsahuje. Hned několik zaokrouhlovacích funkcí najdete v
 modulu [`decimal`](https://docs.python.org/3/library/decimal.html#rounding-modes)
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 import math
@@ -26,3 +28,5 @@ zaokrouhlene = math.floor(cislo + 0.5)
 cislo = random.uniform(0, 10)
 zaokrouhlene = math.floor(cislo + 0.5)
 ```
+
+</details>

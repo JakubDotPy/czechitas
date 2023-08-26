@@ -12,10 +12,14 @@ výstup v tomto formátu:
     9/10
     8/10
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 hodnoceni = [7, 9, 6, 7, 9, 8]
 for prvek in hodnoceni:
     print(f"{prvek}/10")
 ```
+
+</details>

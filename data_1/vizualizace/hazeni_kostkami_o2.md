@@ -11,7 +11,9 @@ dotazy:
 - Jaká je nejčastější hodnota, která na dvou kostkách padne?
 - Je větší šance, že padne hodnota 12 než že padne hodnota 2?
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 import pandas as pd
@@ -25,3 +27,5 @@ plt.show()
 # nejčastější tak je 7
 # častěji padne 12
 ```
+
+</details>

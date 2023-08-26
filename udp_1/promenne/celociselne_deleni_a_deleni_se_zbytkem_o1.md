@@ -8,7 +8,9 @@ Zaexperimentujte s operátory celočíselného dělení a dělení se zbytkem.
 - Použijte proměnnou `delka` a spočítejte trvání představení vyjádřeno v hodinách a minutách. Do proměnné `hodin` uložte
   počet celých hodin a do proměnné `minut` uložte zbylé minuty.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 podil = 1024 // 72
@@ -19,3 +21,5 @@ delka = 265
 hodin = delka // 60
 minut = delka % 60
 ```
+
+</details>

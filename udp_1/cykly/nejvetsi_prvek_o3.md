@@ -2,7 +2,9 @@
 
 Napište cyklus, který projde zadaný seznam celých čísel a najde v něm největší hodnotu.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 cisla = [11, 23, 45, 1, 9, 65, 34]
@@ -12,3 +14,5 @@ for cislo in cisla:
         nejvetsi = cislo
 print(nejvetsi)
 ```
+
+</details>

@@ -8,7 +8,9 @@ Teď už budeme chtít, aby náš program dokázal získat vstup od uživatele.
   číslo. Použijte tedy funkci `int()`, abyste převedli uživatelem zadaný řetězec na číslo. Opět vypište na obrazovku
   jméno, příjmení a věk tak jako v předchozí verzi.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 # jmeno.py
@@ -21,3 +23,5 @@ vek = input('Zadej věk: ')
 vek = int(vek)
 print(f'{jmeno} {prijmeni}, věk: {vek}')
 ```
+
+</details>

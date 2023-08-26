@@ -12,7 +12,9 @@ předchozí stránce a třídu si vytvoř.
   hodnotu "propadák". Pokud bude zisk mezi 50 tisíc a 500 tisíc, vrať hodnotu "průměr". Pokud bude vyšší než 500 tisíc,
   vrať hodnotu "úspěch".
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 class Book:
@@ -52,3 +54,5 @@ print(f"Zisk: {book1.profit()} Kč, Hodnocení: {book1.rating()}")
 print(book2.get_info())
 print(f"Zisk: {book2.profit()} Kč, Hodnocení: {book2.rating()}")
 ```
+
+</details>

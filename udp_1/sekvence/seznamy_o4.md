@@ -8,7 +8,9 @@
   *Plyšáci na útěku* v různých recenzních časopisech. Hodnocení je vždy dvouprvkový seznam obsahující název recenzního
   časopisu jako řetězec a samotné hodnocení jako číslo mezi 1 až 10.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 pocty_divaku = [120, 100, 95, 78, 100]
@@ -24,3 +26,5 @@ hodnoceni = [
     ['Casopis C', 7],
 ]
 ```
+
+</details>

@@ -18,7 +18,9 @@ snih = [
 Použijte krabicový graf k porovnání sněhových srážek v obou resortech. Do kterého byste se vypravili příští rok na lyže
 a proč?
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 import pandas as pd
@@ -83,3 +85,5 @@ snih_df = snih_df.set_index('rok')
 snih_df.boxplot()
 plt.show()
 ```
+
+</details>

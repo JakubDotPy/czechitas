@@ -8,7 +8,9 @@ balíku.
 - U cenných balíků bude k ceně připočtení pojištění. Přidej ke třídě `ValuablePackage` metodu `get_costs()`. Ta spočítá
   cenu přepravy s využitím metody mateřské třídy `Package`. K tomu připočte pojistné ve výši 5 % ceny balíku.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 class Package:
@@ -50,3 +52,5 @@ class ValuablePackage(Package):
         price = super().get_costs()
         return price * 1.05
 ```
+
+</details>

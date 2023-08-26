@@ -8,7 +8,9 @@ každý výsledek uložte do nové proměnné.
 - Vypočítejte zbytek po dělení čísla `a` číslem `b`.
 - Celočíselně vydělte číslo `a` číslem `b`.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 a = 5
@@ -19,3 +21,5 @@ soucin = a * b
 zbytek = a % b
 celociselne_deleni = a // b
 ```
+
+</details>

@@ -8,7 +8,9 @@ Každá kniha bude mít atributy `title`, `pages` a `price`. Hodnoty nastav ve f
   atributu `pages` vypočítej čas na přečtení knihy, přičemž uvažuj, že přečtení jedné stránky zabere průměrnému
   čtenáři/čtenářce 4 minuty.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 class Book:
@@ -36,3 +38,5 @@ print(f"Čas potřebný na přečtení: {book1.get_time_to_read()} hodin")
 print(book2.get_info())
 print(f"Čas potřebný na přečtení: {book2.get_time_to_read()} hodin")
 ```
+
+</details>

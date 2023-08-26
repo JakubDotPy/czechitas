@@ -7,7 +7,9 @@ Použijte Python konzoli jako kalkulačku:
 - Divadlo se rozhodlo prodávat studentské vstupné ve výši 65% plného vstupného. Jak se změní měsíční příjem divadla
   pokud víme, že polovina návštěvníků jsou studenti?
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 print(12 * 174 * 15)
@@ -16,3 +18,5 @@ print(12 * 174 * 15)
 ```python
 print(((12 * 174 / 2) + (12 * 0.65 * 174 / 2)) * 15)
 ```
+
+</details>

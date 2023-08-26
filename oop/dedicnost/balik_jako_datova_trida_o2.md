@@ -6,7 +6,9 @@ Neměň ani třídu `ValuablePackage`.
 
 Následně vyzkoušej, zda funguje vytváření balíků.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 from dataclasses import dataclass
@@ -39,3 +41,6 @@ print(package.deliver())
 print(package)  # Zkontrolujeme, že balík je nyní ve stavu "doručen"
 print(package.deliver())  # Zkusíme znovu doručit balík
 ```
+
+
+</details>

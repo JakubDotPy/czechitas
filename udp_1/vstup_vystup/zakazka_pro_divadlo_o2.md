@@ -9,7 +9,9 @@ vytvořit registraci pro nové uživatele tohoto systému.
 - Na dalším řádku požádejte uživatele o jeho uživatelské jméno a poté o jeho věk. Ten si uložte to nějaké proměnné jako
   číslo.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 # vstupenky_01.py
@@ -20,3 +22,5 @@ print('Pro vstup do systému je potřeba registrace')
 uzivatel = input('Zadej uživatelské jméno: ')
 vek = int(input('Zadej věk: '))
 ```
+
+</details>

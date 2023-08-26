@@ -6,7 +6,9 @@ U zaměstnanců budeme nově evidovat, jestli jsou ve zkušební době.
   jako atribut třídy `Zamestnanec`.
 - Uprav metodu `__str__`. Pokud je zaměstnanec ve zkušební době, přidej k jeho/jejímu výpisu text `Je ve zkušební době.`
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 class Employee:
@@ -38,3 +40,5 @@ employee2 = Employee("Marie Kovaříková", "HR Manager", 30, False)
 print(employee1)
 print(employee2)
 ```
+
+</details>
