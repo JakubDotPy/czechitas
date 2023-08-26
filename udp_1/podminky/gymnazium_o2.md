@@ -6,7 +6,9 @@ Pokud má zájemce průměr známek nižší než 1.8 a z matematiky nejhůře d
 text: `"Přijmeme vás bez přijímací zkoušky."`.
 V opačném případě vypište `"Musíte splnit přijímací zkoušku."`.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 matematika_znamka = int(input('Zadej známku z matematiky: '))
@@ -17,3 +19,5 @@ if prumer_vysvedceni < 1.8 and matematika_znamka <= 2:
 else:
   print('Musíte splnit přijímací zkoušku.')
 ```
+
+</details>

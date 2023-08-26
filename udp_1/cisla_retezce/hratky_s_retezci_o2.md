@@ -6,7 +6,9 @@
 - Vytvořte řetězec který vypadá takto: ‘111111000000’, ale místo šesti jedniček a šesti nul obsahuje 256 jedniček a 256
   nul.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 print('Divadlo Pěst na oko')
@@ -23,3 +25,5 @@ print('Divadlo Pěst na oko ' * 5)
 ```python
 print('1' * 256 + '0' * 256)
 ```
+
+</details>

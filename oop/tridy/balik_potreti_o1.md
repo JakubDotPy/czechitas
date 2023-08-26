@@ -3,7 +3,9 @@
 Vrať se k návrhu software pro zásilkovou společnost. U třídy `Package` uprav atribut `state` tak, aby byl chráněný.
 Ověř, že vytváření objektů i výpisy informací o něm fungují.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 class Package:
@@ -34,3 +36,5 @@ print(package1.deliver())
 print(package1)  # Zkontrolujeme, že balík je nyní ve stavu "doručen"
 print(package1.deliver())  # Zkusíme znovu doručit balík
 ```
+
+</details>

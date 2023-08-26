@@ -3,7 +3,9 @@
 Napište program `generator.py`, který si od uživatele vyžádá dvě celá čísla - dolní mez a horní mez - a vypíše na výstup
 náhodné číslo v zadaných mezích.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 # generator.py
@@ -15,3 +17,5 @@ horni_mez = int(input('Zadej horní mez: '))
 cislo = random.randint(dolni_mez, horni_mez)
 print(cislo)
 ```
+
+</details>

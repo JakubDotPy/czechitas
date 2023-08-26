@@ -10,7 +10,9 @@ ani sudá, ani černá ani červená.
 Napište program, kterému uživatel zadá číslo a program odpoví jestli jde o číslo sudé nebo liché, černé nebo červené,
 nebo je to nula.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 *Poznámka: použijeme speciální konstrukci `a = 1 if podminka else 2`.  
 Například v tomto případě, pokud bude podmínka splněna, `a = 1`, v opačném případě `a = 2`.*
@@ -32,3 +34,5 @@ else:
 
 print(f'Číslo je {sude_liche_text} a {barva}.')
 ```
+
+</details>

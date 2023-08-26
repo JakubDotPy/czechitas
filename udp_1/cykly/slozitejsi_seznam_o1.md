@@ -23,7 +23,9 @@ mesice = [
 - Pomocí cyklu projděte tento seznam a vypište na výstup názvy jednotlivých měsíců.
 - Pomocí dalšího cyklu vypište na výstup počty dní v jednotlivých měsících.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 # cykly_02.py
@@ -36,3 +38,6 @@ for mesic in mesice:
 for mesic in mesice:
     print(mesic[1])
 ```
+
+
+</details>

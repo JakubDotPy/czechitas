@@ -20,7 +20,9 @@ school_report = [
 Při přihlašování na střední školu mohou být důležitější příklady z některých konkrétních předmětů. Uprav kód z lekce
 tak, aby spočítal průměr pouze z jazyků, matematiky a fyziky.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 
@@ -41,3 +43,5 @@ for predmet_znamka in school_report:
 
 print(f'Průměr sledovaných předmětů je: {soucet / len(sledovane_predmety)}')
 ```
+
+</details>

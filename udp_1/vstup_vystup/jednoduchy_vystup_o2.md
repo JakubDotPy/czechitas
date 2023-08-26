@@ -16,7 +16,9 @@ Náš vůbec první program nebude dělat nic víc, než vypisovat text na obraz
 na to pamatováno pomocí [formátování](https://docs.python.org/3/library/string.html#format-specification-mini-language)
 v `f`stringu.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 # vstup_vystup.py
@@ -30,3 +32,5 @@ hodina = 19
 minuta = 30
 print(f'{nazev} - {hodina}:{minuta:02}')
 ```
+
+</details>

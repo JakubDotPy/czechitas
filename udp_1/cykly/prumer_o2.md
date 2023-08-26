@@ -3,7 +3,9 @@
 Napište cyklus, který projde zadaný seznam desetinných čísel a spočítá jejich průměr. Seznam čísel si vytvořte na
 začátku programu.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 cisla = [10.5, 13.3, 17.2, 11.5]
@@ -13,3 +15,5 @@ for cislo in cisla:
 prumer = soucet / len(cisla)
 print(prumer)
 ```
+
+</details>

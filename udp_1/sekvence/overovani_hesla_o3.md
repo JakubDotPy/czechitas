@@ -4,7 +4,9 @@ Ověřování hesla se někdy dělá tak, že se vás systém ptá pouze na něk
 heslo, které musí uživatel zadat. Pak se jej postupně zeptejte například na druhý, pátý a sedmý znak hesla. Propusťte
 uživatele pouze tehdy, zadá-li všechny tyto znaky správně.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 heslo = 'tajneHeslo345@'
@@ -23,3 +25,5 @@ if overeni_druheho and overeni_pateho and overeni_sedmeho:  # pokud jsou vsechny
 else:
     print('Ověření neúspěšné!')
 ```
+
+</details>

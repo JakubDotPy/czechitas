@@ -11,7 +11,9 @@ Vrať se k návrhu software pro zásilkovou společnost.
   zprávu "Doručení uloženo".
 - Vyzkoušej metodu `deliver()`. Co se stane, pokud ji u jednoho balíku zavoláš dvakrát?
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 class Package:
@@ -44,3 +46,6 @@ print(package1.deliver())
 print(package1)  # Balík by měl být nyní ve stavu "doručen"
 print(package1.deliver())  # Metoda by nyní měla vrátit zprávu, že balík již byl doručen
 ```
+
+
+</details>

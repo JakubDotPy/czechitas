@@ -10,7 +10,9 @@ Uvažuj, že navrhuješ software pro zásilkovou společnost.
   číslo. U atributu `state` zadávej pro zjednodušení pouze dva stavy: `doručen` a `nedoručen`.
 - Vypiš informace, které generuje metoda `get_info()`, na obrazovku, a ověř, že je vše v pořádku.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 class Package:
@@ -31,3 +33,5 @@ package2 = Package("Jiřího z Poděbrad 9, Brno", 1.5, "doručen")
 print(package1.get_info())
 print(package2.get_info())
 ```
+
+</details>

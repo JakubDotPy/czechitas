@@ -18,7 +18,9 @@ Nyní je naším cílem práce pro společnost, která se zabývá prodejem jíz
 - Vytvoř letenku se základní cenou 6000 do tříd `economy` i `business` s jedním odbaveným zavazadlem. Zkontroluj, jakou
   hodnotu vrací metoda `get_price()`.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 class Ticket:
@@ -63,3 +65,5 @@ plane_ticket_business = PlaneTicket(6000, '15B', 'business', 1)
 print(plane_ticket_economy.get_price())  # 8000
 print(plane_ticket_business.get_price())  # 11000
 ```
+
+</details>

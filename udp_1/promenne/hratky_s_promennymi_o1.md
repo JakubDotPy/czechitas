@@ -9,7 +9,9 @@ Dbejte na to, aby proměnné měly vhodný název dobře naznačující, co je v
 - Zatímco jste dělali předchozí cvičení, do divadla přibyli dva noví herci. Aktualizujte tedy obsah
   proměnné `velikost_souboru` a  zařiďte, aby v proměnné `platy` byla správná hodnota nákladů.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 velikost_souboru = 15
@@ -21,3 +23,5 @@ predstaveni = "Romeo a Julie"
 velikost_souboru += 2
 platy = velikost_souboru * 22_392
 ```
+
+</details>

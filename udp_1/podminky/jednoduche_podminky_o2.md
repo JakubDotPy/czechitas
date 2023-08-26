@@ -7,7 +7,9 @@
 - Na konec programu vlož příkaz, který se uživatele zeptá na věk. Pokud je uživatel starší 18 let, vypište na výstup
   `Smíš vstoupit` Pokud je mladší, vypiš `Vstup povolen od 18 let`.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 # prihlaseni.py
@@ -25,3 +27,5 @@ if vek >= 18:
 else:
     print('Vstup nepovolen!')
 ```
+
+</details>

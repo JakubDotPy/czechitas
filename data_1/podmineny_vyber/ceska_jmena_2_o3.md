@@ -10,7 +10,9 @@ Proveď následující dotazy:
 - Vypiš jména a četnost pro jména se slovanským nebo hebrejským původem. Kolik takových jmen je?
 - Vypiš všechna jména, která mají svátek první 3 dny v prosinci.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 import pandas as pd
@@ -31,3 +33,5 @@ print(len(slovanska_a_hebrejska))
 # svatek prvni tri dny v prosinci
 print(jmena[jmena['svátek'].isin(['1.12', '2.12', '3.12'])])
 ```
+
+</details>

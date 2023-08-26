@@ -10,7 +10,9 @@ Současně platí, že soutěžit můžou všichni členové Klubu přátel Diva
 Tvým úkolem je vytvořit program, který se uživatele zeptá na všechny potřebné informace (stačí odpověď ano/ne) a
 vyhodnotí, zda se může zúčastnit soutěže.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 sdileni = input('Sdílel jsi alespoň 5 příspěvků na sociálních sítích? [a/n]: ')
@@ -22,3 +24,6 @@ if (sdileni == 'a' and pet_predstaveni == 'a') or clen_klubu == 'a':
 else:
   print('bohužel nesoutěžíš')
 ```
+
+
+</details>

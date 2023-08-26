@@ -10,7 +10,9 @@ hodnotu.
 - Vytvoř si alespoň jeden objekt a zkus volání jeho funkcí. Současně si vytvoř "obyčejný" balík o zkontroluj, že u něj
   se nic nezměnilo.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```py
 class ValuablePackage(Package):
@@ -34,3 +36,5 @@ print(valuable_package.deliver())
 print(valuable_package)  # Zkontrolujeme, že balík je nyní ve stavu "doručen"
 print(valuable_package.deliver())  # Zkusíme znovu doručit balík
 ```
+
+</details>

@@ -18,7 +18,9 @@ package_list = [package_1, package_2, package_3]
   proměnné `total_value`.
 - Na konci programu vypiš, jaká je celková hodnota balíků v autě.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 package_1 = ValuablePackage("Grimmauldovo náměstí 11", 1.9, "nedoručen", 5500)
@@ -34,3 +36,6 @@ for package in package_list:
 
 print(f"Celková hodnota balíků v autě je {total_value} Kč.")
 ```
+
+
+</details>

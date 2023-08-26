@@ -4,9 +4,13 @@ Uložte si do proměnné nazev řetězec s názvem *Divadlo Pěst na oko*. Pokud
 budovy, jeden znak (i mezera) bude široký 30 cm. Použijte funkci `len()` abyste zjistili počet znaků v názvu divadla a
 spočítejte délku nápisu v centimetrech.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 nazev = "Divadlo Pěst na oko"
 delka = len(nazev) * 30
 ```
+
+</details>

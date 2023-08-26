@@ -10,7 +10,9 @@ Otázka může vypadat například takto:
 
 Pokud se student olympiády zúčastnil, odpoví `a`.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 matematika_znamka = int(input('Zadej známku z matematiky: '))
@@ -22,3 +24,5 @@ if prumer_vysvedceni < 1.8 and (matematika_znamka <= 2 or olympiada == 'a'):
 else:
   print('Musíte splnit přijímací zkoušku.')
 ```
+
+</details>

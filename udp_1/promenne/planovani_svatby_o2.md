@@ -10,7 +10,9 @@ osobu je 990 kč, pro dítě je to 50% ceny dospělého.
 
 *Tip: Jednotlivé výpočty nemusíte kopírovat ani psát znovu, v terminálu stačí použít šipku nahoru.*
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 cena_dospely = 990
@@ -21,3 +23,5 @@ cena_dospely = 1000
 cena_dite = cena_dospely * 0.5
 naklady = 60 * cena_dospely + 8 * cena_dite
 ```
+
+</details>

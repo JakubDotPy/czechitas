@@ -14,7 +14,9 @@ A nyní opět pokračujeme v našem rezervačním systému.
 Nezapomeňte na zaokrouhlování, ať nám cena vyjde v celých centech.
 - Nakonec spočtenou cenu vypište s nějakou hezkou zprávou na výstup.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 # vstupenka_02.py
@@ -38,3 +40,5 @@ else:
 
 print(f'Cena vstupenky je {round(cena, 2)}.')
 ```
+
+</details>

@@ -25,7 +25,9 @@ hry = [
 - Vypište na výstup názvy všech her, které trvají více než 120 minut.
 - Vypište na výstup názvy všech her spolu s jejich trváním v hodinách a minutách.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 # Pomocí cyklu projděte tento seznam a vypište na výstup názvy všech her.
@@ -41,3 +43,5 @@ for hra in hry:
 for hra in hry:
     print(f"{hra[0]} trvá {hra[1] // 60} hodin a {hra[1] % 60} minut.")
 ```
+
+</details>

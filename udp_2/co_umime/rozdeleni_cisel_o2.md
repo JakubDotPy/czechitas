@@ -3,7 +3,9 @@
 Napiš kód, který zpracuje seznam čísel a vytvoří nový seznam se sudými čísly a nový seznam s lichými čísly z původního
 seznamu.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 sude = []
@@ -18,3 +20,5 @@ for cislo in [1, 2, 100, 3, 4]:
 print(sude)
 print(liche)
 ```
+
+</details>
