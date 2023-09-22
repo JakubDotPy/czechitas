@@ -20,7 +20,9 @@ knihy = [
 - Napiš program, který spočte celkový počet stran, které Gustav přečetl.
 - Připiš do programu výpočet počtu knih, kterým dal Gustav hodnocení alespoň 8.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 pocet_stran = 0
@@ -38,3 +40,5 @@ for kniha in knihy:
         pocet_nad_osm += 1
 print(f'Počet knih s hodnocením >= 8: {pocet_nad_osm}')
 ```
+
+</details>

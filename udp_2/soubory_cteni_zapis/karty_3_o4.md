@@ -14,7 +14,9 @@ print(x)  # [2, 3]
 
 Také se vám může hodit funkce `shuffle()` z modulu `random`, která umí náhodně zamíchat seznam.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 Použijeme kod z předchozího příkladu a zaměříme se na vygenerovaný seznam karet.
 
@@ -29,3 +31,5 @@ ruka = []
 for _ in range(4):
     ruka.append(karty.pop())
 ```
+
+</details>

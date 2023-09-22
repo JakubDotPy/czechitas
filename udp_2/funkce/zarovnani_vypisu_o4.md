@@ -41,7 +41,9 @@ Výstup bonusu:
 ..3967894
 ```
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 def zarovnej(retezec, delka, znak=' '):
@@ -63,3 +65,5 @@ for n in numbers:
 for n in numbers:
     zarovnej(str(n), nejdelsi, '.')
 ```
+
+</details>

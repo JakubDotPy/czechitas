@@ -17,10 +17,14 @@ prodano = {
   `0` kusů.
 - U knihy `"Vrah zavolá v deset"` zvyš počet prodaných kusů o `100`.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 prodano['Noc, která mě zabila'] = 0
 
 prodano['Vrah zavolá v deset'] += 100
 ```
+
+</details>

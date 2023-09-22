@@ -12,7 +12,9 @@ pohyby = [1200, -250, -800, 540, 721, -613, -222]
 - Pomocí volání vhodných funkcí vypište nejvyšší a nejnižší pohyb.
 - Spočítejte celkový přírůstek na účtu za dané období. Pozor, že přírůstek může vyjít i záporný.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 pohyby = [1200, -250, -800, 540, 721, -613, -222]
@@ -32,3 +34,5 @@ print(f'nejnizsi je {min(pohyby)}, nejvyssi {max(pohyby)}')
 # celkovy prirustek
 print(f'zustatek = {sum(pohyby)}')
 ```
+
+</details>

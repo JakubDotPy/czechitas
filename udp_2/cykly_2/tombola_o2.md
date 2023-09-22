@@ -6,7 +6,9 @@ Využijte funkci `randint`, nezapomeňte ale, že si ji musíte importovat z mod
 
 Neřešte, že jedno číslo může být vygenerováno dvakrát.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 import random
@@ -14,3 +16,5 @@ import random
 for _ in range(3):
     print(random.randint(1, 1000))
 ```
+
+</details>

@@ -8,7 +8,9 @@ Zadání je podobné jako u předchozího příkladu, ale nyní zkusíme výpoč
   vnořeného seznamu je číslo běžce a na první pozici je rozdíl času běžce oproti času vítěze v minutách. Jinak řečeno,
   bude tam číslo, které udává, o kolik by běžec musel být rychlejší, aby závod vyhrál.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 vysledky = [
@@ -39,3 +41,6 @@ for pozice, data in enumerate(vysledky, start=1):
 
 print(rozdily)
 ```
+
+
+</details>

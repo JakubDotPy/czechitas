@@ -20,7 +20,9 @@ vysvedceni = {
 - Napiš program, který spočte průměrnou známku ze všech předmětů.
 - Uprav program, aby vypsal všechny předměty, ve kterých získal student známku 1.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 prumerna_znamka = sum(vysvedceni.values()) / len(vysvedceni)
@@ -31,3 +33,5 @@ for predmet, znamka in vysvedceni.items():
     if znamka == 1:
         print('\t' + predmet)
 ```
+
+</details>

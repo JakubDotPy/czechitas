@@ -19,8 +19,12 @@ jako řetězce v hodinách a v minutách. Výsledek tedy bude vypadat takto
 trvani = ['2:16', '1:45', '1:22']
 ```
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 trvani = [f'{d // 60}:{d % 60}' for d in delky]
 ```
+
+</details>

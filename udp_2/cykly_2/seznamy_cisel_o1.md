@@ -13,7 +13,9 @@ Vytvořte seznam, který obsahuje
 - každé z čísel ze seznamu cisla umocněné na druhou,
 - každé z čísel ze seznamu cisla jako řetězec.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 krat_dva = [n * 2 for n in cisla]
@@ -21,3 +23,5 @@ minus = [-n for n in cisla]
 na_druhou = [n ** 2 for n in cisla]
 jako_str = [str(n) for n in cisla]
 ```
+
+</details>

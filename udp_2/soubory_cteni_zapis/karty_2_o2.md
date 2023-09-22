@@ -5,7 +5,9 @@ Napište program, který vylosuje seznam 4 náhodných hracích karet podobně j
 - Vymyslete, jak budete vylosovanou kartu v seznamu reprezentovat. Vypište pak tento seznam na výstup.
 - Dále k tomuto seznamu vypište součet hodnot všech vylosovaných karet. Položme hodnotu karet J, Q a K rovnu deseti a eso rovnu jedné.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 import random
@@ -31,3 +33,5 @@ for karta in ruka:
     
 print(f'mame celkem {body}')
 ```
+
+</details>

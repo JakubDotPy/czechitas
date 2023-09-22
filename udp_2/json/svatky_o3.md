@@ -11,7 +11,9 @@ Na adrese https://svatky.adresa.info/json najdete API, které vám odpoví, kdo 
   základní "endpoint" https://svatky.adresa.info/json a parametry (vše za `?`) dodáš volitelným parametrem. Budeš
   potřebovat pracovat s dokumentací k requests.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 V případně nedostupnosti API kod skončí chybou "TimeoutError".
 
@@ -33,3 +35,5 @@ resp = requests.get(f'https://svatky.adresa.info/json', params={'date': datum}, 
 data = resp.json()
 print(f'dnes ma svatek {data[0]["name"]}')
 ```
+
+</details>

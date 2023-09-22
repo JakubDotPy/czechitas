@@ -5,7 +5,9 @@ Autobus mezi Zdebudevsí a Kozoprdy jezdí čtyřikrát denně každý všední 
 - Napište program, který pro první den vypíše, kolik pasažérů jelo celkem směrem tam a kolik směrem zpět.
 - Nechť váš program vypisuje součty pasažérů ze celý týden, tedy kolik lidí za celý týden jelo směrem tam a kolik směrem zpět.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 cesty = {}
@@ -35,3 +37,5 @@ for den, data in cesty.items():
 
 print(f'celkem jelo {celkem_tam} lidi tam a {celkem_zpet} lidi zpet')
 ```
+
+</details>

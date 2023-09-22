@@ -9,7 +9,9 @@ Příklad:
 - Pro hodnotu `9207054439` vrátí `7`.
 - Pro hodnotu `9555125899` vrátí `5`.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 def month_of_birth(rodne_cislo):
@@ -23,3 +25,6 @@ def month_of_birth(rodne_cislo):
 print(f'9207054439 -> {month_of_birth(9207054439)}')
 print(f'9555125899 -> {month_of_birth(9555125899)}')
 ```
+
+
+</details>

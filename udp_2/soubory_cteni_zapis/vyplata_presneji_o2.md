@@ -6,7 +6,9 @@ Vytvořte proto textový soubor `vykaz.txt`, který bude obsahovat 12 řádků a
 - Otevřete tento soubor ve svém programu a načtěte hodnoty na řádcích do seznamu `vykaz`. Vytiskněte tento seznam do terminálu funkcí `print()` abyste si ověřili, že jste soubor načetli správně.
 - Nechte uživatele zadat na příkazovém řádku hodinovou mzdu. Spočítejte a na výstup vytiskněte celkovou výplatu za celý rok a průměrnou výplatu na jeden měsíc.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 import statistics
@@ -26,3 +28,5 @@ for pocet_hodin in vykaz:
     
 print(f'Vyplata za cely rok je {sum(vyplaty)}, průměrná {statistics.mean(vyplaty)}')
 ```
+
+</details>

@@ -8,7 +8,9 @@ python uprava_retezce.py "retezec s mezerami"
 retezec_s_mezerami
 ```
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 import sys
@@ -16,3 +18,5 @@ import sys
 retezec = sys.argv[1]
 print(retezec.replace(' ', '_'))
 ```
+
+</details>

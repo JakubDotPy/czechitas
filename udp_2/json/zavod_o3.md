@@ -11,7 +11,9 @@ Můžeš postupovat následujícím způsobem:
 - Dovnitř podmínky vlož kód, který vloží jméno závodníka do seznamu `finishers`.
 - Na konec programu (mimo cyklus) vlož příkaz na vypsání obsahu seznamu `finishers`.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 import json
@@ -27,3 +29,5 @@ for runner in runners:
 
 print(finishers)
 ```
+
+</details>

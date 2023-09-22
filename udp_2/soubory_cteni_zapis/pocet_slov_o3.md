@@ -9,7 +9,9 @@ Napište program, který spočítá počet slov v tomto textu, abychom věděli,
 - Vypište na výstup počty slov na každém řádku
 - Vypište na výstup celkový počet všech slov v souboru
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 seznam_radku = []
@@ -26,3 +28,6 @@ for radek in seznam_radku:
 
 print(f'celkovy pocet slov je {celkovy_pocet_slov}')
 ```
+
+
+</details>

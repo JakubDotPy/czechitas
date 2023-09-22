@@ -32,7 +32,9 @@ Pro obě tyto reprezentace vyřešte následující úkoly
 - Použitím proměnné `sloupce` vypište seznam teplot seřazený vzestupně podle velikosti. Šlo by to i pomocí
   proměnné `radky`, ale to ještě neumíme.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 radky = [
@@ -74,3 +76,5 @@ sloupce = [
 # Použitím proměnné sloupce vypište seznam teplot seřazený vzestupně podle velikosti.
 print(sorted(sloupce[1]))
 ```
+
+</details>

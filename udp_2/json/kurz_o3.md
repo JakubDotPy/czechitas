@@ -10,7 +10,9 @@ otázky:
 - Vypište na výstup součet všech účastnic.
 - Vypište na výstup množinu všech koučů, kteří se kdy kurzu účastnili.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 import json
@@ -39,3 +41,5 @@ for konani in data['konani']:
     koucove.update(set(konani['koucove']))
 print(koucove)
 ```
+
+</details>

@@ -8,7 +8,9 @@ Univerzita pro celoživotní vzdělávání se rozhodla změnit svůj známkovac
 - Vypište váš výsledek do nějakého souboru tak, aby se z něj dal zase zkopírovat do tabulky Google.
 - Vytvořte novou Google tabulku, která vypadá stejně jako ta výše avšak s převedenými známkami.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 with open('puvodni_tabulka.txt', encoding='utf-8') as vstup:
@@ -27,3 +29,5 @@ novy_text = (
 with open('nova_tabulka.txt', 'w') as vystup:
     vystup.write(novy_text)
 ```
+
+</details>

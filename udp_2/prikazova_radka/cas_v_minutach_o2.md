@@ -14,7 +14,9 @@ program nám vrátí délku tohoto času minutách. V tomto případě tedy čí
 - Až když váš program bude fungovat, zkuste tyto proměnné načíst z parametrů příkazové řádky. Nezapomeňte, že parametry
   jsou vždy řetězce a že první parametr je vždy název vašeho programu.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ukážeme si rovnou druhou variantu
 
@@ -26,3 +28,5 @@ minuty = int(sys.argv[2])
 
 print(hodiny * 60 + minuty)
 ```
+
+</details>

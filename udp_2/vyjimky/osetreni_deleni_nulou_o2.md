@@ -9,7 +9,9 @@ Předchozí ukázku uprav následujícím způsobem:
 
 Všechny chyby řeš ošetřováním výjimek.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 import sys
@@ -27,3 +29,6 @@ except ValueError:
 except ZeroDivisionError:
     print('Nesmíš dělit nulou.')
 ```
+
+
+</details>

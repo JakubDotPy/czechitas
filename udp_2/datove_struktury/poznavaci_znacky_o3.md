@@ -17,7 +17,9 @@ spzetky = {
 - Napiš program, který vypíše všechny majitele, jejichž vozidlo je registrováno v Plzeňském kraji.  
   tj. na druhém místě (index 1) řetězce v klíči je písmeno P.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 print('Lidé z Plzeňského kraje:')
@@ -25,3 +27,5 @@ for spz, jmeno in spzetky.items():
     if spz[1] == 'P':
         print(f'- {jmeno}')
 ```
+
+</details>

@@ -8,7 +8,9 @@ Napište program, který tento seznam z API stáhne a převede z formátu JSON n
 - Zjistěte jaké všechny informace máme o jednotlivých osobách.
 - Zjistěte, kolik je v souboru mužů a žen.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 import requests
@@ -26,3 +28,5 @@ for clovek in data:
         pocet_muzu += 1
 print(f'soubor obsahuje {pocet_muzu} a {len(data) - pocet_muzu} zen')
 ```
+
+</details>

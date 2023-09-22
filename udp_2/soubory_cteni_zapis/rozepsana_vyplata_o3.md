@@ -5,7 +5,9 @@ Modifikujte program pro počítání výplaty z předchozí sekce tak, aby nevyp
 - Nejprve tyto informace vypište na terminál
 - Poté program upravte tak, aby vypsal tyto výsledky do souboru
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 hodinovka = int(input('Zadej hodinovou mzdu: '))
@@ -16,3 +18,5 @@ with open('vykaz.txt') as vstupni_soubor:
         for hodnota in vstupni_soubor:
             print(int(hodnota) * hodinovka, file=vystup)
 ```
+
+</details>

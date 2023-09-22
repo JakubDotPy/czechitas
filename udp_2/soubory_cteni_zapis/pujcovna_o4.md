@@ -6,7 +6,9 @@ Půjčovna aut má v každém kraji ČR jedno auto s danou SPZ. Ke konci roku ch
 
 Napište program, který na výstup vypíše součet všech ujetých kilometrů. Jistě se vám bude hodit metoda řetězců jménem `replace()`.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 ujete_kilometry = 0
@@ -17,3 +19,5 @@ with open(r'auta.txt', encoding='utf-8') as file:
 
 print(f'celkovy pocet ujetych kilometru je {ujete_kilometry}')
 ```
+
+</details>

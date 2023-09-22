@@ -26,7 +26,9 @@ Napiš program, který zjistí následující:
 
 Při řešení můžeš využít operátor `in` a slicing, případně metodu `split()`
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 dostupne_jazyky = []
@@ -50,3 +52,5 @@ for radek_text in akce:
 print(f'dostupne jazyky jsou {dostupne_jazyky}')
 print(f'bylo {pocet_pohovoru} pohovoru')
 ```
+
+</details>

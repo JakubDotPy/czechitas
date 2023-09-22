@@ -26,10 +26,14 @@ Očekávaný výstup:
 ['\n', ' ', ',', '.', 'A', 'B', 'C', 'K', 'O', 'P', 'T', 'V', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 't', 'u', 'v', 'y', 'z', 'á', 'é', 'í', 'ó', 'ý', 'č', 'ě', 'ň', 'ř', 'Š', 'š', 'ů', 'ž']
 ```
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 unikatni = sorted(set(text))
 print(len(unikatni))
 print(unikatni)
 ```
+
+</details>

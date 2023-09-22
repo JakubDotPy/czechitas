@@ -46,7 +46,9 @@ kraje = [
 - Do vhodně pojmenované proměnné uložte seznam, který reprezentuje výše uvedenou tabulku jako dva seznamy: seznam jmen a
   seznam počtů obyvatel jako čísla.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 nazvy = [kraj[0] for kraj in kraje]
@@ -57,3 +59,5 @@ jmena_a_pocty = [
   [int(kraj[-1].replace(' ', '')) for kraj in kraje],
 ]
 ```
+
+</details>

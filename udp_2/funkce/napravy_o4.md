@@ -41,7 +41,9 @@ vazeni = [
 Projdi seznam pomocí cyklu a pro každé vážení urči (s využitím funkce spocitel_pokutu()) výši pokuty. Spočítej celkovou
 výši pokut za všechna vážení.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 def spocitej_pokutu(pocet_naprav, hmotnost):
@@ -69,3 +71,6 @@ for data in vazeni:
     pokuta = spocitej_pokutu(data[0], data[1])
     print(f'dostavas pokutu {pokuta}')
 ```
+
+
+</details>

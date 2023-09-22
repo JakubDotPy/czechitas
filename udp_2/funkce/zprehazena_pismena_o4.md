@@ -8,7 +8,9 @@ Nápověda: `random.shuffle()`
 
 Super bonus: Napiš program, který takovou funkci využije na delší text více slov.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 import random
@@ -36,3 +38,5 @@ for slovo in text.split():
 vysledny_text = ' '.join(zamichana_slova)
 print(vysledny_text)
 ```
+
+</details>

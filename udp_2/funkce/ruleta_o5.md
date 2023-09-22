@@ -13,7 +13,9 @@ vybrat jednu ze tří řad:
 - Funkce `roulette` vrací hodnotu výhry. Pokud uživatel vsadil na správnou řadu, vyhrává dvojnásobek sázky, v opačném
   případě nevyhrává nic jeho sázka propadá.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 import random
@@ -33,3 +35,5 @@ def roulette(cislo_rady, sazka):
     print(f'hozeno: {hozeno}')
     return 2 * sazka if hozeno in rady[cislo_rady - 1] else 0  # "- 1" kvůli indexování od nuly
 ```
+
+</details>

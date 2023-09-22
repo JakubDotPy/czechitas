@@ -19,7 +19,9 @@ pokračujte podle následujících kroků.
 - Převeďte tuto hodnotu na číslo a přičtěte k němu 4. Výsledek uložte do proměnné `vysledek`.
 - Převeďte hodnotu v proměnné `vysledek` zpět na řetězec a uložte ji na třetí pozici v seznamu `hodnoty`.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 hodnoty = ['12', '1', '7', '-11']
@@ -28,3 +30,5 @@ treti = hodnoty[2]
 vysledek = int(treti) + 4
 hodnoty[2] = vysledek
 ```
+
+</details>

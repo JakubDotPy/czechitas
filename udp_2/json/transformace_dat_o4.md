@@ -7,7 +7,9 @@ a data byla odsazena čtyřmi mezerami pro lepší čitelnost člověkem.
 
 Vzorový výstup: output.json.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 import json
@@ -27,3 +29,5 @@ for value in words.values():
 with open('output.json', 'w', encoding='utf-8') as out:
     json.dump(words, out, sort_keys=True, indent=4, ensure_ascii=False)
 ```
+
+</details>

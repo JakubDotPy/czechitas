@@ -50,7 +50,9 @@ Zodpovězte následující otázky:
 
 **Nápověda**: postupuje tak, že použijete na každý řádek tabulky zvlášť chroustání seznamů. Tabulku můžete sestavit tak, že tento postup ručně zopakujete 13 krát, jednou pro každý kraj. Pokud toužíte po elegantnějším řešení, vyčkejte na nepovinné úložky.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 # soucty hlasu po kandidatech
@@ -82,3 +84,5 @@ for kraj in hlasy:
     )
 print(procenta)
 ```
+
+</details>

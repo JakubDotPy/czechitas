@@ -27,7 +27,9 @@ níže.
 Vypočítej průměrné body z jednotlivých otázek. Ze které otázky dostali studenti v průměru nejvíce bodů? A ze které
 naopak nejméně?
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 tabulka_bodu = [
@@ -83,3 +85,5 @@ print(prumery)
 
 # z výsledného seznamu je možné vyčíst jednotlivé průměry
 ```
+
+</details>

@@ -9,7 +9,9 @@ Zadej slovo: ahoj
 ********
 ```
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 def ramecek(slovo):
@@ -23,3 +25,5 @@ def ramecek(slovo):
 s = input('Zadej slovo: ')
 ramecek(s)
 ```
+
+</details>
