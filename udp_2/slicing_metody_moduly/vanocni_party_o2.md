@@ -7,7 +7,9 @@ Uvažuj data v seznamu `votes`, což je hlasování zaměstnanců malé firmy o 
 vánočního večírku. Použij funkce `mode()` ke zjištění, pro jakou aktivitu hlasovalo nejvíce zaměstnanců. Funkce má jeden
 parametr - seznam, ze kterého má určit nejčastější prvek.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 import statistics
@@ -26,3 +28,5 @@ votes = [
 
 print(f'nejčastější volbou bylo: {statistics.mode(votes)}')
 ```
+
+</details>

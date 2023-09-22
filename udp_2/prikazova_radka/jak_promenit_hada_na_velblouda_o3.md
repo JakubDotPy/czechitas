@@ -9,7 +9,9 @@ python had-velbloud.py had_honi_velblouda
 hadHoniVelblouda
 ```
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 import sys
@@ -22,3 +24,6 @@ vysledek = ''.join(prvni_male.split())
 
 print(vysledek)
 ```
+
+
+</details>

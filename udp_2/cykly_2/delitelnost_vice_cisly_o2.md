@@ -6,7 +6,9 @@ Vypišme si čísla z nějakého rozsahu na základě jejich dělitelnosti dvěm
 - Zkuste z nějakého rozsahu čísel vypsat čísla, která jsou dělitelná 5 nebo 6.  
   Stačí vypsat text: `"Číslo je dělitelné 5 nebo 6."`
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 for n in range(30):
@@ -20,3 +22,5 @@ for n in range(30):
     if delitelne_5 or delitelne_6:
         print(f'{n} je dělitelné 5 nebo 6')
 ```
+
+</details>

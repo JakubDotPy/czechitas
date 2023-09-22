@@ -20,7 +20,9 @@ teploty = [
 - Vytvořte seznam nočních teplot.
 - Vytvořte seznam dvouprvkových seznamů obsahujících pouze polední a noční teplotu.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 import statistics
@@ -30,3 +32,5 @@ ranni = [den[0] for den in teploty]
 nocni = [den[-1] for den in teploty]
 poledne_a_noc = [[den[1], den[-1]] for den in teploty]
 ```
+
+</details>

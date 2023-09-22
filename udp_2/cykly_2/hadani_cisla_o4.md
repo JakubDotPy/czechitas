@@ -5,7 +5,9 @@ funkci `random.randint()`).
 Následně se v cyklu ptejte uživatele, aby zadal číslo a vypisujte vždy jestli je zadané číslo nižší nebo vyšší než tajné
 číslo. Ukončete cyklus v momentě, kdy uživatel trefí tajné číslo.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 import random
@@ -24,3 +26,5 @@ while True:
     elif tip < hadane_cislo:
         print('hádané číslo je vyšší')
 ```
+
+</details>

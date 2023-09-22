@@ -6,7 +6,9 @@ Napiš program, který nejprve zkontroluje, zda je host na seznamu, a pokud tam 
 správnost.  
 Hostu na seznamu, který zadá správné heslo, vypíše program text: `"Smíš vstoupit."`
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 hesla = {
@@ -25,3 +27,5 @@ if jmeno_hosta in hesla:
 
 print(vstup)
 ```
+
+</details>

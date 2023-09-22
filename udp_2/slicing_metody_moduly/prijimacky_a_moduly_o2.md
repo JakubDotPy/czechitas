@@ -24,7 +24,9 @@ Na začátku vytvoř prázdný seznam a následně pomocí cyklu vlož do novéh
 Nakonec použij metodu `statistics.mean()` k výpočtu průměru.
 Dále zkus využít funkce, které jsou zmíněné v textu, k výpočtu nejlepší a nejhorší známky z daných předmětů.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 import statistics
@@ -49,3 +51,6 @@ print(f'průměr sledovaných předmětů je {statistics.mean(sledovane_znamky)}
 print(f'nejlepší je {min(sledovane_znamky)}')
 print(f'nejhorší je {max(sledovane_znamky)}')
 ```
+
+
+</details>

@@ -7,7 +7,9 @@ Funkce vrátí výslednou cenu. Parametr `breakfast` je nepovinný a výchozí h
 
 Funkci vyzkoušej se zadáním dvou i jedné hodnoty, např. `total_price(3)`, `total_price(2, True)`.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 def total_price(people, breakfast=False):
@@ -25,3 +27,5 @@ def total_price(people, breakfast=False):
 print(f'Cena za tři lidi: {total_price(3)}')
 print(f'Cena za dva lidi se snidani: {total_price(2, True)}')
 ```
+
+</details>

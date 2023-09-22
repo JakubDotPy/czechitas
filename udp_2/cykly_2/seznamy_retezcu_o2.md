@@ -13,7 +13,9 @@ Vytvořte seznam, který obsahuje
 - všechna jména plus písmeno 'a' na konci (stanou se z nich tedy ženská jména),
 - všechna jména převedená na malá písmena s koncovkou '@email.cz'.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 pocty = [len(jmeno) for jmeno in jmena]
@@ -21,3 +23,5 @@ velkymi = [jmeno.upper() for jmeno in jmena]
 s_ackem = [jmeno + 'a' for jmeno in jmena]
 emaily = [f'{jmeno.lower()}@email.cz' for jmeno in jmena]
 ```
+
+</details>

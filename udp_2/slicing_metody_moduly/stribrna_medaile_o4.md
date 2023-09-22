@@ -7,7 +7,9 @@ vítězství.
   minuty a ulož jako číslo.
 - Vypočti rozdíl obou proměnných. Tím zjistíš, kolik minut chybělo stříbrnému závodníku k vítězství.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 vysledky = [
@@ -23,3 +25,5 @@ stribrny_cas = vysledky[1][1][0] * 60 + vysledky[1][1][1] + vysledky[1][1][2] / 
 
 rozdil = stribrny_cas - vitezny_cas
 ```
+
+</details>

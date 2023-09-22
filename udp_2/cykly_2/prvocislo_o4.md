@@ -7,7 +7,9 @@ Prvočíslo je číslo, které je dělitelné beze zbytku pouze 2 čísly - 1 a 
 - Například 5 je prvočíslo, protože je dělitelná pouze 1 a 5.
 - Naopak 4 není prvočíslo, protože je dělitelná 1, 2 a 4.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 *pozn.: Níže je velmi neefektivní způsob. Samozřejmě existují specializované algorytmy.*
 
@@ -22,3 +24,5 @@ for n in range(2, testovane):
 
 print(f'cislo {testovane} {"je" if prvocislo else "není"} prvocislo')
 ```
+
+</details>

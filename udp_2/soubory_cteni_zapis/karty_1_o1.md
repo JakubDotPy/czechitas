@@ -8,7 +8,9 @@ Výstup programu může vypadat například takto:
 Karta: kluk kříže
 ```
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 import random
@@ -18,3 +20,5 @@ barvy = ['kříže', 'srdce', 'piky', 'káry']
 
 print(f'Karta: {random.choice(hodnoty)} {random.choice(barvy)}')
 ```
+
+</details>

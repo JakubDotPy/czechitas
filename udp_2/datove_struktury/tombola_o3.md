@@ -21,7 +21,9 @@ tombola = {
   je, vypiš uživateli, co vyhrál.
 - Odeber výhru pro daný lístek ze slovníku, abychom tam evidovali pouze nevydané ceny.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 cislo_uzivatele = int(input('Zadej sve cislo listku: '))
@@ -38,3 +40,5 @@ print(f'Vyhrál jsi: {vyhra}')
 
 tombola.pop(cislo_uzivatele)
 ```
+
+</details>

@@ -23,7 +23,9 @@ Pohlédněte na následující reprezentaci receptu:
 
 Uložte si tuto strukturu do proměnné `recept` na začátek nového programu. Vypište pomocí funkce `print` kolik bude celé jídlo stát korun zaokrouhlené na celé koruny nahoru.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 recept = {
@@ -51,3 +53,5 @@ for ingredience in recept['ingredience']:
 
 print(f'recept stojí celkem {celkem} Kč')
 ```
+
+</details>

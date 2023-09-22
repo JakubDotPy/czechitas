@@ -15,7 +15,9 @@ hodnoty = '12.1 1.68 7.45 -11.26'
 
 Určitě se vám budou hodit metody `split` a `join`.
 
-### Řešení
+<details>
+<summary><b>Řešení</b></summary>
+
 
 ```python
 hodnoty = '12.1 1.68 7.45 -11.51'
@@ -27,3 +29,5 @@ hodnoty_list[-1] = str(prepocteno)
 
 hodnoty = ' '.join(hodnoty_list)
 ```
+
+</details>
