@@ -72,11 +72,13 @@ Kapitoly popisující další důležité části programování v Pythonu
 Základní kapitoly
 
 1. Instalace
-2. Datová analýza
-3. [Načtení dat](data_1/nacteni_dat)
-4. [Podmíněný výběr](data_1/podmineny_vyber)
-5. [Agregace a spojování](data_1/agregace_spojovani)
+2. [Načtení dat](data_1/nacteni_dat)
+3. [Podmíněný výběr](data_1/podmineny_vyber)
+4. [Spojování](data_1/spojovani)
+5. [Agregace a řazení](data_1/agregace_a_razeni)
 6. [Vizualizace](data_1/vizualizace)
+7. [Pivot tabulky](data_1/pivot_tabulky)
+8. [Datum a čas a metoda shift](data_1/datum_a_shift)
 
 ---
 
