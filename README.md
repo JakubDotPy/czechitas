@@ -25,7 +25,7 @@ Vykročíme do světa programování a začneme se učit první důležité myš
 
 1. [Čísla a řetězce](udp_1/cisla_retezce)
 2. [Proměnné](udp_1/promenne)
-3. [Funkce a moduly](udp_1/funkce_moduly)
+3. [Funkce a moduly](udp_1/funkce_moduly) - [seznam funkcí](https://docs.python.org/3/library/functions.html) - [seznam modulů](https://docs.python.org/3/py-modindex.html)
 4. [Vstup a výstup](udp_1/vstup_vystup)
 5. [Podmínky](udp_1/podminky)
 6. [Sekvenční hodnoty](udp_1/sekvence)
