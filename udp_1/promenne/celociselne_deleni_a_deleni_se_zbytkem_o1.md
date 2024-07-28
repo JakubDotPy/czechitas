@@ -1,4 +1,4 @@
-## Celočíselné dělení a dělení se zbytkem ◇◇◇◇◆
+## Celočíselné dělení a dělení se zbytkem
 
 Zaexperimentujte s operátory celočíselného dělení a dělení se zbytkem.
 

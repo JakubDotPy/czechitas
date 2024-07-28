@@ -1,4 +1,4 @@
-## Hry ◇◇◆◆◆
+## Hry
 
 Následující seznam obsahuje seznam všech divadelních her, které se hrají v divadle Pěst na oko. Každá hra má svůj název
 a trvání v minutách.

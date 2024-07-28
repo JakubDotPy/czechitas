@@ -1,4 +1,4 @@
-## Jednoduché podmínky ◇◇◇◆◆
+## Jednoduché podmínky
 
 - Založte si program `prihlaseni.py`. V tomto nechte uživatele zadat svoje uživatelské jméno a poté heslo.
   Pokud se heslo neshoduje s heslem `'simsalabim'`, vypište na výstup `Vstup nepovolen` a zavolejte funkci `exit()`,

@@ -1,4 +1,4 @@
-## Volby ◇◇◆◆◆
+## Volby
 
 Máme pět kandidátů na post prezidenta ČR. Následující tabulka obsahuje hlasy, které jednotliví kandidáti získali v prvním kole prezidentských voleb.
 

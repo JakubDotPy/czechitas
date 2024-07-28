@@ -1,4 +1,4 @@
-## Cena přepravy ◇◇◆◆◆
+## Cena přepravy
 
 Pokračuj ve své práci pro zásilkovou společnost. Společnost nově požaduje, aby náš software uměl dopočítat cenu přepravy
 balíku.

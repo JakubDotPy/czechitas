@@ -1,4 +1,4 @@
-## Detektivky ◇◇◇◆◆
+## Detektivky
 
 Vydavatel detektivek si eviduje prodané kusy u jednotlivých knih.  
 V následujícím slovníku najdeš tři knihy a u každé z nich je počet prodaných kusů.

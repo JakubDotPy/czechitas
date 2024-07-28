@@ -1,4 +1,4 @@
-## Jak proměnit hada na velblouda ◇◇◆◆◆
+## Jak proměnit hada na velblouda
 
 Napište program, který dostane na příkazovém řádku název proměnné v hadí notaci a vrátí tentýž název zapsaný ve velbloudí notaci.
 

@@ -1,4 +1,4 @@
-## Dělitelnost více čísly ◇◇◇◆◆
+## Dělitelnost více čísly
 
 Požádejme uživatele, ať zadá celé číslo. Napiš program který zjistí, zda je číslo dělitelné 3 i 4 současně.
 

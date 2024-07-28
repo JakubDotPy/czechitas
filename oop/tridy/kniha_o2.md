@@ -1,4 +1,4 @@
-## Kniha ◇◇◇◆◆
+## Kniha
 
 Zkus pro nakladatelství vytvořit software s využitím tříd a objektů. Vytvoř tedy třídu `Book`, která reprezentuje knihu.
 Každá kniha bude mít atributy `title`, `pages` a `price`. Hodnoty nastav ve funkci `__init__`.

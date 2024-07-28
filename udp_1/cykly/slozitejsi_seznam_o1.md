@@ -1,4 +1,4 @@
-## Složitější seznam ◇◇◇◇◆
+## Složitější seznam
 
 Založte si program `cykly_02.py` a použijte v něm následující seznam měsíců v roce. Všimněte si, že je to seznam
 seznamů.

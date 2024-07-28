@@ -1,4 +1,4 @@
-## Balík ◇◇◆◆◆
+## Balík
 
 Uvažuj, že navrhuješ software pro zásilkovou společnost.
 

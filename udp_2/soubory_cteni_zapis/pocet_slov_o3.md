@@ -1,4 +1,4 @@
-## Počet slov ◇◇◆◆◆
+## Počet slov
 
 Stáhněte si odevzdanou slohovou práci.  
 Zadání bylo sepsat text o nejméně 150ti slovech pojednávající o našem hlavním městě.  

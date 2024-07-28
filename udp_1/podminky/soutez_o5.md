@@ -1,4 +1,4 @@
-## Soutěž ◆◆◆◆◆
+## Soutěž
 
 Divadlo Pěst na oko pořádá soutěž o lístky na premiéru nového představení Zločin v podmínce. Pro účast v soutěži musí
 zájemce splnit následující dvě podmínky:

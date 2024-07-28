@@ -1,4 +1,4 @@
-## Kniha podruhé ◇◆◆◆◆
+## Kniha podruhé
 
 Vrať se k práci se třídou `Book`. Pokud jsi ji nestihl(a) v minulé části vytvořit, vrať se nejprve k zadání příkladu na
 předchozí stránce a třídu si vytvoř.

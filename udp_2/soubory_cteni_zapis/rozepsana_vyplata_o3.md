@@ -1,4 +1,4 @@
-## Rozepsaná výplata ◇◇◆◆◆
+## Rozepsaná výplata
 
 Modifikujte program pro počítání výplaty z předchozí sekce tak, aby nevypisoval průměrnou výplatu za rok, nýbrž aby vypsal konkrétní vyplacenou částku pro každý měsíc zvlášť.
 

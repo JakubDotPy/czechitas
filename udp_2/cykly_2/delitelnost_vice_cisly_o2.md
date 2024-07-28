@@ -1,4 +1,4 @@
-## Dělitelnost více čísly ◇◇◇◆◆
+## Dělitelnost více čísly
 
 Vypišme si čísla z nějakého rozsahu na základě jejich dělitelnosti dvěma čísly.
 

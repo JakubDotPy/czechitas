@@ -1,4 +1,4 @@
-## Balík jako datová třída ◇◇◇◆◆
+## Balík jako datová třída
 
 Uprav třídu `Package` na datovou třídu. Třída bude mít atributy `address`, `weight`, a `state`. U `state` nastav výchozí
 hodnotu jako nedoručen. U každého z atributů vymysli a nastav vhodný datový typ. Existující metody ve třídě ponech.

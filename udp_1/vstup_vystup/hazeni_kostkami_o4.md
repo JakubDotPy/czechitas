@@ -1,4 +1,4 @@
-## Házení kostkami ◇◆◆◆◆
+## Házení kostkami
 
 Napište program `kostky.py`, který bude simulovat hod dvěma klasickými šestistěnnými kostkami. Jeho výstupu bude součet
 bodů na těchto dvou kostkách.

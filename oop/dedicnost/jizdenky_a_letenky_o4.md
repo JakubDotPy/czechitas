@@ -1,4 +1,4 @@
-## Jízdenky a letenky ◇◆◆◆◆
+## Jízdenky a letenky
 
 Nyní je naším cílem práce pro společnost, která se zabývá prodejem jízdenek a letenek.
 

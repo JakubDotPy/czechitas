@@ -1,4 +1,4 @@
-## Měsíc narození ◇◇◆◆◆
+## Měsíc narození
 
 Napiš funkci `month_of_birth`, která bude mít jeden parametr - `rodne_cislo`.  
 Funkce ze zadaného rodného čísla určí měsíc narození, které vrátí jako výstup. Nezapomeň, že pro ženy je k měsíci

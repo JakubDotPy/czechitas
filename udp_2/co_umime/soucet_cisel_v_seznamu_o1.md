@@ -1,4 +1,4 @@
-## Součet čísel v seznamu ◇◇◇◇◆
+## Součet čísel v seznamu
 
 Napiš kód, který zpracuje seznam čísel a vypíše jejich součet (bez použití funkce `sum()`).
 

@@ -1,4 +1,4 @@
-## Hrátky s řetězci ◇◇◇◆◆
+## Hrátky s řetězci
 
 - Vytvořte řetězec obsahující jméno divadla.
 - Vytvořte řetězec obsahující jméno divadla tak, že sečtete dohromady jednotlivá slova toho jména.

@@ -1,4 +1,4 @@
-## Dny v měsíci ◇◇◇◇◆
+## Dny v měsíci
 
 Napište program, který bude mít přímo v kódu zapsaný počet dní v jednotlivých měsících takto:
 

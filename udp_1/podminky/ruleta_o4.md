@@ -1,4 +1,4 @@
-## Ruleta ◇◆◆◆◆
+## Ruleta
 
 Na obrázku vidíte rozložení čísel na klasické Francouzské ruletě. Ruleta obsahuje čísla `0 - 36`. Každé číslo s výjimkou
 nuly je buď sudé nebo liché a zároveň červené nebo černé. Pro čísla 1 až 10 a 19 až 28 platí, že lichá čísla jsou

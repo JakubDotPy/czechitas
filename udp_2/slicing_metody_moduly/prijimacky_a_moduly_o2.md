@@ -1,4 +1,4 @@
-## Přijímačky a moduly ◇◇◇◆◆
+## Přijímačky a moduly
 
 Uvažujme vysvědčení studenta, které máme uložené jako seznam.
 

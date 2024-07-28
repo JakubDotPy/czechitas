@@ -1,4 +1,4 @@
-## Rámeček ◇◇◆◆◆
+## Rámeček
 
 Napiš funkci, která jako parametr převezme řetězec a vytiskne jej obalen hvězdičkami.
 

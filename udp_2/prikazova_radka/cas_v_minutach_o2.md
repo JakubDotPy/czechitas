@@ -1,4 +1,4 @@
-## Čas v minutách ◇◇◇◆◆
+## Čas v minutách
 
 Napište program `minuty.py`, která dělá obrácenou věc než program `cas.py` z textu výše. Když mu na příkazové řádce
 předáme dva parametry ‒ počet hodin a počet minut ‒ například takto

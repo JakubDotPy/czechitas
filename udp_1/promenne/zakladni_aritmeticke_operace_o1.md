@@ -1,4 +1,4 @@
-## Základní aritmetické operace ◇◇◇◇◆
+## Základní aritmetické operace
 
 Do proměnné `a` uložte libovolné celé číslo, do proměnné `b` uložte libovolné desetinné číslo. V následujících úlohách
 každý výsledek uložte do nové proměnné.

@@ -1,4 +1,4 @@
-## Procházení seznamu ◇◆◆◆◆
+## Procházení seznamu
 
 Založte si program `hesla.py` a na jeho začátek vložte následující kód obsahující seznam hesel pro přihlášení do
 nějakého systému.

@@ -1,4 +1,4 @@
-## Střed seznamu podruhé ◆◆◆◆◆◆
+## Střed seznamu podruhé
 
 Sestavte vzoreček, který vrátí číslo nacházející se přesně uprostřed v zadaném seznamu s.
 Tentokrát však u seznamů sudé délky vyberte jako střed číslo blíž k začátku seznamu.

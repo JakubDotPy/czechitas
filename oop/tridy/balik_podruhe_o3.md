@@ -1,4 +1,4 @@
-## Balík podruhé ◇◇◆◆◆
+## Balík podruhé
 
 Vrať se k návrhu software pro zásilkovou společnost.
 

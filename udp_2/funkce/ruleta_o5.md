@@ -1,4 +1,4 @@
-## Ruleta ◆◆◆◆◆
+## Ruleta
 
 Napiš funkci, která bude jednoduchou simulací rulety. Budeme uvažovat pouze možnost sázení na řady. Uživatel si může
 vybrat jednu ze tří řad:

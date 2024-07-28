@@ -1,4 +1,4 @@
-## Zakázka pro divadlo ◇◇◇◆◆
+## Zakázka pro divadlo
 
 Divadlo požaduje systém pro online rezervaci vstupenek na pořádaná představení. Váš první úkol na této zakázce je
 vytvořit registraci pro nové uživatele tohoto systému.

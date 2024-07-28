@@ -1,4 +1,4 @@
-## Promítání ◇◇◇◆◆
+## Promítání
 
 V letním kině Šmajchl mají program na každý den uložený jako dva seznamy. První seznam obsahuje názvy filmů a druhý
 jejich délky v minutách, např. takto:

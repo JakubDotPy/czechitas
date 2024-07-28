@@ -1,4 +1,4 @@
-## Seznam balíků ◇◇◆◆◆
+## Seznam balíků
 
 Pokračuj ve své práci pro zásilkovou společnost. Společnost chce doplnit do aplikace funkci pro výpočet celkového
 hodnoty nákladu nějakého auta, aby pak (např. v případě nehody nebo krádeže) mohla snadno spočítat celkovou hodnotu

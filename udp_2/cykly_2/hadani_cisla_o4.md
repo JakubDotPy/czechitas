@@ -1,4 +1,4 @@
-## Hádání čísla ◇◆◆◆◆
+## Hádání čísla
 
 Napište interaktivní hru, ve které počítač vygeneruje tajné číslo v rozsahu 1 až 100 (použijte
 funkci `random.randint()`).  

@@ -1,4 +1,4 @@
-## Cena vstupenky ◇◇◇◆◆
+## Cena vstupenky
 
 A nyní opět pokračujeme v našem rezervačním systému.
 

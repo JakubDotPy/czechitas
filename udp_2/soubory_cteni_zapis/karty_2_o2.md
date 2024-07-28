@@ -1,4 +1,4 @@
-## Karty 2 ◇◇◇◆◆
+## Karty 2
 
 Napište program, který vylosuje seznam 4 náhodných hracích karet podobně jako v předchozím úkolu. Můžeme si představovat, že rozdáváme karty například v pokeru. Zatím pro jednoduchost nebudeme řešit, že se nám může nějaká karta v seznamu opakovat.
 

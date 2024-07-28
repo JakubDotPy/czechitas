@@ -1,4 +1,4 @@
-## Závody podruhé ◆◆◆◆◆
+## Závody podruhé
 
 Zadání je podobné jako u předchozího příkladu, ale nyní zkusíme výpočet provést pro všechny závodníky.
 

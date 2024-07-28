@@ -1,4 +1,4 @@
-## Plánování svatby ◇◇◇◆◆
+## Plánování svatby
 
 Karolína bude mít za půl roku svatbu a právě obdržela od agentury ceník služeb. Cena za kompletní menu pro dospělou
 osobu je 990 kč, pro dítě je to 50% ceny dospělého.

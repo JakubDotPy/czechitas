@@ -1,4 +1,4 @@
-## Tombola ◇◇◇◆◆
+## Tombola
 
 V tombole bylo prodáno celkem 1000 lístků. Naším úkolem je vylosovat náhodně tři výherce. Napište program, který
 vygeneruje a vypíše tři čísla mezi 1 a 1000.  

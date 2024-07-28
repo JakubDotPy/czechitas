@@ -1,4 +1,4 @@
-## Ošetření dělení nulou ◇◇◇◆◆
+## Ošetření dělení nulou
 
 Předchozí ukázku uprav následujícím způsobem:
 

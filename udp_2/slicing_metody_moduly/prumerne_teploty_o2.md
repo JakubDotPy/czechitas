@@ -1,4 +1,4 @@
-## Průměrné teploty ◇◇◇◆◆
+## Průměrné teploty
 
 Následující tabulka obsahuje průměrné roční teploty v České republice za roky 2001 až 2010 (zdroj: Český
 hydrometeorologický ústav).

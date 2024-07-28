@@ -1,4 +1,4 @@
-## Antikvariát ◇◇◇◆◆
+## Antikvariát
 
 Antikvariát *Poslední strana* nabízí veškeré své tituly za 50 kč.
 

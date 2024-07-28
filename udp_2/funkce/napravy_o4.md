@@ -1,4 +1,4 @@
-## Nápravy ◇◆◆◆◆
+## Nápravy
 
 Náprava je část vozidla, která spojuje kola s karosérií vozidla. U nákladních vozidel ho můžeme chápat jako počet "
 dvojic kol". Počet náprav je důležitý napříkad kvůli maximální povolené hmotnosti vozidla.

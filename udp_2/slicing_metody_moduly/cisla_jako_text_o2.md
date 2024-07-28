@@ -1,4 +1,4 @@
-## Čísla jako text ◇◇◇◆◆
+## Čísla jako text
 
 Mějme seznam čísel zadaných jako text
 

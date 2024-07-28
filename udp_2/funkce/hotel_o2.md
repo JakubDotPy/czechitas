@@ -1,4 +1,4 @@
-## Hotel ◇◇◇◆◆
+## Hotel
 
 Napiš funkci `total_price`, která vypočte cenu noci v hotelu. Funkce bude mít dva parametry - `people`
 a `breakfast`.  

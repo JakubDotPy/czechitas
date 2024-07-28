@@ -1,4 +1,4 @@
-## Známky z písemek ◇◇◆◆◆
+## Známky z písemek
 
 Máme data o písemce, která obsahovala 4 otázky. Za každou otázku mohl student (studentka) získat max. 10 bodů.  
 Výsledky studentů jsou v následující tabulce.

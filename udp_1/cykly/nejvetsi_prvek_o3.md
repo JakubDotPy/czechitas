@@ -1,4 +1,4 @@
-## Největší prvek ◇◇◆◆◆
+## Největší prvek
 
 Napište cyklus, který projde zadaný seznam celých čísel a najde v něm největší hodnotu.
 

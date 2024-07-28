@@ -1,4 +1,4 @@
-## Transformace dat ◇◆◆◆◆
+## Transformace dat
 
 Stáhněte si soubor `words.txt` a zpracujte z něj výstupní soubor ve formátu JSON obsahující slovník. Klíče budou písmena
 a hodnoty seznamy slov, které začínají písmenem v klíči. Pokud na nějaké písmeno žádná slova nezačínají, tak ve výstupu

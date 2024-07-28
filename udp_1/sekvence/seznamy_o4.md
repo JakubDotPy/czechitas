@@ -1,4 +1,4 @@
-## Seznamy ◇◆◆◆◆
+## Seznamy
 
 - Vytvořte nějaký seznam celých čísel, například počty diváků na několika po sobě jdoucích představeních.
 - Vytvořte nějaký seznam desetinných čísel, například zaplněnost divadla v několika po sobě jdoucích představeních.

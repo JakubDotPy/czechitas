@@ -1,4 +1,4 @@
-## Přijímačky ◇◇◇◆◆
+## Přijímačky
 
 Vrať se k příkladu vysvědčení studenta.
 

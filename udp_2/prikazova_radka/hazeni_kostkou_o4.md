@@ -1,4 +1,4 @@
-## Házení kostkou ◇◆◆◆◆
+## Házení kostkou
 
 - Napište program, který při každém spuštění hodí šestistěnnou kostkou ‒ tedy vypíše náhodné číslo mezi 1 až 6.
 - Upravte program tak, aby jako parametr dostal počet stěn kostky. Bude tedy umět házet třeba sedmistěnnou nebo devítistěnnou kostkou podle toho, jaké číslo dostane na vstupu.

@@ -1,4 +1,4 @@
-## Hrátky s proměnnými ◇◇◇◇◆
+## Hrátky s proměnnými
 
 Dbejte na to, aby proměnné měly vhodný název dobře naznačující, co je v které z nich uloženo.
 

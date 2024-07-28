@@ -1,4 +1,4 @@
-## Vysvědčení ◇◇◇◇◆
+## Vysvědčení
 
 Vytvoř slovník, který reprezentuje vysvědčení.  
 Klíč slovníku bude název předmětu a hodnota známka z daného předmětu.  

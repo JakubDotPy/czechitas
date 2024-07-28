@@ -1,4 +1,4 @@
-## Shannonovo číslo ◇◇◆◆◆
+## Shannonovo číslo
 
 - Takzvané Shannonovo číslo má hodnotu 10^120 a udává kolik nejméně lze odehrát různých šachových partií. Vytvořte
   řetězec, který obsahuje toto číslo zapsané běžným způsobem pomocí cifer. Například 10^3 je 1000, 10^6 je 1000000

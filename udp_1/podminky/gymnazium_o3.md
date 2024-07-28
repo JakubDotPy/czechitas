@@ -1,4 +1,4 @@
-## Gymnázium ◇◇◆◆◆
+## Gymnázium
 
 Modifikujme si předchozí příklad. Horší známku z matematiky může student kompenzovat tím, že uspěje v matematické
 olympiádě.  

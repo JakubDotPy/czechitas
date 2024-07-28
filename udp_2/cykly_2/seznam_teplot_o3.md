@@ -1,4 +1,4 @@
-## Seznam teplot ◇◇◆◆◆
+## Seznam teplot
 
 Mějme zadaný následující seznam naměřených teplot. Seznam obsahuje teploty naměřené pro každý den v týdnu ve čtyřech
 časech - ráno, v poledne, večer a v noci.

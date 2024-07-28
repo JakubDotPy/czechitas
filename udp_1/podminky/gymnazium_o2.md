@@ -1,4 +1,4 @@
-## Gymnázium ◇◇◇◆◆
+## Gymnázium
 
 Matematické gymnázium nabízí aplikaci, která sděluje informaci o povinnosti vykonání přijímací zkoušky.  
 Požádejte uživatele o zadání známky z matematiky a průměru všech známek na posledním vysvědčení.  

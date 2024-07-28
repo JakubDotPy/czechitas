@@ -1,4 +1,4 @@
-## Recepty ◇◇◆◆◆
+## Recepty
 
 Pohlédněte na následující reprezentaci receptu:
 

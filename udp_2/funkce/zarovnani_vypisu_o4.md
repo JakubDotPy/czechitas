@@ -1,4 +1,4 @@
-## Zarovnání výpisu ◇◆◆◆◆
+## Zarovnání výpisu
 
 Vypište seznam čísel každé na nový řádek zarovnané vpravo na délku nejdelšího čísla.
 

@@ -1,4 +1,4 @@
-## Počty obyvatel ◇◇◇◆◆
+## Počty obyvatel
 
 Mějme počty obyvatel v jednotlivých krajích ČR podle následující tabulky.
 

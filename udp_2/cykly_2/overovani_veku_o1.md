@@ -1,4 +1,4 @@
-## Ověřování věku ◇◇◇◇◆
+## Ověřování věku
 
 Následující seznam obsahuje věky uživatelů naší malé sociální sítě.
 

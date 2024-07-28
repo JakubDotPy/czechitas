@@ -1,4 +1,4 @@
-## Seznam balíků podruhé ◇◇◆◆◆
+## Seznam balíků podruhé
 
 Vedení společnosti si uvědomilo, že do hodnoty balíků v autě by se neměly započítávat balíky, které už byly doručeny,
 protože již byly předány příjemci a nebudou tedy ukradeny nebo zničeny.

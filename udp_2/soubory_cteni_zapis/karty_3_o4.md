@@ -1,4 +1,4 @@
-## Karty 3 ◇◆◆◆◆
+## Karty 3
 
 Zkusme vyřešit problém losování karet tak, aby se nám nemohlo stát, že nám nějaká karta padne vícekrát, když by správně v balíčku měla být od každé karty pouze jedna.
 

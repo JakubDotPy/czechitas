@@ -1,4 +1,4 @@
-## Svátky ◇◇◆◆◆
+## Svátky
 
 Na adrese https://svatky.adresa.info/json najdete API, které vám odpoví, kdo má dneska svátek.
 

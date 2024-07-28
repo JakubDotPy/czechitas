@@ -1,4 +1,4 @@
-## Jednoduchá aritmetika ◇◇◇◇◆
+## Jednoduchá aritmetika
 
 Použijte Python konzoli jako kalkulačku:
 

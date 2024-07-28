@@ -1,4 +1,4 @@
-## Stříbrná medaile ◇◆◆◆◆
+## Stříbrná medaile
 
 Stříbrná medaile je sice úžasný úspěch, ale kdo by nechtěl vyhrát? Podívejme se, kolik chybělo stříbrnému běžci k
 vítězství.

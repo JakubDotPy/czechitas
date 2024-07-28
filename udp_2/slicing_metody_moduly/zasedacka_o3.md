@@ -1,4 +1,4 @@
-## Zasedačka ◇◇◆◆◆
+## Zasedačka
 
 Níže máš seznam akcí, které se konaly v zasedačce jedné firmy.
 

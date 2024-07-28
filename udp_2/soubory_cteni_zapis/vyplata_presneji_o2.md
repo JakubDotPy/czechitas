@@ -1,4 +1,4 @@
-## Výplata přesněji ◇◇◇◆◆
+## Výplata přesněji
 
 Zatím jsme výplatu počítali za předpokladu, že každý měsíc odpracujeme stejný počet hodin, což není příliš realistické.  
 Vytvořte proto textový soubor `vykaz.txt`, který bude obsahovat 12 řádků a na každém řádku počet odpracovaných hodin za každý měsíc za poslední rok.

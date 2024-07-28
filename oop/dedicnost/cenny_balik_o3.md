@@ -1,4 +1,4 @@
-## Cenný balík ◇◇◆◆◆
+## Cenný balík
 
 Pokračuj ve své práci pro zásilkovou společnost. Společnost nově doručuje i cenné balíky, které mají zadanou určitou
 hodnotu.

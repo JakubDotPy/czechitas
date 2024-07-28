@@ -1,4 +1,4 @@
-## Vánoční párty ◇◇◇◆◆
+## Vánoční párty
 
 Ve statistice existuje ukazatel zvaný _modus_, který vrátí nejčastější hodnotu v datech. V modulu `statistics` existuje
 funkce `mode()`, která umí modus spočítat. Funkce `mode()` má navíc vychytávku, umí pracovat i s řetězci.

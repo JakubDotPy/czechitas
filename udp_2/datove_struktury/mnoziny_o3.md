@@ -1,4 +1,4 @@
-## Množiny ◇◇◆◆◆
+## Množiny
 
 Následující text převeďte na množinu unikátních znaků, zjistěte počet unikátních znaků a vypište jejich seřazený seznam.
 

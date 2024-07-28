@@ -1,4 +1,4 @@
-## Tombola ◇◇◆◆◆
+## Tombola
 
 V následujícím slovníku jsou uložena čísla lístků tomboly a příslušné výhry.
 

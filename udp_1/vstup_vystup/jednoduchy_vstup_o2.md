@@ -1,4 +1,4 @@
-## Jednoduchý vstup ◇◇◇◆◆
+## Jednoduchý vstup
 
 Teď už budeme chtít, aby náš program dokázal získat vstup od uživatele.
 

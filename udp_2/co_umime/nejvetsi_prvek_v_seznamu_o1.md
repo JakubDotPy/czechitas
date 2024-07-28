@@ -1,4 +1,4 @@
-## Největší prvek v seznamu ◇◇◇◇◆
+## Největší prvek v seznamu
 
 Napiš kód, který zpracuje seznam čísel a vypíše největší prvek v tomto seznamu (bez použití funkce `max()`).
 

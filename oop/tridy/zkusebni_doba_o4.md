@@ -1,4 +1,4 @@
-## Zkušební doba ◇◆◆◆◆
+## Zkušební doba
 
 U zaměstnanců budeme nově evidovat, jestli jsou ve zkušební době.
 

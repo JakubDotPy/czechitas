@@ -1,4 +1,4 @@
-## Jednoduchý výstup ◇◇◇◆◆
+## Jednoduchý výstup
 
 Náš vůbec první program nebude dělat nic víc, než vypisovat text na obrazovku.
 

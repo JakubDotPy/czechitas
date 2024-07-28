@@ -1,4 +1,4 @@
-## Poznávací značky ◇◇◆◆◆
+## Poznávací značky
 
 V následujícím slovníků je evidence automobilů. Klíčem jsou státní poznávací značky (SPZ) a hodnotou je jméno majitele
 vozu.

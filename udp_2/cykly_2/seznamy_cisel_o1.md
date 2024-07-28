@@ -1,4 +1,4 @@
-## Seznamy čísel ◇◇◇◇◆
+## Seznamy čísel
 
 Mějme zadaný následující seznam
 

@@ -1,4 +1,4 @@
-## Závod ◇◇◆◆◆
+## Závod
 
 Pracuj dál se souborem `zavod.json` a zjisti čas závodníka, který získal stříbrnou medaili. Dále projdi data pomocí
 cyklu a vytvoř seznam všech závodníků, kteří závod dokončili, tj. jejich oficiální čas není DNF.

@@ -1,4 +1,4 @@
-## Klasické zaokrouhlování[^1] ◆◆◆◆◆
+## Klasické zaokrouhlování[^1]
 
 Překvapivě Python neobsahuje[^2] žádnou funkci, která by dělala klasické zaokrouhlování, tedy takové, na které jsme
 všichni zvyklí ze školy. S něčím takovým se nemůžeme spokojit.

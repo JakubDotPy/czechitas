@@ -1,4 +1,4 @@
-## Seznam hodnocení ◇◇◇◇◆
+## Seznam hodnocení
 
 Mějme seznam hodnocení divadelní hry *Plyšáci na útěku*, který vypadá takto:
 `hodnoceni = [7, 9, 6, 7, 9, 8]`  

@@ -1,4 +1,4 @@
-## Čísla v textu ◇◇◆◆◆
+## Čísla v textu
 
 Máme obdobné zadání jako v předchozím cvičení, avšak tentokrát máme čísla zadána nikoliv v seznamu, ale v řetězci
 oddělená mezerou:

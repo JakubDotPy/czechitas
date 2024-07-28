@@ -1,4 +1,4 @@
-## Seznamy řetězců ◇◇◇◆◆
+## Seznamy řetězců
 
 Mějme zadaný následující seznam
 

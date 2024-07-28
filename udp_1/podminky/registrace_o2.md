@@ -1,4 +1,4 @@
-## Registrace ◇◇◇◆◆
+## Registrace
 
 Založte si program `registrace.py`. Program nechá uživatele, aby si zvolil uživatelské jméno a heslo. Heslo jej nechejte
 zadat dvakrát a ověřte, že jej uživatel zadal dvakrát stejně. V opačném případě vypište varování, že hesla nejsou

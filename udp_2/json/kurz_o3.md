@@ -1,4 +1,4 @@
-## Kurz ◇◇◆◆◆
+## Kurz
 
 Stáhněte si soubor `kurz.json` s výše uvedeným obsahem a načtěte jej v Pythonu do proměnné `kurz`. Odpovězte na následující
 otázky:

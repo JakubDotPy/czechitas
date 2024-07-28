@@ -1,4 +1,4 @@
-## Prvočíslo ◇◆◆◆◆
+## Prvočíslo
 
 Požádej uživatele o zadání celého čísla. Následně urči, zda je toto číslo prvočíslo.
 

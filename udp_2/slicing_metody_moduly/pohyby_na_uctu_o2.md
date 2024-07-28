@@ -1,4 +1,4 @@
-## Pohyby na účtu ◇◇◇◆◆
+## Pohyby na účtu
 
 Mějme seznam pohybů na nějakém bankovním účtu:
 

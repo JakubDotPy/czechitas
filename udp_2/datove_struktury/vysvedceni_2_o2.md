@@ -1,4 +1,4 @@
-## Vysvědčení 2 ◇◇◇◆◆
+## Vysvědčení 2
 
 Uvažujme vysvědčení, které máme zapsané jako slovník.
 

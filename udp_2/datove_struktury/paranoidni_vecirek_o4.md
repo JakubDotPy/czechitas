@@ -1,4 +1,4 @@
-## Paranoidní večírek ◇◆◆◆◆
+## Paranoidní večírek
 
 Pořadatel našeho večírku se stává stále více paranoidním a nyní rozhodl, že každý z hostů bude mít speciální heslo,
 které je platné jen pro něj. Seznam hostů a jejich hesel je níže.  

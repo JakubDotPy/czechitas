@@ -1,4 +1,4 @@
-## Rodná čísla ◇◇◆◆◆
+## Rodná čísla
 
 V následujícím seznamu máš seznam rodných čísel pacientů, kteří navštívili v jeden konkrétní den lékařskou ordinaci.
 
